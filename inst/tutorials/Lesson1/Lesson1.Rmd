@@ -1,0 +1,563 @@
+---
+title: "Basics of ggplot2"
+output:
+  learnr::tutorial:
+    toc_depth: 3
+    theme: united
+    highlight: pygments
+runtime: shiny_prerendered
+description: "Learnr tutorial to start off with ggplot2. Created for a short workshop for EPINOR PhD students at Univ.of Bergen."
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+library(tidyverse)
+library(patchwork)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+hospital_inpatients <- read_csv("data/PasientSomatSykeh2.csv")
+hospital_inpatients_grouped <- hospital_inpatients %>%
+  group_by(aar, gruppe)
+
+# calculate sum of patients per year and group
+hospital_inpatients_summary <- hospital_inpatients_grouped %>%
+  summarise(sum = sum(antall.pasienter))
+
+my_plot1 <- ggplot(hospital_inpatients_summary,
+        aes(x = as.factor(aar), y = sum)) +
+	geom_col(aes(fill = gruppe), position = position_dodge())
+
+hospital_inpatients_median <- hospital_inpatients_grouped %>%
+  summarise(median = median(antall.pasienter),
+            stderr = sd(antall.pasienter))
+
+my_plot2 <- ggplot(hospital_inpatients_median,
+                   aes(as.factor(aar), median)) +
+  geom_col(aes(fill = gruppe), position = position_dodge())
+
+final.plot <- ggplot(hospital_inpatients_grouped,
+                      aes(x = as.factor(aar), y = antall.pasienter)) +
+	geom_col(aes(fill = gruppe), position = position_dodge()) +
+	facet_grid(rows = vars(kjonn), cols = vars(alder))
+
+my_plot1_nicer <- my_plot1 +
+  scale_fill_brewer(type = "div", palette = "PRGn",
+                    name = "Type of stay") +
+  xlab("Year") +
+  ylab("Total number of patients") +
+  labs(title = "Number of patients in hospitals per year",
+       subtitle = "groupped by type of stay",
+       caption = "data source: aggregated data from SSB")
+```
+
+
+## Setup
+
+Load the necessary libraries
+
+```{r}
+library(tidyverse)
+library(patchwork)
+```
+
+## About `ggplot2`
+
+A plot in `ggplot2` consists of several layers:
+
+1. data
+    - strict format: tidy data!
+    - one row per datapoint
+    - all grouping must be included in the data
+
+2. aesthetics (`aes`) ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#section-aesthetics))
+    - how to map the data to the graph?
+    - which column is *x*, *y*, ...
+    - which column provides grouping (based on the grouping, one can either connect points into lines, split a graph into several facets, or color differently each group)
+
+3. `geom`s ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#section-geoms))
+    - how to visualize the data?
+    - points (`geom_point`), lines (`geom_line`), bars (`geom_bar`), etc.
+    - `geom`s are connected to `stat`s that conduct any necessary pre-processing of data (e.g., `geom_histogram` would first calculate the number of observations in each bin through `stat_bin`)
+
+4. `scale`s ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#section-scales))
+    - any type of data representation on the plot
+    - coordinates: `scale_x_continuous`, `scale_x_discrete`, `scale_x_date`, etc.
+    - colors: `scale_color_manual`, `scale_colour_brewer`, `scale_fill_continuous`, etc.
+
+5. `theme` ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#section-themes))
+    - visual aspects
+    - size and types of fonts
+    - positioning of axes, legends, etc.
+
+Each layer is added to the previous one with a `+` sign. The result can be saved to an object and added upon later.
+
+### Example
+
+Let's read in some data.
+
+```{r}
+hospital_inpatients <- read_csv("data/PasientSomatSykeh2.csv")
+hospital_inpatients
+```
+
+This is publicly available data from SSB (Norwegian Statistics Bureau) on number of in-patients in hospitals in Hordaland between 2012 and 2018.
+
+Let's plot some numbers: total number of patients per year and per group ("gruppe").
+
+---
+
+#### Grouping the data
+
+```{r}
+hospital_inpatients_grouped <- hospital_inpatients %>%
+  group_by(aar, gruppe)
+
+# calculate sum of patients per year and group
+hospital_inpatients_summary <- hospital_inpatients_grouped %>%
+  summarise(sum = sum(antall.pasienter))
+hospital_inpatients_summary
+```
+
+---
+
+#### Plotting    
+Here, we're using simplest type of plot: points.
+
+```{r}
+ggplot(hospital_inpatients_summary,  # define data
+       aes(x = as.factor(aar), y = sum)) +  # define which columns are x and y
+  geom_point() # define way to visualize the data
+```
+
+> NOTE: we used `as.factor` when defining column `aar` as `x` because we want
+the x-axis to be categorical and sice in the `aar` columns are only numbers,
+by default it would be viewed as a continuous variable.
+
+This does not look great - we have four points per year since there are four
+categories ("gruppe"), but we don't know which point is which.
+
+---
+
+#### Add coloring
+
+Here is the magic of ggplot - we want to add coloring of the points *by one of
+the variables in the dataset*. Therefore, we need to specify aesthetics
+for the `geom_point`.
+
+```{r}
+plot_sum_patients <- ggplot(hospital_inpatients_summary,
+       aes(x = as.factor(aar), y = sum)) +
+  geom_point(aes(col = gruppe))
+plot_sum_patients
+```
+
+...and we get a legend for free!
+
+> NOTE: we can save the plots as objects and then add on to those if we want
+to modify the plot!
+
+### Exercise 1
+
+Plot the same but now using bar chart instead of points (`geom_col`)
+
+```{r geom-col, exercise=TRUE}
+
+```
+
+```{r geom-col-solution}
+ggplot(hospital_inpatients_summary,
+       aes(x = as.factor(aar), y = sum)) +
+  geom_col(aes(col = gruppe))
+```
+
+**What happened to the color?**
+
+To _fill_ the bars with colors, you need to use the `fill` argument of the
+aesthetics, not the `col` (color) argument. Try this below!
+
+```{r geom-col-fill, exercise = TRUE}
+
+```
+
+```{r geom-col-fill-solution}
+ggplot(hospital_inpatients_summary,
+       aes(x = as.factor(aar), y = sum)) +
+  geom_col(aes(fill = gruppe))
+```
+
+### Exercise 2
+
+Now plot the same using lines:
+
+```{r geom-lines, exercise=TRUE, exercise.lines = 5}
+plot_sum_patients_lines <- ggplot(hospital_inpatients_summary,
+       aes(x = as.factor(aar), y = sum)) +
+  ___(aes(group = gruppe))
+plot_sum_patients_lines
+```
+
+**What does the `group` argument of the `aes` function do?** *(check by 
+experimenting in the box above or copying from `Hint` code)*
+
+```{r geom-lines-hint}
+# `group` argument helps draw lines connecting the same categories of points
+# run the code below (without the `group` argument) to see how strange the
+# result would be
+ggplot(hospital_inpatients_summary,
+       aes(x = as.factor(aar), y = sum)) +
+  geom_line(aes(col = gruppe))
+```
+
+```{r geom-lines-solution}
+ggplot(hospital_inpatients_summary,
+       aes(x = as.factor(aar), y = sum)) +
+  geom_line(aes(group = gruppe))
+```
+
+
+
+
+## More elements on one plot
+
+### Faceting
+
+We've plotted the number of admissions per year in total and per group.
+Sometimes these numbers vary depending on other variables, here age (`alder`) or
+sex (`gender`). With ggplot2, it's easy to split the plot in different
+sub-plots, called _facets_.
+
+```{r, fig.cap="**Figure above:** No splitting"}
+# plotting totals, grouped, non-stacked
+ggplot(hospital_inpatients_summary,
+        aes(x = as.factor(aar), y = sum)) +
+	geom_col(aes(fill = gruppe), position = position_dodge())
+```
+
+
+```{r, fig.cap="**Figure above:** Splitting once", out.width = "100%", fig.height = 5, fig.width = 8}
+# splitting this - checking difference with regard to gender
+ggplot(hospital_inpatients_grouped,
+        aes(x = as.factor(aar), y = antall.pasienter)) +
+	geom_col(aes(fill = gruppe), position = position_dodge()) +
+	facet_wrap(facets = vars(kjonn))
+```
+
+
+```{r, fig.cap="**Figure above:** Splitting twice", out.width = "100%", fig.height = 5, fig.width = 8}
+# splitting again - with regard to age
+final.plot <- ggplot(hospital_inpatients_grouped,
+                      aes(x = as.factor(aar), y = antall.pasienter)) +
+	geom_col(aes(fill = gruppe), position = position_dodge()) +
+	facet_grid(rows = vars(kjonn), cols = vars(alder))
+final.plot
+```
+
+### Exercise 1
+
+Plot the data using `gruppe` and `kjonn` as facets.
+
+```{r plot_facets, exercise=TRUE, exercise.eval=TRUE, exercise.lines = 5, out.width = "100%", fig.height = 5, fig.width = 8}
+
+
+```
+
+```{r plot_facets-solution, out.width = "100%", fig.height = 5, fig.width = 8}
+ggplot(hospital_inpatients_grouped,
+                      aes(x = as.factor(aar), y = antall.pasienter)) +
+	geom_col(aes(fill = gruppe), position = position_dodge()) +
+	facet_grid(rows = vars(kjonn), cols = vars(gruppe))
+```
+
+---
+
+### Several geoms
+
+Of course, we can plot several various types of graphs on one plot.
+
+> NOTE: with ggplot, you can add more things also _after_ the plot was created
+by saving it to an object and adding onto the object.
+
+```{r}
+my_plot1 <- ggplot(hospital_inpatients_summary,
+        aes(x = as.factor(aar), y = sum)) +
+	geom_col(aes(fill = gruppe), position = position_dodge())
+
+my_plot1 +
+  geom_line(aes(group = gruppe))
+```
+
+Something is not right - the lines are drawn between the points that are in the
+middle of each year-category. This is because we used `position_dodge()`, which
+artificially splits the bars around the middle of the category.
+
+So we need to do the same with lines.
+
+```{r}
+my_plot1 +
+  geom_line(aes(group = gruppe, col = gruppe),
+            position = position_dodge(width = 0.9))
+```
+
+This is not so useful to plot the same values with two different geoms, but
+we can plot errorbars! (`geom_errorbar`)
+
+For that, we need to first construct a dataset that contains e.g., median and
+standard error of the inpatients per year.
+
+```{r}
+hospital_inpatients_median <- hospital_inpatients_grouped %>%
+  summarise(median = median(antall.pasienter),
+            stderr = sd(antall.pasienter))
+hospital_inpatients_median
+```
+
+<br>
+
+Let's plot the median as bars:
+
+```{r}
+my_plot2 <- ggplot(hospital_inpatients_median,
+                   aes(as.factor(aar), median)) +
+  geom_col(aes(fill = gruppe), position = position_dodge())
+my_plot2
+```
+
+----
+
+### Exercise 2
+
+Now, your turn - let's add the errorbars!
+
+> HINT: `geom_errorbar` uses `ymin` and `ymax` arguments of `aes`
+
+> HINT (2): use also the `group` parameter of `aes` and `position_dodge`, as
+for the `geom_line` example above
+
+```{r add_errorbars, exercise=TRUE, exercise.eval=TRUE, exercise.lines = 5}
+
+```
+
+```{r add_errorbars-solution}
+my_plot2 +
+  geom_errorbar(
+    aes(
+      ymin = (median - stderr),
+      ymax = (median + stderr),
+      group = gruppe
+     ),
+    position = position_dodge(width = 0.9)
+ )
+```
+
+---
+
+### Combining different plots
+
+Sometimes, we want to plot several various plots and then combine them into
+one figure. This can't be done with `ggplot2` itself, but there are many
+additional packages that extend `ggplot2`. One of them is very useful for
+combining plots - [`patchwork`](https://patchwork.data-imaginist.com/index.html).
+
+Until now, we have several plots: `final.plot`, `my_plot1`, `my_plot2`. Let's
+try putting those together:
+
+```{r, out.width = "120%", fig.height = 4, fig.width = 8}
+# next to each other
+plot_sum_patients + my_plot1
+```
+
+
+```{r, out.width = "120%", fig.height = 4, fig.width = 8}
+# on top of each other
+final.plot / my_plot1
+```
+
+As easy as that!
+
+Legends are the same, so let's gather those.
+
+```{r, out.width = "120%", fig.height = 4, fig.width = 8}
+final.plot / my_plot1 + 
+  plot_layout(guides = 'collect')
+```
+
+
+### Exercise 3
+
+Play with patchworking a bit, if you like!
+
+- make ggplot objects
+- combine 4 plots on the same page, e.g.,:
+
+```{r, eval = FALSE}
+(my_plot1 + my_plot2) / (my_plot3 + my_plot4)
+```
+
+```{r patchwork-fun, exercise = TRUE}
+
+```
+
+
+## Prettify
+
+Until now, we were trying out:
+
+- plotting with various `geom`s
+- using variables to guide coloring
+- dodging the points within the same category
+- faceting
+- combining various plots into one
+
+However, we should not be satisfied with the default visualizations! Color
+palettes, axis naming, fonts, adding titles, etc. - all this can be easily
+changed in `ggplot2`.
+
+### Color palette
+
+The colors are turned on and off within the `aes` function. However, the
+_palette_ can be changed independently. There is a family of functions that
+control this, starting with `scale_`.
+
+> One issue that you should keep in mind when choosing the palette is that
+they can change our perception of displayed data. Moreover, one needs to 
+stick to palettes that increase the accessibility (e.g., for the color-blind,
+or those with sight problems). There is a very good publication that I
+recommend: https://www.nature.com/articles/s41467-020-19160-7
+
+There are many different palettes available on the net - we will focus on
+those that are available within `ggplot2`.
+
+**Discrete colors**
+
+In the examples above, we're using coloring to show various groups of patients.
+Thus, we need a palette that would easily differentiate between the groups.
+`ggplot2` uses [ColorBrewer](https://colorbrewer2.org) palettes - on the 
+webpage, one can choose and check visually various color sets. Now, we will
+use the "PRGn" (purple-green) palette, but you're welcomed to try any other.
+
+```{r, fig.cap="Ah, much nicer!"}
+my_plot1 +
+  scale_fill_brewer(type = "div", palette = "PRGn")
+```
+
+### Exercise 1
+
+Change the colors below, using two different palettes: one for the bars,
+and one for the lines. Choose the set of colors from ColorBrewer webpage.
+
+> Fill in the `___` fields!
+
+```{r adjust_palettes, exercise=TRUE, exercise.lines = 7}
+my_plot1 +
+  geom_line(aes(group = gruppe, col = gruppe),
+            position = position_dodge(width = 0.9)) +
+  scale_____brewer(type = "div", palette = ___) +
+  scale_____brewer(type = "div", palette = ___)
+```
+
+```{r adjust_palettes-solution}
+my_plot1 +
+  geom_line(aes(group = gruppe, col = gruppe),
+            position = position_dodge(width = 0.9)) +
+  scale_fill_brewer(type = "div", palette = "BrBG") +
+  scale_color_brewer(type = "div", palette = "PuOr")
+```
+
+### Axes
+
+Let's add some explanations to the plot: axes titles, main titles, legend title.
+
+```{r}
+my_plot1 +
+  scale_fill_brewer(type = "div", palette = "PRGn") +
+  xlab("Year") + # changing the x label
+  ylab("Total number of patients") +
+  labs(title = "Number of patients in hospitals per year",
+       subtitle = "groupped by type of stay",
+       caption = "data source: aggregated data from SSB")
+```
+
+The legend text is modified within the `scale` function.
+
+```{r}
+my_plot1_nicer <- my_plot1 +
+  scale_fill_brewer(type = "div", palette = "PRGn",
+                    name = "Type of stay") +
+  xlab("Year") +
+  ylab("Total number of patients") +
+  labs(title = "Number of patients in hospitals per year",
+       subtitle = "groupped by type of stay",
+       caption = "data source: aggregated data from SSB")
+my_plot1_nicer
+```
+
+### Theme
+
+All the visual aspects can be changed within the `theme` command.
+
+For our convenience, there are some pre-defined themes that combine several
+aspects, such as line thickness, background color, font families, etc.
+
+### Excercise 2
+
+Check what happens when you add `theme_minimal()` to our `my_plot1_nicer`.
+
+```{r check_theme_min, exercise=TRUE, exercise.lines = 4}
+
+```
+
+```{r check_theme_min-solution}
+my_plot1_nicer + theme_minimal()
+```
+---
+
+To control these visual aspects better, you can check [the documentation](https://ggplot2.tidyverse.org/reference/theme.html). Below, there
+are some popular useful examples.
+
+**1. Change the fonts**
+
+```{r}
+my_plot1_nicer +
+  theme(
+    plot.title = element_text(
+      size = 20, # text size in pts
+      face = "bold"
+   ),
+    axis.title = element_text(
+      size = 16
+   ),
+    axis.text.x = element_text(
+      angle = 90
+   )
+ )
+```
+
+**2. Change the position of the legend**
+
+```{r}
+my_plot1_nicer +
+  theme(
+    legend.position = "bottom"
+ )
+```
+
+**3. Change the background color**
+
+```{r}
+my_plot1_nicer +
+  theme(
+      panel.background = element_rect(fill = "salmon")
+ )
+```
+
+
+### Exercise 3
+
+Now it's your turn - play around!
+
+```{r theme_fun, exercise=TRUE, exercise.lines = 5}
+
+```
+
+
