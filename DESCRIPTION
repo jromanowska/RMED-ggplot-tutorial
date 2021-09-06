@@ -1,4 +1,4 @@
-Package: EPINORvistutorial
+Package: RMEDggplottutorial
 Title: Basics of ggplot2
 Version: 0.1
 Authors@R: 
@@ -7,8 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "Julia.Romanowska@uib.no",
            comment = c(ORCID = "0000-0001-6733-1953"))
-Description: Learnr tutorial to start off with ggplot2. Created for a short
-    workshop for EPINOR PhD students at Univ.of Bergen.
+Description: Learnr tutorial to start off with ggplot2. Created for a course
+    for PhD students at Medical Faculty, Univ.of Bergen.
 License: `use_gpl3_license()`
 Encoding: UTF-8
 LazyData: true

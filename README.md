@@ -1,7 +1,7 @@
-# Visualization basics for EPINOR - tutorial
+# Visualization basics with `ggplot2` - tutorial
 
-Learnr tutorial to start off with ggplot2. Created for a short
-workshop for EPINOR PhD students at Univ.of Bergen.
+Learnr tutorial to start off with ggplot2. Created for a course
+for PhD students at Medical Faculty, Univ.of Bergen.
 
 ## How to use it?
 
@@ -10,7 +10,7 @@ Install this package through:
 ```
 # uncomment the line below if you do not have `devtools` installed:
 # install.packages("devtools")
-devtools::install_github("jromanowska/EPINORvistutorial")
+devtools::install_github("jromanowska/RMED-ggplot-tutorial")
 ```
 
 Then, go to the _"Tutorial"_ tab in your RStudio, find the tutorial with

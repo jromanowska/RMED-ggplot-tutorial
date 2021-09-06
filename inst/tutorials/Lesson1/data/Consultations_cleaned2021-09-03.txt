@@ -1,0 +1,3565 @@
+age	gender	diagnosis	year	nConsultations
+0-5	M	Alle diagnoser	2012	365273
+0-5	M	Alle diagnoser	2013	348511
+0-5	M	Alle diagnoser	2014	357907
+0-5	M	Alle diagnoser	2015	344792
+0-5	M	Alle diagnoser	2016	346692
+0-5	M	Alle diagnoser	2017	342945
+0-5	M	Alle diagnoser	2018	332048
+0-5	M	Alle diagnoser	2019	332579
+0-5	M	Alle diagnoser	2020	283769
+0-5	M	Luftveisinfeksjoner, inkl. orebetennelse	2012	143885
+0-5	M	Luftveisinfeksjoner, inkl. orebetennelse	2013	127065
+0-5	M	Luftveisinfeksjoner, inkl. orebetennelse	2014	129882
+0-5	M	Luftveisinfeksjoner, inkl. orebetennelse	2015	121264
+0-5	M	Luftveisinfeksjoner, inkl. orebetennelse	2016	123983
+0-5	M	Luftveisinfeksjoner, inkl. orebetennelse	2017	118457
+0-5	M	Luftveisinfeksjoner, inkl. orebetennelse	2018	112191
+0-5	M	Luftveisinfeksjoner, inkl. orebetennelse	2019	110898
+0-5	M	Luftveisinfeksjoner, inkl. orebetennelse	2020	64025
+0-5	M	Lokale smerter og betennelser	2012	5299
+0-5	M	Lokale smerter og betennelser	2013	5364
+0-5	M	Lokale smerter og betennelser	2014	5289
+0-5	M	Lokale smerter og betennelser	2015	5337
+0-5	M	Lokale smerter og betennelser	2016	5598
+0-5	M	Lokale smerter og betennelser	2017	5586
+0-5	M	Lokale smerter og betennelser	2018	5726
+0-5	M	Lokale smerter og betennelser	2019	5667
+0-5	M	Lokale smerter og betennelser	2020	5840
+0-5	M	Ryggproblemer	2012	167
+0-5	M	Ryggproblemer	2013	186
+0-5	M	Ryggproblemer	2014	188
+0-5	M	Ryggproblemer	2015	180
+0-5	M	Ryggproblemer	2016	161
+0-5	M	Ryggproblemer	2017	170
+0-5	M	Ryggproblemer	2018	159
+0-5	M	Ryggproblemer	2019	162
+0-5	M	Ryggproblemer	2020	150
+0-5	M	Generelle smerter og muskelplager	2012	395
+0-5	M	Generelle smerter og muskelplager	2013	345
+0-5	M	Generelle smerter og muskelplager	2014	348
+0-5	M	Generelle smerter og muskelplager	2015	357
+0-5	M	Generelle smerter og muskelplager	2016	349
+0-5	M	Generelle smerter og muskelplager	2017	346
+0-5	M	Generelle smerter og muskelplager	2018	333
+0-5	M	Generelle smerter og muskelplager	2019	308
+0-5	M	Generelle smerter og muskelplager	2020	348
+0-5	M	Ledd- og giktsykdommer	2012	325
+0-5	M	Ledd- og giktsykdommer	2013	303
+0-5	M	Ledd- og giktsykdommer	2014	278
+0-5	M	Ledd- og giktsykdommer	2015	256
+0-5	M	Ledd- og giktsykdommer	2016	289
+0-5	M	Ledd- og giktsykdommer	2017	298
+0-5	M	Ledd- og giktsykdommer	2018	297
+0-5	M	Ledd- og giktsykdommer	2019	250
+0-5	M	Ledd- og giktsykdommer	2020	255
+0-5	M	Psykisk sykdom eller lidelse	2012	4234
+0-5	M	Psykisk sykdom eller lidelse	2013	4303
+0-5	M	Psykisk sykdom eller lidelse	2014	4673
+0-5	M	Psykisk sykdom eller lidelse	2015	4821
+0-5	M	Psykisk sykdom eller lidelse	2016	5055
+0-5	M	Psykisk sykdom eller lidelse	2017	5112
+0-5	M	Psykisk sykdom eller lidelse	2018	5226
+0-5	M	Psykisk sykdom eller lidelse	2019	5664
+0-5	M	Psykisk sykdom eller lidelse	2020	6870
+0-5	M	Atopi, astma, allergi eller eksem	2012	33457
+0-5	M	Atopi, astma, allergi eller eksem	2013	33606
+0-5	M	Atopi, astma, allergi eller eksem	2014	34887
+0-5	M	Atopi, astma, allergi eller eksem	2015	34387
+0-5	M	Atopi, astma, allergi eller eksem	2016	35743
+0-5	M	Atopi, astma, allergi eller eksem	2017	37793
+0-5	M	Atopi, astma, allergi eller eksem	2018	37238
+0-5	M	Atopi, astma, allergi eller eksem	2019	37873
+0-5	M	Atopi, astma, allergi eller eksem	2020	38262
+0-5	M	Hoyt blodtrykk	2012	6
+0-5	M	Hoyt blodtrykk	2013	10
+0-5	M	Hoyt blodtrykk	2014	14
+0-5	M	Hoyt blodtrykk	2015	11
+0-5	M	Hoyt blodtrykk	2016	15
+0-5	M	Hoyt blodtrykk	2017	4
+0-5	M	Hoyt blodtrykk	2018	4
+0-5	M	Hoyt blodtrykk	2019	4
+0-5	M	Hoyt blodtrykk	2020	14
+0-5	M	Hjertesykdom	2012	441
+0-5	M	Hjertesykdom	2013	406
+0-5	M	Hjertesykdom	2014	469
+0-5	M	Hjertesykdom	2015	440
+0-5	M	Hjertesykdom	2016	392
+0-5	M	Hjertesykdom	2017	377
+0-5	M	Hjertesykdom	2018	375
+0-5	M	Hjertesykdom	2019	401
+0-5	M	Hjertesykdom	2020	362
+0-5	M	Diabetes	2012	52
+0-5	M	Diabetes	2013	78
+0-5	M	Diabetes	2014	73
+0-5	M	Diabetes	2015	62
+0-5	M	Diabetes	2016	72
+0-5	M	Diabetes	2017	61
+0-5	M	Diabetes	2018	54
+0-5	M	Diabetes	2019	61
+0-5	M	Diabetes	2020	80
+0-5	M	Kreft	2012	12
+0-5	M	Kreft	2013	32
+0-5	M	Kreft	2014	27
+0-5	M	Kreft	2015	49
+0-5	M	Kreft	2016	41
+0-5	M	Kreft	2017	63
+0-5	M	Kreft	2018	51
+0-5	M	Kreft	2019	42
+0-5	M	Kreft	2020	45
+0-5	M	Underlivsplager hos kvinner	2012	NA
+0-5	M	Underlivsplager hos kvinner	2013	NA
+0-5	M	Underlivsplager hos kvinner	2014	NA
+0-5	M	Underlivsplager hos kvinner	2015	NA
+0-5	M	Underlivsplager hos kvinner	2016	NA
+0-5	M	Underlivsplager hos kvinner	2017	NA
+0-5	M	Underlivsplager hos kvinner	2018	NA
+0-5	M	Underlivsplager hos kvinner	2019	NA
+0-5	M	Underlivsplager hos kvinner	2020	NA
+0-5	M	Funksjonelle mage-tarmplager	2012	18441
+0-5	M	Funksjonelle mage-tarmplager	2013	19404
+0-5	M	Funksjonelle mage-tarmplager	2014	20091
+0-5	M	Funksjonelle mage-tarmplager	2015	20517
+0-5	M	Funksjonelle mage-tarmplager	2016	20391
+0-5	M	Funksjonelle mage-tarmplager	2017	20799
+0-5	M	Funksjonelle mage-tarmplager	2018	21308
+0-5	M	Funksjonelle mage-tarmplager	2019	21505
+0-5	M	Funksjonelle mage-tarmplager	2020	20819
+0-5	M	Hudinfeksjoner	2012	11459
+0-5	M	Hudinfeksjoner	2013	11399
+0-5	M	Hudinfeksjoner	2014	11473
+0-5	M	Hudinfeksjoner	2015	11651
+0-5	M	Hudinfeksjoner	2016	10878
+0-5	M	Hudinfeksjoner	2017	11284
+0-5	M	Hudinfeksjoner	2018	11000
+0-5	M	Hudinfeksjoner	2019	11082
+0-5	M	Hudinfeksjoner	2020	10148
+0-5	M	Ulykker og skader	2012	13141
+0-5	M	Ulykker og skader	2013	13357
+0-5	M	Ulykker og skader	2014	13481
+0-5	M	Ulykker og skader	2015	13054
+0-5	M	Ulykker og skader	2016	12906
+0-5	M	Ulykker og skader	2017	12937
+0-5	M	Ulykker og skader	2018	12717
+0-5	M	Ulykker og skader	2019	12479
+0-5	M	Ulykker og skader	2020	11884
+0-5	M	Medfodt sykdom eller feil	2012	2318
+0-5	M	Medfodt sykdom eller feil	2013	2403
+0-5	M	Medfodt sykdom eller feil	2014	2363
+0-5	M	Medfodt sykdom eller feil	2015	2176
+0-5	M	Medfodt sykdom eller feil	2016	2270
+0-5	M	Medfodt sykdom eller feil	2017	2489
+0-5	M	Medfodt sykdom eller feil	2018	2373
+0-5	M	Medfodt sykdom eller feil	2019	2377
+0-5	M	Medfodt sykdom eller feil	2020	2633
+0-5	M	Svangerskap, fodsel, prevensjon	2012	NA
+0-5	M	Svangerskap, fodsel, prevensjon	2013	NA
+0-5	M	Svangerskap, fodsel, prevensjon	2014	NA
+0-5	M	Svangerskap, fodsel, prevensjon	2015	NA
+0-5	M	Svangerskap, fodsel, prevensjon	2016	NA
+0-5	M	Svangerskap, fodsel, prevensjon	2017	NA
+0-5	M	Svangerskap, fodsel, prevensjon	2018	NA
+0-5	M	Svangerskap, fodsel, prevensjon	2019	NA
+0-5	M	Svangerskap, fodsel, prevensjon	2020	NA
+0-5	M	Frykt for sykdom	2012	2362
+0-5	M	Frykt for sykdom	2013	2611
+0-5	M	Frykt for sykdom	2014	2778
+0-5	M	Frykt for sykdom	2015	2695
+0-5	M	Frykt for sykdom	2016	2641
+0-5	M	Frykt for sykdom	2017	2765
+0-5	M	Frykt for sykdom	2018	2683
+0-5	M	Frykt for sykdom	2019	2709
+0-5	M	Frykt for sykdom	2020	9275
+0-5	M	Administrativ kontakt	2012	3541
+0-5	M	Administrativ kontakt	2013	3864
+0-5	M	Administrativ kontakt	2014	4360
+0-5	M	Administrativ kontakt	2015	4643
+0-5	M	Administrativ kontakt	2016	4818
+0-5	M	Administrativ kontakt	2017	3989
+0-5	M	Administrativ kontakt	2018	4446
+0-5	M	Administrativ kontakt	2019	6747
+0-5	M	Administrativ kontakt	2020	11299
+0-5	M	Forebyggende kontakt	2012	4940
+0-5	M	Forebyggende kontakt	2013	8355
+0-5	M	Forebyggende kontakt	2014	8765
+0-5	M	Forebyggende kontakt	2015	9260
+0-5	M	Forebyggende kontakt	2016	9970
+0-5	M	Forebyggende kontakt	2017	9997
+0-5	M	Forebyggende kontakt	2018	9685
+0-5	M	Forebyggende kontakt	2019	9387
+0-5	M	Forebyggende kontakt	2020	7882
+0-5	M	Andre diagnoser	2012	120685
+0-5	M	Andre diagnoser	2013	115287
+0-5	M	Andre diagnoser	2014	118321
+0-5	M	Andre diagnoser	2015	113481
+0-5	M	Andre diagnoser	2016	110971
+0-5	M	Andre diagnoser	2017	110194
+0-5	M	Andre diagnoser	2018	105976
+0-5	M	Andre diagnoser	2019	104755
+0-5	M	Andre diagnoser	2020	93323
+0-5	F	Alle diagnoser	2012	324841
+0-5	F	Alle diagnoser	2013	306712
+0-5	F	Alle diagnoser	2014	311237
+0-5	F	Alle diagnoser	2015	297753
+0-5	F	Alle diagnoser	2016	299100
+0-5	F	Alle diagnoser	2017	294223
+0-5	F	Alle diagnoser	2018	284199
+0-5	F	Alle diagnoser	2019	286608
+0-5	F	Alle diagnoser	2020	244793
+0-5	F	Luftveisinfeksjoner, inkl. orebetennelse	2012	124943
+0-5	F	Luftveisinfeksjoner, inkl. orebetennelse	2013	109896
+0-5	F	Luftveisinfeksjoner, inkl. orebetennelse	2014	111314
+0-5	F	Luftveisinfeksjoner, inkl. orebetennelse	2015	102267
+0-5	F	Luftveisinfeksjoner, inkl. orebetennelse	2016	105806
+0-5	F	Luftveisinfeksjoner, inkl. orebetennelse	2017	99935
+0-5	F	Luftveisinfeksjoner, inkl. orebetennelse	2018	94230
+0-5	F	Luftveisinfeksjoner, inkl. orebetennelse	2019	93737
+0-5	F	Luftveisinfeksjoner, inkl. orebetennelse	2020	53901
+0-5	F	Lokale smerter og betennelser	2012	4266
+0-5	F	Lokale smerter og betennelser	2013	4333
+0-5	F	Lokale smerter og betennelser	2014	4519
+0-5	F	Lokale smerter og betennelser	2015	4450
+0-5	F	Lokale smerter og betennelser	2016	4587
+0-5	F	Lokale smerter og betennelser	2017	4708
+0-5	F	Lokale smerter og betennelser	2018	4463
+0-5	F	Lokale smerter og betennelser	2019	4496
+0-5	F	Lokale smerter og betennelser	2020	4613
+0-5	F	Ryggproblemer	2012	194
+0-5	F	Ryggproblemer	2013	200
+0-5	F	Ryggproblemer	2014	187
+0-5	F	Ryggproblemer	2015	160
+0-5	F	Ryggproblemer	2016	173
+0-5	F	Ryggproblemer	2017	174
+0-5	F	Ryggproblemer	2018	164
+0-5	F	Ryggproblemer	2019	179
+0-5	F	Ryggproblemer	2020	181
+0-5	F	Generelle smerter og muskelplager	2012	325
+0-5	F	Generelle smerter og muskelplager	2013	316
+0-5	F	Generelle smerter og muskelplager	2014	322
+0-5	F	Generelle smerter og muskelplager	2015	348
+0-5	F	Generelle smerter og muskelplager	2016	310
+0-5	F	Generelle smerter og muskelplager	2017	309
+0-5	F	Generelle smerter og muskelplager	2018	271
+0-5	F	Generelle smerter og muskelplager	2019	262
+0-5	F	Generelle smerter og muskelplager	2020	328
+0-5	F	Ledd- og giktsykdommer	2012	357
+0-5	F	Ledd- og giktsykdommer	2013	358
+0-5	F	Ledd- og giktsykdommer	2014	400
+0-5	F	Ledd- og giktsykdommer	2015	321
+0-5	F	Ledd- og giktsykdommer	2016	373
+0-5	F	Ledd- og giktsykdommer	2017	364
+0-5	F	Ledd- og giktsykdommer	2018	324
+0-5	F	Ledd- og giktsykdommer	2019	229
+0-5	F	Ledd- og giktsykdommer	2020	285
+0-5	F	Psykisk sykdom eller lidelse	2012	2564
+0-5	F	Psykisk sykdom eller lidelse	2013	2621
+0-5	F	Psykisk sykdom eller lidelse	2014	2756
+0-5	F	Psykisk sykdom eller lidelse	2015	2821
+0-5	F	Psykisk sykdom eller lidelse	2016	2853
+0-5	F	Psykisk sykdom eller lidelse	2017	2971
+0-5	F	Psykisk sykdom eller lidelse	2018	3022
+0-5	F	Psykisk sykdom eller lidelse	2019	3181
+0-5	F	Psykisk sykdom eller lidelse	2020	3755
+0-5	F	Atopi, astma, allergi eller eksem	2012	26131
+0-5	F	Atopi, astma, allergi eller eksem	2013	25716
+0-5	F	Atopi, astma, allergi eller eksem	2014	26550
+0-5	F	Atopi, astma, allergi eller eksem	2015	26198
+0-5	F	Atopi, astma, allergi eller eksem	2016	27286
+0-5	F	Atopi, astma, allergi eller eksem	2017	29334
+0-5	F	Atopi, astma, allergi eller eksem	2018	29115
+0-5	F	Atopi, astma, allergi eller eksem	2019	29512
+0-5	F	Atopi, astma, allergi eller eksem	2020	30296
+0-5	F	Hoyt blodtrykk	2012	4
+0-5	F	Hoyt blodtrykk	2013	8
+0-5	F	Hoyt blodtrykk	2014	6
+0-5	F	Hoyt blodtrykk	2015	3
+0-5	F	Hoyt blodtrykk	2016	0
+0-5	F	Hoyt blodtrykk	2017	5
+0-5	F	Hoyt blodtrykk	2018	6
+0-5	F	Hoyt blodtrykk	2019	10
+0-5	F	Hoyt blodtrykk	2020	3
+0-5	F	Hjertesykdom	2012	373
+0-5	F	Hjertesykdom	2013	374
+0-5	F	Hjertesykdom	2014	350
+0-5	F	Hjertesykdom	2015	375
+0-5	F	Hjertesykdom	2016	342
+0-5	F	Hjertesykdom	2017	320
+0-5	F	Hjertesykdom	2018	361
+0-5	F	Hjertesykdom	2019	314
+0-5	F	Hjertesykdom	2020	294
+0-5	F	Diabetes	2012	52
+0-5	F	Diabetes	2013	57
+0-5	F	Diabetes	2014	77
+0-5	F	Diabetes	2015	82
+0-5	F	Diabetes	2016	55
+0-5	F	Diabetes	2017	49
+0-5	F	Diabetes	2018	48
+0-5	F	Diabetes	2019	39
+0-5	F	Diabetes	2020	53
+0-5	F	Kreft	2012	73
+0-5	F	Kreft	2013	54
+0-5	F	Kreft	2014	51
+0-5	F	Kreft	2015	30
+0-5	F	Kreft	2016	47
+0-5	F	Kreft	2017	25
+0-5	F	Kreft	2018	36
+0-5	F	Kreft	2019	26
+0-5	F	Kreft	2020	31
+0-5	F	Underlivsplager hos kvinner	2012	1596
+0-5	F	Underlivsplager hos kvinner	2013	1625
+0-5	F	Underlivsplager hos kvinner	2014	1748
+0-5	F	Underlivsplager hos kvinner	2015	1725
+0-5	F	Underlivsplager hos kvinner	2016	1692
+0-5	F	Underlivsplager hos kvinner	2017	1655
+0-5	F	Underlivsplager hos kvinner	2018	1714
+0-5	F	Underlivsplager hos kvinner	2019	1846
+0-5	F	Underlivsplager hos kvinner	2020	1834
+0-5	F	Funksjonelle mage-tarmplager	2012	18231
+0-5	F	Funksjonelle mage-tarmplager	2013	18759
+0-5	F	Funksjonelle mage-tarmplager	2014	19357
+0-5	F	Funksjonelle mage-tarmplager	2015	19919
+0-5	F	Funksjonelle mage-tarmplager	2016	19499
+0-5	F	Funksjonelle mage-tarmplager	2017	20389
+0-5	F	Funksjonelle mage-tarmplager	2018	21090
+0-5	F	Funksjonelle mage-tarmplager	2019	21197
+0-5	F	Funksjonelle mage-tarmplager	2020	20948
+0-5	F	Hudinfeksjoner	2012	11232
+0-5	F	Hudinfeksjoner	2013	10780
+0-5	F	Hudinfeksjoner	2014	10890
+0-5	F	Hudinfeksjoner	2015	11018
+0-5	F	Hudinfeksjoner	2016	10593
+0-5	F	Hudinfeksjoner	2017	10835
+0-5	F	Hudinfeksjoner	2018	10062
+0-5	F	Hudinfeksjoner	2019	10447
+0-5	F	Hudinfeksjoner	2020	9636
+0-5	F	Ulykker og skader	2012	9972
+0-5	F	Ulykker og skader	2013	10116
+0-5	F	Ulykker og skader	2014	10071
+0-5	F	Ulykker og skader	2015	9642
+0-5	F	Ulykker og skader	2016	9541
+0-5	F	Ulykker og skader	2017	9370
+0-5	F	Ulykker og skader	2018	9239
+0-5	F	Ulykker og skader	2019	8979
+0-5	F	Ulykker og skader	2020	8676
+0-5	F	Medfodt sykdom eller feil	2012	1625
+0-5	F	Medfodt sykdom eller feil	2013	1545
+0-5	F	Medfodt sykdom eller feil	2014	1507
+0-5	F	Medfodt sykdom eller feil	2015	1439
+0-5	F	Medfodt sykdom eller feil	2016	1509
+0-5	F	Medfodt sykdom eller feil	2017	1480
+0-5	F	Medfodt sykdom eller feil	2018	1557
+0-5	F	Medfodt sykdom eller feil	2019	1575
+0-5	F	Medfodt sykdom eller feil	2020	1721
+0-5	F	Svangerskap, fodsel, prevensjon	2012	NA
+0-5	F	Svangerskap, fodsel, prevensjon	2013	NA
+0-5	F	Svangerskap, fodsel, prevensjon	2014	NA
+0-5	F	Svangerskap, fodsel, prevensjon	2015	NA
+0-5	F	Svangerskap, fodsel, prevensjon	2016	NA
+0-5	F	Svangerskap, fodsel, prevensjon	2017	NA
+0-5	F	Svangerskap, fodsel, prevensjon	2018	NA
+0-5	F	Svangerskap, fodsel, prevensjon	2019	NA
+0-5	F	Svangerskap, fodsel, prevensjon	2020	NA
+0-5	F	Frykt for sykdom	2012	2338
+0-5	F	Frykt for sykdom	2013	2429
+0-5	F	Frykt for sykdom	2014	2329
+0-5	F	Frykt for sykdom	2015	2227
+0-5	F	Frykt for sykdom	2016	2267
+0-5	F	Frykt for sykdom	2017	2211
+0-5	F	Frykt for sykdom	2018	2327
+0-5	F	Frykt for sykdom	2019	2259
+0-5	F	Frykt for sykdom	2020	7920
+0-5	F	Administrativ kontakt	2012	3384
+0-5	F	Administrativ kontakt	2013	3577
+0-5	F	Administrativ kontakt	2014	3873
+0-5	F	Administrativ kontakt	2015	4120
+0-5	F	Administrativ kontakt	2016	4153
+0-5	F	Administrativ kontakt	2017	3402
+0-5	F	Administrativ kontakt	2018	3924
+0-5	F	Administrativ kontakt	2019	5726
+0-5	F	Administrativ kontakt	2020	10155
+0-5	F	Forebyggende kontakt	2012	4100
+0-5	F	Forebyggende kontakt	2013	7181
+0-5	F	Forebyggende kontakt	2014	7710
+0-5	F	Forebyggende kontakt	2015	8049
+0-5	F	Forebyggende kontakt	2016	8483
+0-5	F	Forebyggende kontakt	2017	8284
+0-5	F	Forebyggende kontakt	2018	8158
+0-5	F	Forebyggende kontakt	2019	8201
+0-5	F	Forebyggende kontakt	2020	6599
+0-5	F	Andre diagnoser	2012	112973
+0-5	F	Andre diagnoser	2013	106637
+0-5	F	Andre diagnoser	2014	107101
+0-5	F	Andre diagnoser	2015	102422
+0-5	F	Andre diagnoser	2016	99376
+0-5	F	Andre diagnoser	2017	98240
+0-5	F	Andre diagnoser	2018	93908
+0-5	F	Andre diagnoser	2019	94213
+0-5	F	Andre diagnoser	2020	83343
+6-15	M	Alle diagnoser	2012	341892
+6-15	M	Alle diagnoser	2013	337637
+6-15	M	Alle diagnoser	2014	353400
+6-15	M	Alle diagnoser	2015	355152
+6-15	M	Alle diagnoser	2016	367637
+6-15	M	Alle diagnoser	2017	375400
+6-15	M	Alle diagnoser	2018	374460
+6-15	M	Alle diagnoser	2019	380031
+6-15	M	Alle diagnoser	2020	398577
+6-15	M	Luftveisinfeksjoner, inkl. orebetennelse	2012	65790
+6-15	M	Luftveisinfeksjoner, inkl. orebetennelse	2013	57994
+6-15	M	Luftveisinfeksjoner, inkl. orebetennelse	2014	53912
+6-15	M	Luftveisinfeksjoner, inkl. orebetennelse	2015	57957
+6-15	M	Luftveisinfeksjoner, inkl. orebetennelse	2016	63562
+6-15	M	Luftveisinfeksjoner, inkl. orebetennelse	2017	62752
+6-15	M	Luftveisinfeksjoner, inkl. orebetennelse	2018	59957
+6-15	M	Luftveisinfeksjoner, inkl. orebetennelse	2019	55588
+6-15	M	Luftveisinfeksjoner, inkl. orebetennelse	2020	42883
+6-15	M	Lokale smerter og betennelser	2012	25393
+6-15	M	Lokale smerter og betennelser	2013	25908
+6-15	M	Lokale smerter og betennelser	2014	27563
+6-15	M	Lokale smerter og betennelser	2015	27839
+6-15	M	Lokale smerter og betennelser	2016	28311
+6-15	M	Lokale smerter og betennelser	2017	29178
+6-15	M	Lokale smerter og betennelser	2018	27785
+6-15	M	Lokale smerter og betennelser	2019	28914
+6-15	M	Lokale smerter og betennelser	2020	26683
+6-15	M	Ryggproblemer	2012	3180
+6-15	M	Ryggproblemer	2013	3072
+6-15	M	Ryggproblemer	2014	3469
+6-15	M	Ryggproblemer	2015	3359
+6-15	M	Ryggproblemer	2016	3389
+6-15	M	Ryggproblemer	2017	3531
+6-15	M	Ryggproblemer	2018	3269
+6-15	M	Ryggproblemer	2019	3278
+6-15	M	Ryggproblemer	2020	2935
+6-15	M	Generelle smerter og muskelplager	2012	1757
+6-15	M	Generelle smerter og muskelplager	2013	1873
+6-15	M	Generelle smerter og muskelplager	2014	1979
+6-15	M	Generelle smerter og muskelplager	2015	1929
+6-15	M	Generelle smerter og muskelplager	2016	1819
+6-15	M	Generelle smerter og muskelplager	2017	1802
+6-15	M	Generelle smerter og muskelplager	2018	1618
+6-15	M	Generelle smerter og muskelplager	2019	1728
+6-15	M	Generelle smerter og muskelplager	2020	1507
+6-15	M	Ledd- og giktsykdommer	2012	2571
+6-15	M	Ledd- og giktsykdommer	2013	2589
+6-15	M	Ledd- og giktsykdommer	2014	2795
+6-15	M	Ledd- og giktsykdommer	2015	2679
+6-15	M	Ledd- og giktsykdommer	2016	2925
+6-15	M	Ledd- og giktsykdommer	2017	2913
+6-15	M	Ledd- og giktsykdommer	2018	2591
+6-15	M	Ledd- og giktsykdommer	2019	2663
+6-15	M	Ledd- og giktsykdommer	2020	2558
+6-15	M	Psykisk sykdom eller lidelse	2012	26775
+6-15	M	Psykisk sykdom eller lidelse	2013	26736
+6-15	M	Psykisk sykdom eller lidelse	2014	27625
+6-15	M	Psykisk sykdom eller lidelse	2015	28702
+6-15	M	Psykisk sykdom eller lidelse	2016	29376
+6-15	M	Psykisk sykdom eller lidelse	2017	31946
+6-15	M	Psykisk sykdom eller lidelse	2018	31983
+6-15	M	Psykisk sykdom eller lidelse	2019	33679
+6-15	M	Psykisk sykdom eller lidelse	2020	38781
+6-15	M	Atopi, astma, allergi eller eksem	2012	34342
+6-15	M	Atopi, astma, allergi eller eksem	2013	32325
+6-15	M	Atopi, astma, allergi eller eksem	2014	37442
+6-15	M	Atopi, astma, allergi eller eksem	2015	35246
+6-15	M	Atopi, astma, allergi eller eksem	2016	35943
+6-15	M	Atopi, astma, allergi eller eksem	2017	37593
+6-15	M	Atopi, astma, allergi eller eksem	2018	36961
+6-15	M	Atopi, astma, allergi eller eksem	2019	40568
+6-15	M	Atopi, astma, allergi eller eksem	2020	46449
+6-15	M	Hoyt blodtrykk	2012	51
+6-15	M	Hoyt blodtrykk	2013	41
+6-15	M	Hoyt blodtrykk	2014	35
+6-15	M	Hoyt blodtrykk	2015	43
+6-15	M	Hoyt blodtrykk	2016	40
+6-15	M	Hoyt blodtrykk	2017	23
+6-15	M	Hoyt blodtrykk	2018	41
+6-15	M	Hoyt blodtrykk	2019	40
+6-15	M	Hoyt blodtrykk	2020	49
+6-15	M	Hjertesykdom	2012	337
+6-15	M	Hjertesykdom	2013	356
+6-15	M	Hjertesykdom	2014	367
+6-15	M	Hjertesykdom	2015	341
+6-15	M	Hjertesykdom	2016	334
+6-15	M	Hjertesykdom	2017	312
+6-15	M	Hjertesykdom	2018	325
+6-15	M	Hjertesykdom	2019	322
+6-15	M	Hjertesykdom	2020	391
+6-15	M	Diabetes	2012	351
+6-15	M	Diabetes	2013	439
+6-15	M	Diabetes	2014	423
+6-15	M	Diabetes	2015	396
+6-15	M	Diabetes	2016	411
+6-15	M	Diabetes	2017	375
+6-15	M	Diabetes	2018	432
+6-15	M	Diabetes	2019	405
+6-15	M	Diabetes	2020	571
+6-15	M	Kreft	2012	84
+6-15	M	Kreft	2013	90
+6-15	M	Kreft	2014	81
+6-15	M	Kreft	2015	102
+6-15	M	Kreft	2016	113
+6-15	M	Kreft	2017	105
+6-15	M	Kreft	2018	97
+6-15	M	Kreft	2019	98
+6-15	M	Kreft	2020	148
+6-15	M	Underlivsplager hos kvinner	2012	NA
+6-15	M	Underlivsplager hos kvinner	2013	NA
+6-15	M	Underlivsplager hos kvinner	2014	NA
+6-15	M	Underlivsplager hos kvinner	2015	NA
+6-15	M	Underlivsplager hos kvinner	2016	NA
+6-15	M	Underlivsplager hos kvinner	2017	NA
+6-15	M	Underlivsplager hos kvinner	2018	NA
+6-15	M	Underlivsplager hos kvinner	2019	NA
+6-15	M	Underlivsplager hos kvinner	2020	NA
+6-15	M	Funksjonelle mage-tarmplager	2012	18420
+6-15	M	Funksjonelle mage-tarmplager	2013	20204
+6-15	M	Funksjonelle mage-tarmplager	2014	21370
+6-15	M	Funksjonelle mage-tarmplager	2015	21589
+6-15	M	Funksjonelle mage-tarmplager	2016	23302
+6-15	M	Funksjonelle mage-tarmplager	2017	24024
+6-15	M	Funksjonelle mage-tarmplager	2018	25482
+6-15	M	Funksjonelle mage-tarmplager	2019	25675
+6-15	M	Funksjonelle mage-tarmplager	2020	24588
+6-15	M	Hudinfeksjoner	2012	21921
+6-15	M	Hudinfeksjoner	2013	22433
+6-15	M	Hudinfeksjoner	2014	24117
+6-15	M	Hudinfeksjoner	2015	24159
+6-15	M	Hudinfeksjoner	2016	24219
+6-15	M	Hudinfeksjoner	2017	24559
+6-15	M	Hudinfeksjoner	2018	25807
+6-15	M	Hudinfeksjoner	2019	26211
+6-15	M	Hudinfeksjoner	2020	25595
+6-15	M	Ulykker og skader	2012	23987
+6-15	M	Ulykker og skader	2013	24169
+6-15	M	Ulykker og skader	2014	25246
+6-15	M	Ulykker og skader	2015	24632
+6-15	M	Ulykker og skader	2016	24825
+6-15	M	Ulykker og skader	2017	24986
+6-15	M	Ulykker og skader	2018	24200
+6-15	M	Ulykker og skader	2019	23813
+6-15	M	Ulykker og skader	2020	21284
+6-15	M	Medfodt sykdom eller feil	2012	2864
+6-15	M	Medfodt sykdom eller feil	2013	2989
+6-15	M	Medfodt sykdom eller feil	2014	3012
+6-15	M	Medfodt sykdom eller feil	2015	2911
+6-15	M	Medfodt sykdom eller feil	2016	2808
+6-15	M	Medfodt sykdom eller feil	2017	2927
+6-15	M	Medfodt sykdom eller feil	2018	2925
+6-15	M	Medfodt sykdom eller feil	2019	2851
+6-15	M	Medfodt sykdom eller feil	2020	3260
+6-15	M	Svangerskap, fodsel, prevensjon	2012	NA
+6-15	M	Svangerskap, fodsel, prevensjon	2013	NA
+6-15	M	Svangerskap, fodsel, prevensjon	2014	NA
+6-15	M	Svangerskap, fodsel, prevensjon	2015	NA
+6-15	M	Svangerskap, fodsel, prevensjon	2016	NA
+6-15	M	Svangerskap, fodsel, prevensjon	2017	NA
+6-15	M	Svangerskap, fodsel, prevensjon	2018	NA
+6-15	M	Svangerskap, fodsel, prevensjon	2019	NA
+6-15	M	Svangerskap, fodsel, prevensjon	2020	NA
+6-15	M	Frykt for sykdom	2012	2038
+6-15	M	Frykt for sykdom	2013	2074
+6-15	M	Frykt for sykdom	2014	2158
+6-15	M	Frykt for sykdom	2015	2155
+6-15	M	Frykt for sykdom	2016	2137
+6-15	M	Frykt for sykdom	2017	2411
+6-15	M	Frykt for sykdom	2018	2233
+6-15	M	Frykt for sykdom	2019	2439
+6-15	M	Frykt for sykdom	2020	12255
+6-15	M	Administrativ kontakt	2012	3741
+6-15	M	Administrativ kontakt	2013	4144
+6-15	M	Administrativ kontakt	2014	4872
+6-15	M	Administrativ kontakt	2015	5389
+6-15	M	Administrativ kontakt	2016	5460
+6-15	M	Administrativ kontakt	2017	4805
+6-15	M	Administrativ kontakt	2018	5338
+6-15	M	Administrativ kontakt	2019	7591
+6-15	M	Administrativ kontakt	2020	14510
+6-15	M	Forebyggende kontakt	2012	5588
+6-15	M	Forebyggende kontakt	2013	8330
+6-15	M	Forebyggende kontakt	2014	9416
+6-15	M	Forebyggende kontakt	2015	9823
+6-15	M	Forebyggende kontakt	2016	10633
+6-15	M	Forebyggende kontakt	2017	10631
+6-15	M	Forebyggende kontakt	2018	11064
+6-15	M	Forebyggende kontakt	2019	11339
+6-15	M	Forebyggende kontakt	2020	11201
+6-15	M	Andre diagnoser	2012	102631
+6-15	M	Andre diagnoser	2013	101808
+6-15	M	Andre diagnoser	2014	107425
+6-15	M	Andre diagnoser	2015	105814
+6-15	M	Andre diagnoser	2016	107954
+6-15	M	Andre diagnoser	2017	110423
+6-15	M	Andre diagnoser	2018	112248
+6-15	M	Andre diagnoser	2019	112744
+6-15	M	Andre diagnoser	2020	122834
+6-15	F	Alle diagnoser	2012	354869
+6-15	F	Alle diagnoser	2013	353790
+6-15	F	Alle diagnoser	2014	370289
+6-15	F	Alle diagnoser	2015	369964
+6-15	F	Alle diagnoser	2016	379113
+6-15	F	Alle diagnoser	2017	387187
+6-15	F	Alle diagnoser	2018	384156
+6-15	F	Alle diagnoser	2019	393115
+6-15	F	Alle diagnoser	2020	413281
+6-15	F	Luftveisinfeksjoner, inkl. orebetennelse	2012	68846
+6-15	F	Luftveisinfeksjoner, inkl. orebetennelse	2013	59834
+6-15	F	Luftveisinfeksjoner, inkl. orebetennelse	2014	56461
+6-15	F	Luftveisinfeksjoner, inkl. orebetennelse	2015	58573
+6-15	F	Luftveisinfeksjoner, inkl. orebetennelse	2016	63768
+6-15	F	Luftveisinfeksjoner, inkl. orebetennelse	2017	62059
+6-15	F	Luftveisinfeksjoner, inkl. orebetennelse	2018	59083
+6-15	F	Luftveisinfeksjoner, inkl. orebetennelse	2019	54794
+6-15	F	Luftveisinfeksjoner, inkl. orebetennelse	2020	41179
+6-15	F	Lokale smerter og betennelser	2012	29013
+6-15	F	Lokale smerter og betennelser	2013	30167
+6-15	F	Lokale smerter og betennelser	2014	32706
+6-15	F	Lokale smerter og betennelser	2015	33150
+6-15	F	Lokale smerter og betennelser	2016	32989
+6-15	F	Lokale smerter og betennelser	2017	33600
+6-15	F	Lokale smerter og betennelser	2018	31852
+6-15	F	Lokale smerter og betennelser	2019	32520
+6-15	F	Lokale smerter og betennelser	2020	29475
+6-15	F	Ryggproblemer	2012	4241
+6-15	F	Ryggproblemer	2013	4658
+6-15	F	Ryggproblemer	2014	4947
+6-15	F	Ryggproblemer	2015	4887
+6-15	F	Ryggproblemer	2016	4811
+6-15	F	Ryggproblemer	2017	4746
+6-15	F	Ryggproblemer	2018	4103
+6-15	F	Ryggproblemer	2019	4182
+6-15	F	Ryggproblemer	2020	3852
+6-15	F	Generelle smerter og muskelplager	2012	1968
+6-15	F	Generelle smerter og muskelplager	2013	2009
+6-15	F	Generelle smerter og muskelplager	2014	2178
+6-15	F	Generelle smerter og muskelplager	2015	2004
+6-15	F	Generelle smerter og muskelplager	2016	2012
+6-15	F	Generelle smerter og muskelplager	2017	1873
+6-15	F	Generelle smerter og muskelplager	2018	1646
+6-15	F	Generelle smerter og muskelplager	2019	1723
+6-15	F	Generelle smerter og muskelplager	2020	1615
+6-15	F	Ledd- og giktsykdommer	2012	2565
+6-15	F	Ledd- og giktsykdommer	2013	2438
+6-15	F	Ledd- og giktsykdommer	2014	2768
+6-15	F	Ledd- og giktsykdommer	2015	2722
+6-15	F	Ledd- og giktsykdommer	2016	2758
+6-15	F	Ledd- og giktsykdommer	2017	2927
+6-15	F	Ledd- og giktsykdommer	2018	2743
+6-15	F	Ledd- og giktsykdommer	2019	2914
+6-15	F	Ledd- og giktsykdommer	2020	2706
+6-15	F	Psykisk sykdom eller lidelse	2012	17053
+6-15	F	Psykisk sykdom eller lidelse	2013	17758
+6-15	F	Psykisk sykdom eller lidelse	2014	19058
+6-15	F	Psykisk sykdom eller lidelse	2015	19765
+6-15	F	Psykisk sykdom eller lidelse	2016	20430
+6-15	F	Psykisk sykdom eller lidelse	2017	22062
+6-15	F	Psykisk sykdom eller lidelse	2018	22684
+6-15	F	Psykisk sykdom eller lidelse	2019	24264
+6-15	F	Psykisk sykdom eller lidelse	2020	30487
+6-15	F	Atopi, astma, allergi eller eksem	2012	29539
+6-15	F	Atopi, astma, allergi eller eksem	2013	28677
+6-15	F	Atopi, astma, allergi eller eksem	2014	32574
+6-15	F	Atopi, astma, allergi eller eksem	2015	31847
+6-15	F	Atopi, astma, allergi eller eksem	2016	32103
+6-15	F	Atopi, astma, allergi eller eksem	2017	33978
+6-15	F	Atopi, astma, allergi eller eksem	2018	33987
+6-15	F	Atopi, astma, allergi eller eksem	2019	36890
+6-15	F	Atopi, astma, allergi eller eksem	2020	40209
+6-15	F	Hoyt blodtrykk	2012	10
+6-15	F	Hoyt blodtrykk	2013	20
+6-15	F	Hoyt blodtrykk	2014	25
+6-15	F	Hoyt blodtrykk	2015	27
+6-15	F	Hoyt blodtrykk	2016	64
+6-15	F	Hoyt blodtrykk	2017	24
+6-15	F	Hoyt blodtrykk	2018	26
+6-15	F	Hoyt blodtrykk	2019	20
+6-15	F	Hoyt blodtrykk	2020	30
+6-15	F	Hjertesykdom	2012	312
+6-15	F	Hjertesykdom	2013	360
+6-15	F	Hjertesykdom	2014	339
+6-15	F	Hjertesykdom	2015	286
+6-15	F	Hjertesykdom	2016	302
+6-15	F	Hjertesykdom	2017	314
+6-15	F	Hjertesykdom	2018	277
+6-15	F	Hjertesykdom	2019	323
+6-15	F	Hjertesykdom	2020	300
+6-15	F	Diabetes	2012	405
+6-15	F	Diabetes	2013	378
+6-15	F	Diabetes	2014	346
+6-15	F	Diabetes	2015	361
+6-15	F	Diabetes	2016	336
+6-15	F	Diabetes	2017	348
+6-15	F	Diabetes	2018	436
+6-15	F	Diabetes	2019	384
+6-15	F	Diabetes	2020	526
+6-15	F	Kreft	2012	147
+6-15	F	Kreft	2013	114
+6-15	F	Kreft	2014	81
+6-15	F	Kreft	2015	142
+6-15	F	Kreft	2016	140
+6-15	F	Kreft	2017	92
+6-15	F	Kreft	2018	87
+6-15	F	Kreft	2019	103
+6-15	F	Kreft	2020	96
+6-15	F	Underlivsplager hos kvinner	2012	4874
+6-15	F	Underlivsplager hos kvinner	2013	5185
+6-15	F	Underlivsplager hos kvinner	2014	5312
+6-15	F	Underlivsplager hos kvinner	2015	5239
+6-15	F	Underlivsplager hos kvinner	2016	5371
+6-15	F	Underlivsplager hos kvinner	2017	6078
+6-15	F	Underlivsplager hos kvinner	2018	6476
+6-15	F	Underlivsplager hos kvinner	2019	7360
+6-15	F	Underlivsplager hos kvinner	2020	8353
+6-15	F	Funksjonelle mage-tarmplager	2012	22667
+6-15	F	Funksjonelle mage-tarmplager	2013	24779
+6-15	F	Funksjonelle mage-tarmplager	2014	26454
+6-15	F	Funksjonelle mage-tarmplager	2015	26082
+6-15	F	Funksjonelle mage-tarmplager	2016	27319
+6-15	F	Funksjonelle mage-tarmplager	2017	28639
+6-15	F	Funksjonelle mage-tarmplager	2018	29192
+6-15	F	Funksjonelle mage-tarmplager	2019	29914
+6-15	F	Funksjonelle mage-tarmplager	2020	30403
+6-15	F	Hudinfeksjoner	2012	25342
+6-15	F	Hudinfeksjoner	2013	25589
+6-15	F	Hudinfeksjoner	2014	27681
+6-15	F	Hudinfeksjoner	2015	27167
+6-15	F	Hudinfeksjoner	2016	27379
+6-15	F	Hudinfeksjoner	2017	26819
+6-15	F	Hudinfeksjoner	2018	27574
+6-15	F	Hudinfeksjoner	2019	29067
+6-15	F	Hudinfeksjoner	2020	27719
+6-15	F	Ulykker og skader	2012	19730
+6-15	F	Ulykker og skader	2013	20535
+6-15	F	Ulykker og skader	2014	20753
+6-15	F	Ulykker og skader	2015	20189
+6-15	F	Ulykker og skader	2016	20441
+6-15	F	Ulykker og skader	2017	20696
+6-15	F	Ulykker og skader	2018	19977
+6-15	F	Ulykker og skader	2019	19463
+6-15	F	Ulykker og skader	2020	17391
+6-15	F	Medfodt sykdom eller feil	2012	2199
+6-15	F	Medfodt sykdom eller feil	2013	2139
+6-15	F	Medfodt sykdom eller feil	2014	2285
+6-15	F	Medfodt sykdom eller feil	2015	2180
+6-15	F	Medfodt sykdom eller feil	2016	1977
+6-15	F	Medfodt sykdom eller feil	2017	1934
+6-15	F	Medfodt sykdom eller feil	2018	2084
+6-15	F	Medfodt sykdom eller feil	2019	1981
+6-15	F	Medfodt sykdom eller feil	2020	2387
+6-15	F	Svangerskap, fodsel, prevensjon	2012	1701
+6-15	F	Svangerskap, fodsel, prevensjon	2013	1673
+6-15	F	Svangerskap, fodsel, prevensjon	2014	1703
+6-15	F	Svangerskap, fodsel, prevensjon	2015	1782
+6-15	F	Svangerskap, fodsel, prevensjon	2016	1967
+6-15	F	Svangerskap, fodsel, prevensjon	2017	2186
+6-15	F	Svangerskap, fodsel, prevensjon	2018	2209
+6-15	F	Svangerskap, fodsel, prevensjon	2019	2610
+6-15	F	Svangerskap, fodsel, prevensjon	2020	2879
+6-15	F	Frykt for sykdom	2012	2054
+6-15	F	Frykt for sykdom	2013	2167
+6-15	F	Frykt for sykdom	2014	2206
+6-15	F	Frykt for sykdom	2015	2128
+6-15	F	Frykt for sykdom	2016	2161
+6-15	F	Frykt for sykdom	2017	2377
+6-15	F	Frykt for sykdom	2018	2303
+6-15	F	Frykt for sykdom	2019	2335
+6-15	F	Frykt for sykdom	2020	11315
+6-15	F	Administrativ kontakt	2012	3404
+6-15	F	Administrativ kontakt	2013	3803
+6-15	F	Administrativ kontakt	2014	4465
+6-15	F	Administrativ kontakt	2015	4728
+6-15	F	Administrativ kontakt	2016	4917
+6-15	F	Administrativ kontakt	2017	4429
+6-15	F	Administrativ kontakt	2018	4855
+6-15	F	Administrativ kontakt	2019	6784
+6-15	F	Administrativ kontakt	2020	14205
+6-15	F	Forebyggende kontakt	2012	5455
+6-15	F	Forebyggende kontakt	2013	8065
+6-15	F	Forebyggende kontakt	2014	8980
+6-15	F	Forebyggende kontakt	2015	9401
+6-15	F	Forebyggende kontakt	2016	10250
+6-15	F	Forebyggende kontakt	2017	10467
+6-15	F	Forebyggende kontakt	2018	10481
+6-15	F	Forebyggende kontakt	2019	10941
+6-15	F	Forebyggende kontakt	2020	10654
+6-15	F	Andre diagnoser	2012	113344
+6-15	F	Andre diagnoser	2013	113442
+6-15	F	Andre diagnoser	2014	118967
+6-15	F	Andre diagnoser	2015	117304
+6-15	F	Andre diagnoser	2016	117618
+6-15	F	Andre diagnoser	2017	121539
+6-15	F	Andre diagnoser	2018	122081
+6-15	F	Andre diagnoser	2019	124543
+6-15	F	Andre diagnoser	2020	137500
+16-19	M	Alle diagnoser	2012	161616
+16-19	M	Alle diagnoser	2013	158668
+16-19	M	Alle diagnoser	2014	163529
+16-19	M	Alle diagnoser	2015	166732
+16-19	M	Alle diagnoser	2016	195368
+16-19	M	Alle diagnoser	2017	223318
+16-19	M	Alle diagnoser	2018	228471
+16-19	M	Alle diagnoser	2019	229497
+16-19	M	Alle diagnoser	2020	181215
+16-19	M	Luftveisinfeksjoner, inkl. orebetennelse	2012	29846
+16-19	M	Luftveisinfeksjoner, inkl. orebetennelse	2013	26418
+16-19	M	Luftveisinfeksjoner, inkl. orebetennelse	2014	25135
+16-19	M	Luftveisinfeksjoner, inkl. orebetennelse	2015	28207
+16-19	M	Luftveisinfeksjoner, inkl. orebetennelse	2016	41919
+16-19	M	Luftveisinfeksjoner, inkl. orebetennelse	2017	57918
+16-19	M	Luftveisinfeksjoner, inkl. orebetennelse	2018	59965
+16-19	M	Luftveisinfeksjoner, inkl. orebetennelse	2019	59664
+16-19	M	Luftveisinfeksjoner, inkl. orebetennelse	2020	24377
+16-19	M	Lokale smerter og betennelser	2012	13560
+16-19	M	Lokale smerter og betennelser	2013	13616
+16-19	M	Lokale smerter og betennelser	2014	13604
+16-19	M	Lokale smerter og betennelser	2015	14047
+16-19	M	Lokale smerter og betennelser	2016	14456
+16-19	M	Lokale smerter og betennelser	2017	14859
+16-19	M	Lokale smerter og betennelser	2018	14962
+16-19	M	Lokale smerter og betennelser	2019	14954
+16-19	M	Lokale smerter og betennelser	2020	12493
+16-19	M	Ryggproblemer	2012	4136
+16-19	M	Ryggproblemer	2013	3888
+16-19	M	Ryggproblemer	2014	3990
+16-19	M	Ryggproblemer	2015	4009
+16-19	M	Ryggproblemer	2016	3987
+16-19	M	Ryggproblemer	2017	4591
+16-19	M	Ryggproblemer	2018	4249
+16-19	M	Ryggproblemer	2019	4269
+16-19	M	Ryggproblemer	2020	3378
+16-19	M	Generelle smerter og muskelplager	2012	1238
+16-19	M	Generelle smerter og muskelplager	2013	1085
+16-19	M	Generelle smerter og muskelplager	2014	1140
+16-19	M	Generelle smerter og muskelplager	2015	1185
+16-19	M	Generelle smerter og muskelplager	2016	1252
+16-19	M	Generelle smerter og muskelplager	2017	1243
+16-19	M	Generelle smerter og muskelplager	2018	1168
+16-19	M	Generelle smerter og muskelplager	2019	1180
+16-19	M	Generelle smerter og muskelplager	2020	900
+16-19	M	Ledd- og giktsykdommer	2012	820
+16-19	M	Ledd- og giktsykdommer	2013	823
+16-19	M	Ledd- og giktsykdommer	2014	840
+16-19	M	Ledd- og giktsykdommer	2015	880
+16-19	M	Ledd- og giktsykdommer	2016	849
+16-19	M	Ledd- og giktsykdommer	2017	866
+16-19	M	Ledd- og giktsykdommer	2018	921
+16-19	M	Ledd- og giktsykdommer	2019	843
+16-19	M	Ledd- og giktsykdommer	2020	764
+16-19	M	Psykisk sykdom eller lidelse	2012	16189
+16-19	M	Psykisk sykdom eller lidelse	2013	16739
+16-19	M	Psykisk sykdom eller lidelse	2014	17024
+16-19	M	Psykisk sykdom eller lidelse	2015	17155
+16-19	M	Psykisk sykdom eller lidelse	2016	18989
+16-19	M	Psykisk sykdom eller lidelse	2017	21356
+16-19	M	Psykisk sykdom eller lidelse	2018	23006
+16-19	M	Psykisk sykdom eller lidelse	2019	23189
+16-19	M	Psykisk sykdom eller lidelse	2020	21996
+16-19	M	Atopi, astma, allergi eller eksem	2012	10458
+16-19	M	Atopi, astma, allergi eller eksem	2013	9860
+16-19	M	Atopi, astma, allergi eller eksem	2014	11118
+16-19	M	Atopi, astma, allergi eller eksem	2015	10472
+16-19	M	Atopi, astma, allergi eller eksem	2016	11641
+16-19	M	Atopi, astma, allergi eller eksem	2017	11838
+16-19	M	Atopi, astma, allergi eller eksem	2018	11744
+16-19	M	Atopi, astma, allergi eller eksem	2019	12812
+16-19	M	Atopi, astma, allergi eller eksem	2020	11146
+16-19	M	Hoyt blodtrykk	2012	117
+16-19	M	Hoyt blodtrykk	2013	103
+16-19	M	Hoyt blodtrykk	2014	109
+16-19	M	Hoyt blodtrykk	2015	134
+16-19	M	Hoyt blodtrykk	2016	120
+16-19	M	Hoyt blodtrykk	2017	100
+16-19	M	Hoyt blodtrykk	2018	88
+16-19	M	Hoyt blodtrykk	2019	72
+16-19	M	Hoyt blodtrykk	2020	92
+16-19	M	Hjertesykdom	2012	315
+16-19	M	Hjertesykdom	2013	281
+16-19	M	Hjertesykdom	2014	236
+16-19	M	Hjertesykdom	2015	197
+16-19	M	Hjertesykdom	2016	212
+16-19	M	Hjertesykdom	2017	213
+16-19	M	Hjertesykdom	2018	227
+16-19	M	Hjertesykdom	2019	220
+16-19	M	Hjertesykdom	2020	174
+16-19	M	Diabetes	2012	446
+16-19	M	Diabetes	2013	434
+16-19	M	Diabetes	2014	467
+16-19	M	Diabetes	2015	458
+16-19	M	Diabetes	2016	504
+16-19	M	Diabetes	2017	414
+16-19	M	Diabetes	2018	431
+16-19	M	Diabetes	2019	479
+16-19	M	Diabetes	2020	406
+16-19	M	Kreft	2012	138
+16-19	M	Kreft	2013	158
+16-19	M	Kreft	2014	122
+16-19	M	Kreft	2015	78
+16-19	M	Kreft	2016	86
+16-19	M	Kreft	2017	53
+16-19	M	Kreft	2018	72
+16-19	M	Kreft	2019	101
+16-19	M	Kreft	2020	110
+16-19	M	Underlivsplager hos kvinner	2012	NA
+16-19	M	Underlivsplager hos kvinner	2013	NA
+16-19	M	Underlivsplager hos kvinner	2014	NA
+16-19	M	Underlivsplager hos kvinner	2015	NA
+16-19	M	Underlivsplager hos kvinner	2016	NA
+16-19	M	Underlivsplager hos kvinner	2017	NA
+16-19	M	Underlivsplager hos kvinner	2018	NA
+16-19	M	Underlivsplager hos kvinner	2019	NA
+16-19	M	Underlivsplager hos kvinner	2020	NA
+16-19	M	Funksjonelle mage-tarmplager	2012	6152
+16-19	M	Funksjonelle mage-tarmplager	2013	6235
+16-19	M	Funksjonelle mage-tarmplager	2014	6752
+16-19	M	Funksjonelle mage-tarmplager	2015	6740
+16-19	M	Funksjonelle mage-tarmplager	2016	8841
+16-19	M	Funksjonelle mage-tarmplager	2017	10816
+16-19	M	Funksjonelle mage-tarmplager	2018	11329
+16-19	M	Funksjonelle mage-tarmplager	2019	11392
+16-19	M	Funksjonelle mage-tarmplager	2020	7436
+16-19	M	Hudinfeksjoner	2012	6386
+16-19	M	Hudinfeksjoner	2013	6526
+16-19	M	Hudinfeksjoner	2014	6991
+16-19	M	Hudinfeksjoner	2015	7066
+16-19	M	Hudinfeksjoner	2016	7499
+16-19	M	Hudinfeksjoner	2017	7591
+16-19	M	Hudinfeksjoner	2018	7640
+16-19	M	Hudinfeksjoner	2019	7679
+16-19	M	Hudinfeksjoner	2020	8034
+16-19	M	Ulykker og skader	2012	10886
+16-19	M	Ulykker og skader	2013	10692
+16-19	M	Ulykker og skader	2014	10578
+16-19	M	Ulykker og skader	2015	10557
+16-19	M	Ulykker og skader	2016	11356
+16-19	M	Ulykker og skader	2017	11282
+16-19	M	Ulykker og skader	2018	11762
+16-19	M	Ulykker og skader	2019	11302
+16-19	M	Ulykker og skader	2020	9224
+16-19	M	Medfodt sykdom eller feil	2012	905
+16-19	M	Medfodt sykdom eller feil	2013	918
+16-19	M	Medfodt sykdom eller feil	2014	946
+16-19	M	Medfodt sykdom eller feil	2015	892
+16-19	M	Medfodt sykdom eller feil	2016	948
+16-19	M	Medfodt sykdom eller feil	2017	1007
+16-19	M	Medfodt sykdom eller feil	2018	960
+16-19	M	Medfodt sykdom eller feil	2019	944
+16-19	M	Medfodt sykdom eller feil	2020	984
+16-19	M	Svangerskap, fodsel, prevensjon	2012	NA
+16-19	M	Svangerskap, fodsel, prevensjon	2013	NA
+16-19	M	Svangerskap, fodsel, prevensjon	2014	NA
+16-19	M	Svangerskap, fodsel, prevensjon	2015	NA
+16-19	M	Svangerskap, fodsel, prevensjon	2016	NA
+16-19	M	Svangerskap, fodsel, prevensjon	2017	NA
+16-19	M	Svangerskap, fodsel, prevensjon	2018	NA
+16-19	M	Svangerskap, fodsel, prevensjon	2019	NA
+16-19	M	Svangerskap, fodsel, prevensjon	2020	NA
+16-19	M	Frykt for sykdom	2012	1496
+16-19	M	Frykt for sykdom	2013	1542
+16-19	M	Frykt for sykdom	2014	1549
+16-19	M	Frykt for sykdom	2015	1450
+16-19	M	Frykt for sykdom	2016	1470
+16-19	M	Frykt for sykdom	2017	1520
+16-19	M	Frykt for sykdom	2018	1530
+16-19	M	Frykt for sykdom	2019	1521
+16-19	M	Frykt for sykdom	2020	6930
+16-19	M	Administrativ kontakt	2012	3344
+16-19	M	Administrativ kontakt	2013	3472
+16-19	M	Administrativ kontakt	2014	3970
+16-19	M	Administrativ kontakt	2015	4143
+16-19	M	Administrativ kontakt	2016	4953
+16-19	M	Administrativ kontakt	2017	5298
+16-19	M	Administrativ kontakt	2018	5652
+16-19	M	Administrativ kontakt	2019	6394
+16-19	M	Administrativ kontakt	2020	5931
+16-19	M	Forebyggende kontakt	2012	1755
+16-19	M	Forebyggende kontakt	2013	3151
+16-19	M	Forebyggende kontakt	2014	3491
+16-19	M	Forebyggende kontakt	2015	3642
+16-19	M	Forebyggende kontakt	2016	4452
+16-19	M	Forebyggende kontakt	2017	4517
+16-19	M	Forebyggende kontakt	2018	4695
+16-19	M	Forebyggende kontakt	2019	4770
+16-19	M	Forebyggende kontakt	2020	3506
+16-19	M	Andre diagnoser	2012	53360
+16-19	M	Andre diagnoser	2013	52669
+16-19	M	Andre diagnoser	2014	55378
+16-19	M	Andre diagnoser	2015	55337
+16-19	M	Andre diagnoser	2016	61759
+16-19	M	Andre diagnoser	2017	67751
+16-19	M	Andre diagnoser	2018	67969
+16-19	M	Andre diagnoser	2019	67616
+16-19	M	Andre diagnoser	2020	63240
+16-19	F	Alle diagnoser	2012	261361
+16-19	F	Alle diagnoser	2013	261184
+16-19	F	Alle diagnoser	2014	271523
+16-19	F	Alle diagnoser	2015	276514
+16-19	F	Alle diagnoser	2016	303036
+16-19	F	Alle diagnoser	2017	337380
+16-19	F	Alle diagnoser	2018	337082
+16-19	F	Alle diagnoser	2019	344989
+16-19	F	Alle diagnoser	2020	291371
+16-19	F	Luftveisinfeksjoner, inkl. orebetennelse	2012	43295
+16-19	F	Luftveisinfeksjoner, inkl. orebetennelse	2013	38459
+16-19	F	Luftveisinfeksjoner, inkl. orebetennelse	2014	37416
+16-19	F	Luftveisinfeksjoner, inkl. orebetennelse	2015	41308
+16-19	F	Luftveisinfeksjoner, inkl. orebetennelse	2016	55730
+16-19	F	Luftveisinfeksjoner, inkl. orebetennelse	2017	73628
+16-19	F	Luftveisinfeksjoner, inkl. orebetennelse	2018	73064
+16-19	F	Luftveisinfeksjoner, inkl. orebetennelse	2019	76223
+16-19	F	Luftveisinfeksjoner, inkl. orebetennelse	2020	32259
+16-19	F	Lokale smerter og betennelser	2012	17040
+16-19	F	Lokale smerter og betennelser	2013	17456
+16-19	F	Lokale smerter og betennelser	2014	17849
+16-19	F	Lokale smerter og betennelser	2015	17671
+16-19	F	Lokale smerter og betennelser	2016	17391
+16-19	F	Lokale smerter og betennelser	2017	17439
+16-19	F	Lokale smerter og betennelser	2018	16390
+16-19	F	Lokale smerter og betennelser	2019	16831
+16-19	F	Lokale smerter og betennelser	2020	14268
+16-19	F	Ryggproblemer	2012	5474
+16-19	F	Ryggproblemer	2013	5335
+16-19	F	Ryggproblemer	2014	5527
+16-19	F	Ryggproblemer	2015	5346
+16-19	F	Ryggproblemer	2016	5626
+16-19	F	Ryggproblemer	2017	5649
+16-19	F	Ryggproblemer	2018	5185
+16-19	F	Ryggproblemer	2019	5137
+16-19	F	Ryggproblemer	2020	4353
+16-19	F	Generelle smerter og muskelplager	2012	1880
+16-19	F	Generelle smerter og muskelplager	2013	1955
+16-19	F	Generelle smerter og muskelplager	2014	1986
+16-19	F	Generelle smerter og muskelplager	2015	1981
+16-19	F	Generelle smerter og muskelplager	2016	1874
+16-19	F	Generelle smerter og muskelplager	2017	1837
+16-19	F	Generelle smerter og muskelplager	2018	1716
+16-19	F	Generelle smerter og muskelplager	2019	1650
+16-19	F	Generelle smerter og muskelplager	2020	1433
+16-19	F	Ledd- og giktsykdommer	2012	1450
+16-19	F	Ledd- og giktsykdommer	2013	1516
+16-19	F	Ledd- og giktsykdommer	2014	1475
+16-19	F	Ledd- og giktsykdommer	2015	1559
+16-19	F	Ledd- og giktsykdommer	2016	1418
+16-19	F	Ledd- og giktsykdommer	2017	1545
+16-19	F	Ledd- og giktsykdommer	2018	1503
+16-19	F	Ledd- og giktsykdommer	2019	1554
+16-19	F	Ledd- og giktsykdommer	2020	1361
+16-19	F	Psykisk sykdom eller lidelse	2012	25388
+16-19	F	Psykisk sykdom eller lidelse	2013	25875
+16-19	F	Psykisk sykdom eller lidelse	2014	26964
+16-19	F	Psykisk sykdom eller lidelse	2015	28708
+16-19	F	Psykisk sykdom eller lidelse	2016	30745
+16-19	F	Psykisk sykdom eller lidelse	2017	34673
+16-19	F	Psykisk sykdom eller lidelse	2018	35675
+16-19	F	Psykisk sykdom eller lidelse	2019	36505
+16-19	F	Psykisk sykdom eller lidelse	2020	35410
+16-19	F	Atopi, astma, allergi eller eksem	2012	13261
+16-19	F	Atopi, astma, allergi eller eksem	2013	13052
+16-19	F	Atopi, astma, allergi eller eksem	2014	14445
+16-19	F	Atopi, astma, allergi eller eksem	2015	14332
+16-19	F	Atopi, astma, allergi eller eksem	2016	15053
+16-19	F	Atopi, astma, allergi eller eksem	2017	15894
+16-19	F	Atopi, astma, allergi eller eksem	2018	16085
+16-19	F	Atopi, astma, allergi eller eksem	2019	17253
+16-19	F	Atopi, astma, allergi eller eksem	2020	15663
+16-19	F	Hoyt blodtrykk	2012	120
+16-19	F	Hoyt blodtrykk	2013	132
+16-19	F	Hoyt blodtrykk	2014	130
+16-19	F	Hoyt blodtrykk	2015	142
+16-19	F	Hoyt blodtrykk	2016	101
+16-19	F	Hoyt blodtrykk	2017	140
+16-19	F	Hoyt blodtrykk	2018	99
+16-19	F	Hoyt blodtrykk	2019	85
+16-19	F	Hoyt blodtrykk	2020	121
+16-19	F	Hjertesykdom	2012	267
+16-19	F	Hjertesykdom	2013	256
+16-19	F	Hjertesykdom	2014	267
+16-19	F	Hjertesykdom	2015	301
+16-19	F	Hjertesykdom	2016	268
+16-19	F	Hjertesykdom	2017	203
+16-19	F	Hjertesykdom	2018	217
+16-19	F	Hjertesykdom	2019	227
+16-19	F	Hjertesykdom	2020	230
+16-19	F	Diabetes	2012	479
+16-19	F	Diabetes	2013	534
+16-19	F	Diabetes	2014	535
+16-19	F	Diabetes	2015	500
+16-19	F	Diabetes	2016	565
+16-19	F	Diabetes	2017	482
+16-19	F	Diabetes	2018	450
+16-19	F	Diabetes	2019	441
+16-19	F	Diabetes	2020	506
+16-19	F	Kreft	2012	102
+16-19	F	Kreft	2013	116
+16-19	F	Kreft	2014	115
+16-19	F	Kreft	2015	107
+16-19	F	Kreft	2016	134
+16-19	F	Kreft	2017	104
+16-19	F	Kreft	2018	67
+16-19	F	Kreft	2019	75
+16-19	F	Kreft	2020	98
+16-19	F	Underlivsplager hos kvinner	2012	11078
+16-19	F	Underlivsplager hos kvinner	2013	11740
+16-19	F	Underlivsplager hos kvinner	2014	12292
+16-19	F	Underlivsplager hos kvinner	2015	12134
+16-19	F	Underlivsplager hos kvinner	2016	12364
+16-19	F	Underlivsplager hos kvinner	2017	13003
+16-19	F	Underlivsplager hos kvinner	2018	13364
+16-19	F	Underlivsplager hos kvinner	2019	13852
+16-19	F	Underlivsplager hos kvinner	2020	13594
+16-19	F	Funksjonelle mage-tarmplager	2012	14357
+16-19	F	Funksjonelle mage-tarmplager	2013	14511
+16-19	F	Funksjonelle mage-tarmplager	2014	15337
+16-19	F	Funksjonelle mage-tarmplager	2015	14601
+16-19	F	Funksjonelle mage-tarmplager	2016	16282
+16-19	F	Funksjonelle mage-tarmplager	2017	19127
+16-19	F	Funksjonelle mage-tarmplager	2018	19187
+16-19	F	Funksjonelle mage-tarmplager	2019	20037
+16-19	F	Funksjonelle mage-tarmplager	2020	15688
+16-19	F	Hudinfeksjoner	2012	7418
+16-19	F	Hudinfeksjoner	2013	7416
+16-19	F	Hudinfeksjoner	2014	7615
+16-19	F	Hudinfeksjoner	2015	7457
+16-19	F	Hudinfeksjoner	2016	7502
+16-19	F	Hudinfeksjoner	2017	7704
+16-19	F	Hudinfeksjoner	2018	7729
+16-19	F	Hudinfeksjoner	2019	7941
+16-19	F	Hudinfeksjoner	2020	9125
+16-19	F	Ulykker og skader	2012	8613
+16-19	F	Ulykker og skader	2013	8452
+16-19	F	Ulykker og skader	2014	8426
+16-19	F	Ulykker og skader	2015	8584
+16-19	F	Ulykker og skader	2016	8824
+16-19	F	Ulykker og skader	2017	8977
+16-19	F	Ulykker og skader	2018	9141
+16-19	F	Ulykker og skader	2019	8908
+16-19	F	Ulykker og skader	2020	7223
+16-19	F	Medfodt sykdom eller feil	2012	707
+16-19	F	Medfodt sykdom eller feil	2013	784
+16-19	F	Medfodt sykdom eller feil	2014	807
+16-19	F	Medfodt sykdom eller feil	2015	763
+16-19	F	Medfodt sykdom eller feil	2016	733
+16-19	F	Medfodt sykdom eller feil	2017	828
+16-19	F	Medfodt sykdom eller feil	2018	783
+16-19	F	Medfodt sykdom eller feil	2019	787
+16-19	F	Medfodt sykdom eller feil	2020	791
+16-19	F	Svangerskap, fodsel, prevensjon	2012	17789
+16-19	F	Svangerskap, fodsel, prevensjon	2013	17821
+16-19	F	Svangerskap, fodsel, prevensjon	2014	18097
+16-19	F	Svangerskap, fodsel, prevensjon	2015	18698
+16-19	F	Svangerskap, fodsel, prevensjon	2016	18778
+16-19	F	Svangerskap, fodsel, prevensjon	2017	18030
+16-19	F	Svangerskap, fodsel, prevensjon	2018	17716
+16-19	F	Svangerskap, fodsel, prevensjon	2019	16470
+16-19	F	Svangerskap, fodsel, prevensjon	2020	17143
+16-19	F	Frykt for sykdom	2012	2329
+16-19	F	Frykt for sykdom	2013	2432
+16-19	F	Frykt for sykdom	2014	2451
+16-19	F	Frykt for sykdom	2015	2432
+16-19	F	Frykt for sykdom	2016	2235
+16-19	F	Frykt for sykdom	2017	2162
+16-19	F	Frykt for sykdom	2018	2112
+16-19	F	Frykt for sykdom	2019	2183
+16-19	F	Frykt for sykdom	2020	9370
+16-19	F	Administrativ kontakt	2012	4705
+16-19	F	Administrativ kontakt	2013	4824
+16-19	F	Administrativ kontakt	2014	5724
+16-19	F	Administrativ kontakt	2015	5811
+16-19	F	Administrativ kontakt	2016	6658
+16-19	F	Administrativ kontakt	2017	6779
+16-19	F	Administrativ kontakt	2018	7337
+16-19	F	Administrativ kontakt	2019	9026
+16-19	F	Administrativ kontakt	2020	9027
+16-19	F	Forebyggende kontakt	2012	3441
+16-19	F	Forebyggende kontakt	2013	5311
+16-19	F	Forebyggende kontakt	2014	5752
+16-19	F	Forebyggende kontakt	2015	6168
+16-19	F	Forebyggende kontakt	2016	6534
+16-19	F	Forebyggende kontakt	2017	6913
+16-19	F	Forebyggende kontakt	2018	6539
+16-19	F	Forebyggende kontakt	2019	6652
+16-19	F	Forebyggende kontakt	2020	5466
+16-19	F	Andre diagnoser	2012	82168
+16-19	F	Andre diagnoser	2013	83207
+16-19	F	Andre diagnoser	2014	88313
+16-19	F	Andre diagnoser	2015	87911
+16-19	F	Andre diagnoser	2016	94221
+16-19	F	Andre diagnoser	2017	102263
+16-19	F	Andre diagnoser	2018	102723
+16-19	F	Andre diagnoser	2019	103152
+16-19	F	Andre diagnoser	2020	98242
+20-29	M	Alle diagnoser	2012	487165
+20-29	M	Alle diagnoser	2013	491125
+20-29	M	Alle diagnoser	2014	510898
+20-29	M	Alle diagnoser	2015	522398
+20-29	M	Alle diagnoser	2016	530079
+20-29	M	Alle diagnoser	2017	549495
+20-29	M	Alle diagnoser	2018	559221
+20-29	M	Alle diagnoser	2019	579670
+20-29	M	Alle diagnoser	2020	619282
+20-29	M	Luftveisinfeksjoner, inkl. orebetennelse	2012	62144
+20-29	M	Luftveisinfeksjoner, inkl. orebetennelse	2013	57389
+20-29	M	Luftveisinfeksjoner, inkl. orebetennelse	2014	54761
+20-29	M	Luftveisinfeksjoner, inkl. orebetennelse	2015	57323
+20-29	M	Luftveisinfeksjoner, inkl. orebetennelse	2016	61623
+20-29	M	Luftveisinfeksjoner, inkl. orebetennelse	2017	64145
+20-29	M	Luftveisinfeksjoner, inkl. orebetennelse	2018	64522
+20-29	M	Luftveisinfeksjoner, inkl. orebetennelse	2019	68059
+20-29	M	Luftveisinfeksjoner, inkl. orebetennelse	2020	51666
+20-29	M	Lokale smerter og betennelser	2012	48357
+20-29	M	Lokale smerter og betennelser	2013	49215
+20-29	M	Lokale smerter og betennelser	2014	50440
+20-29	M	Lokale smerter og betennelser	2015	51490
+20-29	M	Lokale smerter og betennelser	2016	49662
+20-29	M	Lokale smerter og betennelser	2017	50549
+20-29	M	Lokale smerter og betennelser	2018	50179
+20-29	M	Lokale smerter og betennelser	2019	50166
+20-29	M	Lokale smerter og betennelser	2020	47469
+20-29	M	Ryggproblemer	2012	26992
+20-29	M	Ryggproblemer	2013	26881
+20-29	M	Ryggproblemer	2014	27700
+20-29	M	Ryggproblemer	2015	27847
+20-29	M	Ryggproblemer	2016	26853
+20-29	M	Ryggproblemer	2017	28058
+20-29	M	Ryggproblemer	2018	27167
+20-29	M	Ryggproblemer	2019	26965
+20-29	M	Ryggproblemer	2020	26049
+20-29	M	Generelle smerter og muskelplager	2012	4793
+20-29	M	Generelle smerter og muskelplager	2013	4646
+20-29	M	Generelle smerter og muskelplager	2014	4786
+20-29	M	Generelle smerter og muskelplager	2015	4887
+20-29	M	Generelle smerter og muskelplager	2016	4834
+20-29	M	Generelle smerter og muskelplager	2017	4811
+20-29	M	Generelle smerter og muskelplager	2018	4560
+20-29	M	Generelle smerter og muskelplager	2019	4595
+20-29	M	Generelle smerter og muskelplager	2020	4438
+20-29	M	Ledd- og giktsykdommer	2012	3104
+20-29	M	Ledd- og giktsykdommer	2013	2992
+20-29	M	Ledd- og giktsykdommer	2014	3110
+20-29	M	Ledd- og giktsykdommer	2015	3342
+20-29	M	Ledd- og giktsykdommer	2016	3200
+20-29	M	Ledd- og giktsykdommer	2017	3357
+20-29	M	Ledd- og giktsykdommer	2018	3401
+20-29	M	Ledd- og giktsykdommer	2019	3336
+20-29	M	Ledd- og giktsykdommer	2020	3128
+20-29	M	Psykisk sykdom eller lidelse	2012	76450
+20-29	M	Psykisk sykdom eller lidelse	2013	77470
+20-29	M	Psykisk sykdom eller lidelse	2014	80492
+20-29	M	Psykisk sykdom eller lidelse	2015	84728
+20-29	M	Psykisk sykdom eller lidelse	2016	87322
+20-29	M	Psykisk sykdom eller lidelse	2017	94361
+20-29	M	Psykisk sykdom eller lidelse	2018	99087
+20-29	M	Psykisk sykdom eller lidelse	2019	105135
+20-29	M	Psykisk sykdom eller lidelse	2020	111690
+20-29	M	Atopi, astma, allergi eller eksem	2012	21606
+20-29	M	Atopi, astma, allergi eller eksem	2013	21219
+20-29	M	Atopi, astma, allergi eller eksem	2014	24501
+20-29	M	Atopi, astma, allergi eller eksem	2015	23925
+20-29	M	Atopi, astma, allergi eller eksem	2016	24166
+20-29	M	Atopi, astma, allergi eller eksem	2017	25459
+20-29	M	Atopi, astma, allergi eller eksem	2018	24662
+20-29	M	Atopi, astma, allergi eller eksem	2019	29025
+20-29	M	Atopi, astma, allergi eller eksem	2020	28714
+20-29	M	Hoyt blodtrykk	2012	1898
+20-29	M	Hoyt blodtrykk	2013	1959
+20-29	M	Hoyt blodtrykk	2014	1821
+20-29	M	Hoyt blodtrykk	2015	1748
+20-29	M	Hoyt blodtrykk	2016	1789
+20-29	M	Hoyt blodtrykk	2017	1693
+20-29	M	Hoyt blodtrykk	2018	1705
+20-29	M	Hoyt blodtrykk	2019	1780
+20-29	M	Hoyt blodtrykk	2020	1627
+20-29	M	Hjertesykdom	2012	1390
+20-29	M	Hjertesykdom	2013	1493
+20-29	M	Hjertesykdom	2014	1415
+20-29	M	Hjertesykdom	2015	1295
+20-29	M	Hjertesykdom	2016	1347
+20-29	M	Hjertesykdom	2017	1310
+20-29	M	Hjertesykdom	2018	1230
+20-29	M	Hjertesykdom	2019	1226
+20-29	M	Hjertesykdom	2020	1146
+20-29	M	Diabetes	2012	2452
+20-29	M	Diabetes	2013	2830
+20-29	M	Diabetes	2014	2632
+20-29	M	Diabetes	2015	2666
+20-29	M	Diabetes	2016	2785
+20-29	M	Diabetes	2017	2875
+20-29	M	Diabetes	2018	2882
+20-29	M	Diabetes	2019	2608
+20-29	M	Diabetes	2020	2866
+20-29	M	Kreft	2012	632
+20-29	M	Kreft	2013	697
+20-29	M	Kreft	2014	836
+20-29	M	Kreft	2015	797
+20-29	M	Kreft	2016	808
+20-29	M	Kreft	2017	845
+20-29	M	Kreft	2018	884
+20-29	M	Kreft	2019	811
+20-29	M	Kreft	2020	802
+20-29	M	Underlivsplager hos kvinner	2012	NA
+20-29	M	Underlivsplager hos kvinner	2013	NA
+20-29	M	Underlivsplager hos kvinner	2014	NA
+20-29	M	Underlivsplager hos kvinner	2015	NA
+20-29	M	Underlivsplager hos kvinner	2016	NA
+20-29	M	Underlivsplager hos kvinner	2017	NA
+20-29	M	Underlivsplager hos kvinner	2018	NA
+20-29	M	Underlivsplager hos kvinner	2019	NA
+20-29	M	Underlivsplager hos kvinner	2020	NA
+20-29	M	Funksjonelle mage-tarmplager	2012	21899
+20-29	M	Funksjonelle mage-tarmplager	2013	22784
+20-29	M	Funksjonelle mage-tarmplager	2014	25040
+20-29	M	Funksjonelle mage-tarmplager	2015	25191
+20-29	M	Funksjonelle mage-tarmplager	2016	26556
+20-29	M	Funksjonelle mage-tarmplager	2017	26964
+20-29	M	Funksjonelle mage-tarmplager	2018	28282
+20-29	M	Funksjonelle mage-tarmplager	2019	28631
+20-29	M	Funksjonelle mage-tarmplager	2020	25980
+20-29	M	Hudinfeksjoner	2012	14106
+20-29	M	Hudinfeksjoner	2013	14566
+20-29	M	Hudinfeksjoner	2014	15779
+20-29	M	Hudinfeksjoner	2015	15909
+20-29	M	Hudinfeksjoner	2016	15612
+20-29	M	Hudinfeksjoner	2017	16421
+20-29	M	Hudinfeksjoner	2018	16673
+20-29	M	Hudinfeksjoner	2019	17741
+20-29	M	Hudinfeksjoner	2020	20017
+20-29	M	Ulykker og skader	2012	32955
+20-29	M	Ulykker og skader	2013	33232
+20-29	M	Ulykker og skader	2014	33570
+20-29	M	Ulykker og skader	2015	32778
+20-29	M	Ulykker og skader	2016	33056
+20-29	M	Ulykker og skader	2017	33843
+20-29	M	Ulykker og skader	2018	34392
+20-29	M	Ulykker og skader	2019	33018
+20-29	M	Ulykker og skader	2020	29923
+20-29	M	Medfodt sykdom eller feil	2012	1472
+20-29	M	Medfodt sykdom eller feil	2013	1637
+20-29	M	Medfodt sykdom eller feil	2014	1706
+20-29	M	Medfodt sykdom eller feil	2015	1740
+20-29	M	Medfodt sykdom eller feil	2016	1876
+20-29	M	Medfodt sykdom eller feil	2017	1958
+20-29	M	Medfodt sykdom eller feil	2018	2061
+20-29	M	Medfodt sykdom eller feil	2019	2039
+20-29	M	Medfodt sykdom eller feil	2020	1951
+20-29	M	Svangerskap, fodsel, prevensjon	2012	NA
+20-29	M	Svangerskap, fodsel, prevensjon	2013	NA
+20-29	M	Svangerskap, fodsel, prevensjon	2014	NA
+20-29	M	Svangerskap, fodsel, prevensjon	2015	NA
+20-29	M	Svangerskap, fodsel, prevensjon	2016	NA
+20-29	M	Svangerskap, fodsel, prevensjon	2017	NA
+20-29	M	Svangerskap, fodsel, prevensjon	2018	NA
+20-29	M	Svangerskap, fodsel, prevensjon	2019	NA
+20-29	M	Svangerskap, fodsel, prevensjon	2020	NA
+20-29	M	Frykt for sykdom	2012	8522
+20-29	M	Frykt for sykdom	2013	9146
+20-29	M	Frykt for sykdom	2014	9384
+20-29	M	Frykt for sykdom	2015	9239
+20-29	M	Frykt for sykdom	2016	8695
+20-29	M	Frykt for sykdom	2017	9013
+20-29	M	Frykt for sykdom	2018	9615
+20-29	M	Frykt for sykdom	2019	10125
+20-29	M	Frykt for sykdom	2020	32240
+20-29	M	Administrativ kontakt	2012	11180
+20-29	M	Administrativ kontakt	2013	12521
+20-29	M	Administrativ kontakt	2014	14025
+20-29	M	Administrativ kontakt	2015	14601
+20-29	M	Administrativ kontakt	2016	15071
+20-29	M	Administrativ kontakt	2017	14338
+20-29	M	Administrativ kontakt	2018	15481
+20-29	M	Administrativ kontakt	2019	18729
+20-29	M	Administrativ kontakt	2020	24951
+20-29	M	Forebyggende kontakt	2012	4333
+20-29	M	Forebyggende kontakt	2013	9471
+20-29	M	Forebyggende kontakt	2014	10638
+20-29	M	Forebyggende kontakt	2015	11070
+20-29	M	Forebyggende kontakt	2016	11585
+20-29	M	Forebyggende kontakt	2017	11694
+20-29	M	Forebyggende kontakt	2018	11822
+20-29	M	Forebyggende kontakt	2019	11875
+20-29	M	Forebyggende kontakt	2020	10995
+20-29	M	Andre diagnoser	2012	142449
+20-29	M	Andre diagnoser	2013	140540
+20-29	M	Andre diagnoser	2014	147732
+20-29	M	Andre diagnoser	2015	151183
+20-29	M	Andre diagnoser	2016	152501
+20-29	M	Andre diagnoser	2017	157118
+20-29	M	Andre diagnoser	2018	159878
+20-29	M	Andre diagnoser	2019	163072
+20-29	M	Andre diagnoser	2020	192918
+20-29	F	Alle diagnoser	2012	991891
+20-29	F	Alle diagnoser	2013	1004753
+20-29	F	Alle diagnoser	2014	1034102
+20-29	F	Alle diagnoser	2015	1042812
+20-29	F	Alle diagnoser	2016	1051644
+20-29	F	Alle diagnoser	2017	1061009
+20-29	F	Alle diagnoser	2018	1064980
+20-29	F	Alle diagnoser	2019	1071321
+20-29	F	Alle diagnoser	2020	1161022
+20-29	F	Luftveisinfeksjoner, inkl. orebetennelse	2012	98363
+20-29	F	Luftveisinfeksjoner, inkl. orebetennelse	2013	89533
+20-29	F	Luftveisinfeksjoner, inkl. orebetennelse	2014	87153
+20-29	F	Luftveisinfeksjoner, inkl. orebetennelse	2015	89963
+20-29	F	Luftveisinfeksjoner, inkl. orebetennelse	2016	95778
+20-29	F	Luftveisinfeksjoner, inkl. orebetennelse	2017	96080
+20-29	F	Luftveisinfeksjoner, inkl. orebetennelse	2018	93350
+20-29	F	Luftveisinfeksjoner, inkl. orebetennelse	2019	96972
+20-29	F	Luftveisinfeksjoner, inkl. orebetennelse	2020	71522
+20-29	F	Lokale smerter og betennelser	2012	50268
+20-29	F	Lokale smerter og betennelser	2013	52242
+20-29	F	Lokale smerter og betennelser	2014	53928
+20-29	F	Lokale smerter og betennelser	2015	53531
+20-29	F	Lokale smerter og betennelser	2016	52638
+20-29	F	Lokale smerter og betennelser	2017	52206
+20-29	F	Lokale smerter og betennelser	2018	49791
+20-29	F	Lokale smerter og betennelser	2019	50577
+20-29	F	Lokale smerter og betennelser	2020	49632
+20-29	F	Ryggproblemer	2012	29866
+20-29	F	Ryggproblemer	2013	29927
+20-29	F	Ryggproblemer	2014	30628
+20-29	F	Ryggproblemer	2015	29953
+20-29	F	Ryggproblemer	2016	29266
+20-29	F	Ryggproblemer	2017	29015
+20-29	F	Ryggproblemer	2018	27563
+20-29	F	Ryggproblemer	2019	27079
+20-29	F	Ryggproblemer	2020	26689
+20-29	F	Generelle smerter og muskelplager	2012	10251
+20-29	F	Generelle smerter og muskelplager	2013	10099
+20-29	F	Generelle smerter og muskelplager	2014	10749
+20-29	F	Generelle smerter og muskelplager	2015	10704
+20-29	F	Generelle smerter og muskelplager	2016	10642
+20-29	F	Generelle smerter og muskelplager	2017	10938
+20-29	F	Generelle smerter og muskelplager	2018	10530
+20-29	F	Generelle smerter og muskelplager	2019	10633
+20-29	F	Generelle smerter og muskelplager	2020	10851
+20-29	F	Ledd- og giktsykdommer	2012	5336
+20-29	F	Ledd- og giktsykdommer	2013	5582
+20-29	F	Ledd- og giktsykdommer	2014	5735
+20-29	F	Ledd- og giktsykdommer	2015	5693
+20-29	F	Ledd- og giktsykdommer	2016	5971
+20-29	F	Ledd- og giktsykdommer	2017	6335
+20-29	F	Ledd- og giktsykdommer	2018	6345
+20-29	F	Ledd- og giktsykdommer	2019	6319
+20-29	F	Ledd- og giktsykdommer	2020	6616
+20-29	F	Psykisk sykdom eller lidelse	2012	113608
+20-29	F	Psykisk sykdom eller lidelse	2013	116430
+20-29	F	Psykisk sykdom eller lidelse	2014	121532
+20-29	F	Psykisk sykdom eller lidelse	2015	127837
+20-29	F	Psykisk sykdom eller lidelse	2016	132405
+20-29	F	Psykisk sykdom eller lidelse	2017	140218
+20-29	F	Psykisk sykdom eller lidelse	2018	149643
+20-29	F	Psykisk sykdom eller lidelse	2019	156739
+20-29	F	Psykisk sykdom eller lidelse	2020	169844
+20-29	F	Atopi, astma, allergi eller eksem	2012	29055
+20-29	F	Atopi, astma, allergi eller eksem	2013	30265
+20-29	F	Atopi, astma, allergi eller eksem	2014	33669
+20-29	F	Atopi, astma, allergi eller eksem	2015	32962
+20-29	F	Atopi, astma, allergi eller eksem	2016	33194
+20-29	F	Atopi, astma, allergi eller eksem	2017	34266
+20-29	F	Atopi, astma, allergi eller eksem	2018	34032
+20-29	F	Atopi, astma, allergi eller eksem	2019	37458
+20-29	F	Atopi, astma, allergi eller eksem	2020	40066
+20-29	F	Hoyt blodtrykk	2012	1857
+20-29	F	Hoyt blodtrykk	2013	1731
+20-29	F	Hoyt blodtrykk	2014	1623
+20-29	F	Hoyt blodtrykk	2015	1658
+20-29	F	Hoyt blodtrykk	2016	1799
+20-29	F	Hoyt blodtrykk	2017	1733
+20-29	F	Hoyt blodtrykk	2018	1731
+20-29	F	Hoyt blodtrykk	2019	1790
+20-29	F	Hoyt blodtrykk	2020	1565
+20-29	F	Hjertesykdom	2012	1234
+20-29	F	Hjertesykdom	2013	1321
+20-29	F	Hjertesykdom	2014	1389
+20-29	F	Hjertesykdom	2015	1239
+20-29	F	Hjertesykdom	2016	1293
+20-29	F	Hjertesykdom	2017	1168
+20-29	F	Hjertesykdom	2018	1140
+20-29	F	Hjertesykdom	2019	1250
+20-29	F	Hjertesykdom	2020	1239
+20-29	F	Diabetes	2012	2557
+20-29	F	Diabetes	2013	2536
+20-29	F	Diabetes	2014	2670
+20-29	F	Diabetes	2015	2801
+20-29	F	Diabetes	2016	2784
+20-29	F	Diabetes	2017	2822
+20-29	F	Diabetes	2018	2803
+20-29	F	Diabetes	2019	2861
+20-29	F	Diabetes	2020	3460
+20-29	F	Kreft	2012	816
+20-29	F	Kreft	2013	888
+20-29	F	Kreft	2014	1032
+20-29	F	Kreft	2015	974
+20-29	F	Kreft	2016	960
+20-29	F	Kreft	2017	1081
+20-29	F	Kreft	2018	1051
+20-29	F	Kreft	2019	997
+20-29	F	Kreft	2020	1209
+20-29	F	Underlivsplager hos kvinner	2012	43716
+20-29	F	Underlivsplager hos kvinner	2013	45800
+20-29	F	Underlivsplager hos kvinner	2014	47606
+20-29	F	Underlivsplager hos kvinner	2015	48306
+20-29	F	Underlivsplager hos kvinner	2016	47754
+20-29	F	Underlivsplager hos kvinner	2017	49892
+20-29	F	Underlivsplager hos kvinner	2018	49989
+20-29	F	Underlivsplager hos kvinner	2019	48917
+20-29	F	Underlivsplager hos kvinner	2020	52200
+20-29	F	Funksjonelle mage-tarmplager	2012	48393
+20-29	F	Funksjonelle mage-tarmplager	2013	49808
+20-29	F	Funksjonelle mage-tarmplager	2014	52547
+20-29	F	Funksjonelle mage-tarmplager	2015	52210
+20-29	F	Funksjonelle mage-tarmplager	2016	52205
+20-29	F	Funksjonelle mage-tarmplager	2017	52908
+20-29	F	Funksjonelle mage-tarmplager	2018	53912
+20-29	F	Funksjonelle mage-tarmplager	2019	54425
+20-29	F	Funksjonelle mage-tarmplager	2020	53101
+20-29	F	Hudinfeksjoner	2012	14283
+20-29	F	Hudinfeksjoner	2013	14673
+20-29	F	Hudinfeksjoner	2014	15572
+20-29	F	Hudinfeksjoner	2015	16062
+20-29	F	Hudinfeksjoner	2016	15612
+20-29	F	Hudinfeksjoner	2017	15760
+20-29	F	Hudinfeksjoner	2018	16362
+20-29	F	Hudinfeksjoner	2019	16985
+20-29	F	Hudinfeksjoner	2020	18973
+20-29	F	Ulykker og skader	2012	19483
+20-29	F	Ulykker og skader	2013	20271
+20-29	F	Ulykker og skader	2014	20475
+20-29	F	Ulykker og skader	2015	20729
+20-29	F	Ulykker og skader	2016	21424
+20-29	F	Ulykker og skader	2017	21537
+20-29	F	Ulykker og skader	2018	22269
+20-29	F	Ulykker og skader	2019	22422
+20-29	F	Ulykker og skader	2020	21235
+20-29	F	Medfodt sykdom eller feil	2012	1659
+20-29	F	Medfodt sykdom eller feil	2013	1713
+20-29	F	Medfodt sykdom eller feil	2014	1861
+20-29	F	Medfodt sykdom eller feil	2015	1741
+20-29	F	Medfodt sykdom eller feil	2016	1818
+20-29	F	Medfodt sykdom eller feil	2017	1991
+20-29	F	Medfodt sykdom eller feil	2018	1948
+20-29	F	Medfodt sykdom eller feil	2019	1909
+20-29	F	Medfodt sykdom eller feil	2020	2044
+20-29	F	Svangerskap, fodsel, prevensjon	2012	237036
+20-29	F	Svangerskap, fodsel, prevensjon	2013	234070
+20-29	F	Svangerskap, fodsel, prevensjon	2014	228383
+20-29	F	Svangerskap, fodsel, prevensjon	2015	225722
+20-29	F	Svangerskap, fodsel, prevensjon	2016	216729
+20-29	F	Svangerskap, fodsel, prevensjon	2017	207202
+20-29	F	Svangerskap, fodsel, prevensjon	2018	201505
+20-29	F	Svangerskap, fodsel, prevensjon	2019	185640
+20-29	F	Svangerskap, fodsel, prevensjon	2020	190634
+20-29	F	Frykt for sykdom	2012	9901
+20-29	F	Frykt for sykdom	2013	10938
+20-29	F	Frykt for sykdom	2014	10953
+20-29	F	Frykt for sykdom	2015	10739
+20-29	F	Frykt for sykdom	2016	10782
+20-29	F	Frykt for sykdom	2017	10817
+20-29	F	Frykt for sykdom	2018	11357
+20-29	F	Frykt for sykdom	2019	11588
+20-29	F	Frykt for sykdom	2020	43162
+20-29	F	Administrativ kontakt	2012	12812
+20-29	F	Administrativ kontakt	2013	14309
+20-29	F	Administrativ kontakt	2014	17079
+20-29	F	Administrativ kontakt	2015	18126
+20-29	F	Administrativ kontakt	2016	18097
+20-29	F	Administrativ kontakt	2017	18499
+20-29	F	Administrativ kontakt	2018	23919
+20-29	F	Administrativ kontakt	2019	32430
+20-29	F	Administrativ kontakt	2020	47980
+20-29	F	Forebyggende kontakt	2012	24228
+20-29	F	Forebyggende kontakt	2013	32570
+20-29	F	Forebyggende kontakt	2014	35877
+20-29	F	Forebyggende kontakt	2015	39665
+20-29	F	Forebyggende kontakt	2016	43982
+20-29	F	Forebyggende kontakt	2017	44821
+20-29	F	Forebyggende kontakt	2018	41113
+20-29	F	Forebyggende kontakt	2019	38029
+20-29	F	Forebyggende kontakt	2020	37717
+20-29	F	Andre diagnoser	2012	237169
+20-29	F	Andre diagnoser	2013	240047
+20-29	F	Andre diagnoser	2014	253641
+20-29	F	Andre diagnoser	2015	252197
+20-29	F	Andre diagnoser	2016	256511
+20-29	F	Andre diagnoser	2017	261720
+20-29	F	Andre diagnoser	2018	264627
+20-29	F	Andre diagnoser	2019	266301
+20-29	F	Andre diagnoser	2020	311283
+30-49	M	Alle diagnoser	2012	1388801
+30-49	M	Alle diagnoser	2013	1377643
+30-49	M	Alle diagnoser	2014	1395815
+30-49	M	Alle diagnoser	2015	1402809
+30-49	M	Alle diagnoser	2016	1405747
+30-49	M	Alle diagnoser	2017	1413833
+30-49	M	Alle diagnoser	2018	1421746
+30-49	M	Alle diagnoser	2019	1447861
+30-49	M	Alle diagnoser	2020	1579613
+30-49	M	Luftveisinfeksjoner, inkl. orebetennelse	2012	143745
+30-49	M	Luftveisinfeksjoner, inkl. orebetennelse	2013	130693
+30-49	M	Luftveisinfeksjoner, inkl. orebetennelse	2014	121627
+30-49	M	Luftveisinfeksjoner, inkl. orebetennelse	2015	128530
+30-49	M	Luftveisinfeksjoner, inkl. orebetennelse	2016	127246
+30-49	M	Luftveisinfeksjoner, inkl. orebetennelse	2017	124750
+30-49	M	Luftveisinfeksjoner, inkl. orebetennelse	2018	127604
+30-49	M	Luftveisinfeksjoner, inkl. orebetennelse	2019	124608
+30-49	M	Luftveisinfeksjoner, inkl. orebetennelse	2020	99094
+30-49	M	Lokale smerter og betennelser	2012	165495
+30-49	M	Lokale smerter og betennelser	2013	168971
+30-49	M	Lokale smerter og betennelser	2014	171599
+30-49	M	Lokale smerter og betennelser	2015	172715
+30-49	M	Lokale smerter og betennelser	2016	171491
+30-49	M	Lokale smerter og betennelser	2017	172269
+30-49	M	Lokale smerter og betennelser	2018	170868
+30-49	M	Lokale smerter og betennelser	2019	170635
+30-49	M	Lokale smerter og betennelser	2020	171501
+30-49	M	Ryggproblemer	2012	100414
+30-49	M	Ryggproblemer	2013	101406
+30-49	M	Ryggproblemer	2014	103988
+30-49	M	Ryggproblemer	2015	107335
+30-49	M	Ryggproblemer	2016	106543
+30-49	M	Ryggproblemer	2017	107372
+30-49	M	Ryggproblemer	2018	106231
+30-49	M	Ryggproblemer	2019	107432
+30-49	M	Ryggproblemer	2020	113280
+30-49	M	Generelle smerter og muskelplager	2012	18247
+30-49	M	Generelle smerter og muskelplager	2013	18110
+30-49	M	Generelle smerter og muskelplager	2014	18056
+30-49	M	Generelle smerter og muskelplager	2015	18321
+30-49	M	Generelle smerter og muskelplager	2016	18436
+30-49	M	Generelle smerter og muskelplager	2017	18393
+30-49	M	Generelle smerter og muskelplager	2018	16934
+30-49	M	Generelle smerter og muskelplager	2019	17159
+30-49	M	Generelle smerter og muskelplager	2020	17581
+30-49	M	Ledd- og giktsykdommer	2012	17783
+30-49	M	Ledd- og giktsykdommer	2013	18258
+30-49	M	Ledd- og giktsykdommer	2014	18492
+30-49	M	Ledd- og giktsykdommer	2015	18858
+30-49	M	Ledd- og giktsykdommer	2016	19179
+30-49	M	Ledd- og giktsykdommer	2017	18717
+30-49	M	Ledd- og giktsykdommer	2018	17999
+30-49	M	Ledd- og giktsykdommer	2019	17050
+30-49	M	Ledd- og giktsykdommer	2020	17234
+30-49	M	Psykisk sykdom eller lidelse	2012	220605
+30-49	M	Psykisk sykdom eller lidelse	2013	219295
+30-49	M	Psykisk sykdom eller lidelse	2014	221648
+30-49	M	Psykisk sykdom eller lidelse	2015	223313
+30-49	M	Psykisk sykdom eller lidelse	2016	224173
+30-49	M	Psykisk sykdom eller lidelse	2017	228498
+30-49	M	Psykisk sykdom eller lidelse	2018	234005
+30-49	M	Psykisk sykdom eller lidelse	2019	243379
+30-49	M	Psykisk sykdom eller lidelse	2020	265996
+30-49	M	Atopi, astma, allergi eller eksem	2012	39276
+30-49	M	Atopi, astma, allergi eller eksem	2013	38510
+30-49	M	Atopi, astma, allergi eller eksem	2014	41603
+30-49	M	Atopi, astma, allergi eller eksem	2015	40358
+30-49	M	Atopi, astma, allergi eller eksem	2016	40037
+30-49	M	Atopi, astma, allergi eller eksem	2017	42063
+30-49	M	Atopi, astma, allergi eller eksem	2018	40765
+30-49	M	Atopi, astma, allergi eller eksem	2019	46623
+30-49	M	Atopi, astma, allergi eller eksem	2020	46200
+30-49	M	Hoyt blodtrykk	2012	43184
+30-49	M	Hoyt blodtrykk	2013	42376
+30-49	M	Hoyt blodtrykk	2014	39329
+30-49	M	Hoyt blodtrykk	2015	37402
+30-49	M	Hoyt blodtrykk	2016	36642
+30-49	M	Hoyt blodtrykk	2017	35483
+30-49	M	Hoyt blodtrykk	2018	34020
+30-49	M	Hoyt blodtrykk	2019	32907
+30-49	M	Hoyt blodtrykk	2020	31554
+30-49	M	Hjertesykdom	2012	18867
+30-49	M	Hjertesykdom	2013	18091
+30-49	M	Hjertesykdom	2014	16851
+30-49	M	Hjertesykdom	2015	15584
+30-49	M	Hjertesykdom	2016	14623
+30-49	M	Hjertesykdom	2017	13848
+30-49	M	Hjertesykdom	2018	13269
+30-49	M	Hjertesykdom	2019	12914
+30-49	M	Hjertesykdom	2020	12511
+30-49	M	Diabetes	2012	29367
+30-49	M	Diabetes	2013	28753
+30-49	M	Diabetes	2014	28997
+30-49	M	Diabetes	2015	29591
+30-49	M	Diabetes	2016	29559
+30-49	M	Diabetes	2017	29896
+30-49	M	Diabetes	2018	28302
+30-49	M	Diabetes	2019	27662
+30-49	M	Diabetes	2020	29194
+30-49	M	Kreft	2012	5855
+30-49	M	Kreft	2013	5824
+30-49	M	Kreft	2014	6090
+30-49	M	Kreft	2015	6267
+30-49	M	Kreft	2016	6354
+30-49	M	Kreft	2017	6292
+30-49	M	Kreft	2018	6616
+30-49	M	Kreft	2019	6840
+30-49	M	Kreft	2020	7534
+30-49	M	Underlivsplager hos kvinner	2012	NA
+30-49	M	Underlivsplager hos kvinner	2013	NA
+30-49	M	Underlivsplager hos kvinner	2014	NA
+30-49	M	Underlivsplager hos kvinner	2015	NA
+30-49	M	Underlivsplager hos kvinner	2016	NA
+30-49	M	Underlivsplager hos kvinner	2017	NA
+30-49	M	Underlivsplager hos kvinner	2018	NA
+30-49	M	Underlivsplager hos kvinner	2019	NA
+30-49	M	Underlivsplager hos kvinner	2020	NA
+30-49	M	Funksjonelle mage-tarmplager	2012	49182
+30-49	M	Funksjonelle mage-tarmplager	2013	50505
+30-49	M	Funksjonelle mage-tarmplager	2014	52516
+30-49	M	Funksjonelle mage-tarmplager	2015	52195
+30-49	M	Funksjonelle mage-tarmplager	2016	53702
+30-49	M	Funksjonelle mage-tarmplager	2017	54036
+30-49	M	Funksjonelle mage-tarmplager	2018	54021
+30-49	M	Funksjonelle mage-tarmplager	2019	56512
+30-49	M	Funksjonelle mage-tarmplager	2020	57240
+30-49	M	Hudinfeksjoner	2012	27504
+30-49	M	Hudinfeksjoner	2013	28331
+30-49	M	Hudinfeksjoner	2014	29046
+30-49	M	Hudinfeksjoner	2015	28835
+30-49	M	Hudinfeksjoner	2016	28537
+30-49	M	Hudinfeksjoner	2017	28889
+30-49	M	Hudinfeksjoner	2018	29574
+30-49	M	Hudinfeksjoner	2019	30279
+30-49	M	Hudinfeksjoner	2020	29595
+30-49	M	Ulykker og skader	2012	67750
+30-49	M	Ulykker og skader	2013	69302
+30-49	M	Ulykker og skader	2014	71220
+30-49	M	Ulykker og skader	2015	71279
+30-49	M	Ulykker og skader	2016	72394
+30-49	M	Ulykker og skader	2017	72830
+30-49	M	Ulykker og skader	2018	73268
+30-49	M	Ulykker og skader	2019	71149
+30-49	M	Ulykker og skader	2020	68819
+30-49	M	Medfodt sykdom eller feil	2012	2579
+30-49	M	Medfodt sykdom eller feil	2013	2624
+30-49	M	Medfodt sykdom eller feil	2014	2708
+30-49	M	Medfodt sykdom eller feil	2015	2705
+30-49	M	Medfodt sykdom eller feil	2016	2844
+30-49	M	Medfodt sykdom eller feil	2017	2897
+30-49	M	Medfodt sykdom eller feil	2018	2896
+30-49	M	Medfodt sykdom eller feil	2019	2875
+30-49	M	Medfodt sykdom eller feil	2020	3240
+30-49	M	Svangerskap, fodsel, prevensjon	2012	NA
+30-49	M	Svangerskap, fodsel, prevensjon	2013	NA
+30-49	M	Svangerskap, fodsel, prevensjon	2014	NA
+30-49	M	Svangerskap, fodsel, prevensjon	2015	NA
+30-49	M	Svangerskap, fodsel, prevensjon	2016	NA
+30-49	M	Svangerskap, fodsel, prevensjon	2017	NA
+30-49	M	Svangerskap, fodsel, prevensjon	2018	NA
+30-49	M	Svangerskap, fodsel, prevensjon	2019	NA
+30-49	M	Svangerskap, fodsel, prevensjon	2020	NA
+30-49	M	Frykt for sykdom	2012	10802
+30-49	M	Frykt for sykdom	2013	11087
+30-49	M	Frykt for sykdom	2014	11020
+30-49	M	Frykt for sykdom	2015	10902
+30-49	M	Frykt for sykdom	2016	10101
+30-49	M	Frykt for sykdom	2017	10818
+30-49	M	Frykt for sykdom	2018	11185
+30-49	M	Frykt for sykdom	2019	11862
+30-49	M	Frykt for sykdom	2020	55946
+30-49	M	Administrativ kontakt	2012	31682
+30-49	M	Administrativ kontakt	2013	29802
+30-49	M	Administrativ kontakt	2014	33989
+30-49	M	Administrativ kontakt	2015	35453
+30-49	M	Administrativ kontakt	2016	38436
+30-49	M	Administrativ kontakt	2017	35491
+30-49	M	Administrativ kontakt	2018	39918
+30-49	M	Administrativ kontakt	2019	47313
+30-49	M	Administrativ kontakt	2020	65708
+30-49	M	Forebyggende kontakt	2012	10474
+30-49	M	Forebyggende kontakt	2013	30288
+30-49	M	Forebyggende kontakt	2014	30147
+30-49	M	Forebyggende kontakt	2015	29816
+30-49	M	Forebyggende kontakt	2016	28440
+30-49	M	Forebyggende kontakt	2017	28826
+30-49	M	Forebyggende kontakt	2018	27716
+30-49	M	Forebyggende kontakt	2019	27271
+30-49	M	Forebyggende kontakt	2020	28030
+30-49	M	Andre diagnoser	2012	384343
+30-49	M	Andre diagnoser	2013	364122
+30-49	M	Andre diagnoser	2014	375355
+30-49	M	Andre diagnoser	2015	371469
+30-49	M	Andre diagnoser	2016	374565
+30-49	M	Andre diagnoser	2017	379625
+30-49	M	Andre diagnoser	2018	383254
+30-49	M	Andre diagnoser	2019	390147
+30-49	M	Andre diagnoser	2020	456188
+30-49	F	Alle diagnoser	2012	2313868
+30-49	F	Alle diagnoser	2013	2320413
+30-49	F	Alle diagnoser	2014	2364723
+30-49	F	Alle diagnoser	2015	2377029
+30-49	F	Alle diagnoser	2016	2397283
+30-49	F	Alle diagnoser	2017	2436341
+30-49	F	Alle diagnoser	2018	2462286
+30-49	F	Alle diagnoser	2019	2532110
+30-49	F	Alle diagnoser	2020	2822329
+30-49	F	Luftveisinfeksjoner, inkl. orebetennelse	2012	220761
+30-49	F	Luftveisinfeksjoner, inkl. orebetennelse	2013	200755
+30-49	F	Luftveisinfeksjoner, inkl. orebetennelse	2014	187168
+30-49	F	Luftveisinfeksjoner, inkl. orebetennelse	2015	197020
+30-49	F	Luftveisinfeksjoner, inkl. orebetennelse	2016	197884
+30-49	F	Luftveisinfeksjoner, inkl. orebetennelse	2017	193378
+30-49	F	Luftveisinfeksjoner, inkl. orebetennelse	2018	195143
+30-49	F	Luftveisinfeksjoner, inkl. orebetennelse	2019	195200
+30-49	F	Luftveisinfeksjoner, inkl. orebetennelse	2020	159571
+30-49	F	Lokale smerter og betennelser	2012	214925
+30-49	F	Lokale smerter og betennelser	2013	219197
+30-49	F	Lokale smerter og betennelser	2014	223158
+30-49	F	Lokale smerter og betennelser	2015	220672
+30-49	F	Lokale smerter og betennelser	2016	217827
+30-49	F	Lokale smerter og betennelser	2017	218948
+30-49	F	Lokale smerter og betennelser	2018	209045
+30-49	F	Lokale smerter og betennelser	2019	208817
+30-49	F	Lokale smerter og betennelser	2020	212081
+30-49	F	Ryggproblemer	2012	100178
+30-49	F	Ryggproblemer	2013	101256
+30-49	F	Ryggproblemer	2014	102979
+30-49	F	Ryggproblemer	2015	102700
+30-49	F	Ryggproblemer	2016	101558
+30-49	F	Ryggproblemer	2017	103349
+30-49	F	Ryggproblemer	2018	100724
+30-49	F	Ryggproblemer	2019	102548
+30-49	F	Ryggproblemer	2020	107500
+30-49	F	Generelle smerter og muskelplager	2012	59474
+30-49	F	Generelle smerter og muskelplager	2013	61735
+30-49	F	Generelle smerter og muskelplager	2014	61742
+30-49	F	Generelle smerter og muskelplager	2015	62707
+30-49	F	Generelle smerter og muskelplager	2016	62799
+30-49	F	Generelle smerter og muskelplager	2017	64387
+30-49	F	Generelle smerter og muskelplager	2018	60912
+30-49	F	Generelle smerter og muskelplager	2019	62133
+30-49	F	Generelle smerter og muskelplager	2020	63301
+30-49	F	Ledd- og giktsykdommer	2012	33980
+30-49	F	Ledd- og giktsykdommer	2013	34007
+30-49	F	Ledd- og giktsykdommer	2014	34497
+30-49	F	Ledd- og giktsykdommer	2015	34888
+30-49	F	Ledd- og giktsykdommer	2016	34821
+30-49	F	Ledd- og giktsykdommer	2017	34853
+30-49	F	Ledd- og giktsykdommer	2018	33440
+30-49	F	Ledd- og giktsykdommer	2019	32668
+30-49	F	Ledd- og giktsykdommer	2020	33569
+30-49	F	Psykisk sykdom eller lidelse	2012	333385
+30-49	F	Psykisk sykdom eller lidelse	2013	331789
+30-49	F	Psykisk sykdom eller lidelse	2014	337410
+30-49	F	Psykisk sykdom eller lidelse	2015	340681
+30-49	F	Psykisk sykdom eller lidelse	2016	348614
+30-49	F	Psykisk sykdom eller lidelse	2017	359759
+30-49	F	Psykisk sykdom eller lidelse	2018	371707
+30-49	F	Psykisk sykdom eller lidelse	2019	393116
+30-49	F	Psykisk sykdom eller lidelse	2020	433846
+30-49	F	Atopi, astma, allergi eller eksem	2012	57372
+30-49	F	Atopi, astma, allergi eller eksem	2013	57029
+30-49	F	Atopi, astma, allergi eller eksem	2014	61168
+30-49	F	Atopi, astma, allergi eller eksem	2015	59493
+30-49	F	Atopi, astma, allergi eller eksem	2016	58653
+30-49	F	Atopi, astma, allergi eller eksem	2017	59906
+30-49	F	Atopi, astma, allergi eller eksem	2018	60068
+30-49	F	Atopi, astma, allergi eller eksem	2019	66524
+30-49	F	Atopi, astma, allergi eller eksem	2020	72463
+30-49	F	Hoyt blodtrykk	2012	33253
+30-49	F	Hoyt blodtrykk	2013	33545
+30-49	F	Hoyt blodtrykk	2014	30903
+30-49	F	Hoyt blodtrykk	2015	28981
+30-49	F	Hoyt blodtrykk	2016	28407
+30-49	F	Hoyt blodtrykk	2017	26481
+30-49	F	Hoyt blodtrykk	2018	25670
+30-49	F	Hoyt blodtrykk	2019	25045
+30-49	F	Hoyt blodtrykk	2020	24923
+30-49	F	Hjertesykdom	2012	7928
+30-49	F	Hjertesykdom	2013	8403
+30-49	F	Hjertesykdom	2014	8000
+30-49	F	Hjertesykdom	2015	7213
+30-49	F	Hjertesykdom	2016	7161
+30-49	F	Hjertesykdom	2017	7162
+30-49	F	Hjertesykdom	2018	7115
+30-49	F	Hjertesykdom	2019	7195
+30-49	F	Hjertesykdom	2020	7498
+30-49	F	Diabetes	2012	21032
+30-49	F	Diabetes	2013	20780
+30-49	F	Diabetes	2014	20579
+30-49	F	Diabetes	2015	20773
+30-49	F	Diabetes	2016	20069
+30-49	F	Diabetes	2017	20826
+30-49	F	Diabetes	2018	19818
+30-49	F	Diabetes	2019	19538
+30-49	F	Diabetes	2020	21571
+30-49	F	Kreft	2012	12886
+30-49	F	Kreft	2013	12750
+30-49	F	Kreft	2014	13389
+30-49	F	Kreft	2015	14033
+30-49	F	Kreft	2016	15144
+30-49	F	Kreft	2017	15607
+30-49	F	Kreft	2018	15946
+30-49	F	Kreft	2019	16425
+30-49	F	Kreft	2020	19987
+30-49	F	Underlivsplager hos kvinner	2012	74131
+30-49	F	Underlivsplager hos kvinner	2013	77354
+30-49	F	Underlivsplager hos kvinner	2014	79792
+30-49	F	Underlivsplager hos kvinner	2015	78836
+30-49	F	Underlivsplager hos kvinner	2016	79377
+30-49	F	Underlivsplager hos kvinner	2017	83864
+30-49	F	Underlivsplager hos kvinner	2018	86152
+30-49	F	Underlivsplager hos kvinner	2019	88573
+30-49	F	Underlivsplager hos kvinner	2020	93138
+30-49	F	Funksjonelle mage-tarmplager	2012	80001
+30-49	F	Funksjonelle mage-tarmplager	2013	81961
+30-49	F	Funksjonelle mage-tarmplager	2014	87740
+30-49	F	Funksjonelle mage-tarmplager	2015	86970
+30-49	F	Funksjonelle mage-tarmplager	2016	89777
+30-49	F	Funksjonelle mage-tarmplager	2017	91939
+30-49	F	Funksjonelle mage-tarmplager	2018	93223
+30-49	F	Funksjonelle mage-tarmplager	2019	97069
+30-49	F	Funksjonelle mage-tarmplager	2020	101462
+30-49	F	Hudinfeksjoner	2012	27540
+30-49	F	Hudinfeksjoner	2013	27606
+30-49	F	Hudinfeksjoner	2014	28343
+30-49	F	Hudinfeksjoner	2015	28264
+30-49	F	Hudinfeksjoner	2016	28498
+30-49	F	Hudinfeksjoner	2017	29330
+30-49	F	Hudinfeksjoner	2018	29778
+30-49	F	Hudinfeksjoner	2019	30124
+30-49	F	Hudinfeksjoner	2020	30625
+30-49	F	Ulykker og skader	2012	50739
+30-49	F	Ulykker og skader	2013	53366
+30-49	F	Ulykker og skader	2014	52244
+30-49	F	Ulykker og skader	2015	54140
+30-49	F	Ulykker og skader	2016	56230
+30-49	F	Ulykker og skader	2017	57084
+30-49	F	Ulykker og skader	2018	59753
+30-49	F	Ulykker og skader	2019	58625
+30-49	F	Ulykker og skader	2020	57541
+30-49	F	Medfodt sykdom eller feil	2012	3385
+30-49	F	Medfodt sykdom eller feil	2013	3293
+30-49	F	Medfodt sykdom eller feil	2014	3458
+30-49	F	Medfodt sykdom eller feil	2015	3336
+30-49	F	Medfodt sykdom eller feil	2016	3612
+30-49	F	Medfodt sykdom eller feil	2017	3612
+30-49	F	Medfodt sykdom eller feil	2018	3612
+30-49	F	Medfodt sykdom eller feil	2019	3894
+30-49	F	Medfodt sykdom eller feil	2020	3939
+30-49	F	Svangerskap, fodsel, prevensjon	2012	284927
+30-49	F	Svangerskap, fodsel, prevensjon	2013	282985
+30-49	F	Svangerskap, fodsel, prevensjon	2014	282768
+30-49	F	Svangerskap, fodsel, prevensjon	2015	286101
+30-49	F	Svangerskap, fodsel, prevensjon	2016	285247
+30-49	F	Svangerskap, fodsel, prevensjon	2017	281819
+30-49	F	Svangerskap, fodsel, prevensjon	2018	287136
+30-49	F	Svangerskap, fodsel, prevensjon	2019	285384
+30-49	F	Svangerskap, fodsel, prevensjon	2020	311834
+30-49	F	Frykt for sykdom	2012	12615
+30-49	F	Frykt for sykdom	2013	13645
+30-49	F	Frykt for sykdom	2014	13968
+30-49	F	Frykt for sykdom	2015	13363
+30-49	F	Frykt for sykdom	2016	13182
+30-49	F	Frykt for sykdom	2017	13651
+30-49	F	Frykt for sykdom	2018	13559
+30-49	F	Frykt for sykdom	2019	14060
+30-49	F	Frykt for sykdom	2020	85386
+30-49	F	Administrativ kontakt	2012	27127
+30-49	F	Administrativ kontakt	2013	27103
+30-49	F	Administrativ kontakt	2014	31576
+30-49	F	Administrativ kontakt	2015	32850
+30-49	F	Administrativ kontakt	2016	35226
+30-49	F	Administrativ kontakt	2017	36453
+30-49	F	Administrativ kontakt	2018	51703
+30-49	F	Administrativ kontakt	2019	74280
+30-49	F	Administrativ kontakt	2020	114811
+30-49	F	Forebyggende kontakt	2012	67184
+30-49	F	Forebyggende kontakt	2013	85265
+30-49	F	Forebyggende kontakt	2014	98395
+30-49	F	Forebyggende kontakt	2015	98627
+30-49	F	Forebyggende kontakt	2016	98115
+30-49	F	Forebyggende kontakt	2017	105154
+30-49	F	Forebyggende kontakt	2018	97938
+30-49	F	Forebyggende kontakt	2019	93328
+30-49	F	Forebyggende kontakt	2020	97008
+30-49	F	Andre diagnoser	2012	591045
+30-49	F	Andre diagnoser	2013	586589
+30-49	F	Andre diagnoser	2014	605446
+30-49	F	Andre diagnoser	2015	605381
+30-49	F	Andre diagnoser	2016	615082
+30-49	F	Andre diagnoser	2017	628779
+30-49	F	Andre diagnoser	2018	639844
+30-49	F	Andre diagnoser	2019	657564
+30-49	F	Andre diagnoser	2020	770275
+50-66	M	Alle diagnoser	2012	1496926
+50-66	M	Alle diagnoser	2013	1486001
+50-66	M	Alle diagnoser	2014	1487542
+50-66	M	Alle diagnoser	2015	1503951
+50-66	M	Alle diagnoser	2016	1527442
+50-66	M	Alle diagnoser	2017	1535582
+50-66	M	Alle diagnoser	2018	1546686
+50-66	M	Alle diagnoser	2019	1575141
+50-66	M	Alle diagnoser	2020	1681686
+50-66	M	Luftveisinfeksjoner, inkl. orebetennelse	2012	94796
+50-66	M	Luftveisinfeksjoner, inkl. orebetennelse	2013	88995
+50-66	M	Luftveisinfeksjoner, inkl. orebetennelse	2014	79451
+50-66	M	Luftveisinfeksjoner, inkl. orebetennelse	2015	91209
+50-66	M	Luftveisinfeksjoner, inkl. orebetennelse	2016	86046
+50-66	M	Luftveisinfeksjoner, inkl. orebetennelse	2017	89768
+50-66	M	Luftveisinfeksjoner, inkl. orebetennelse	2018	92233
+50-66	M	Luftveisinfeksjoner, inkl. orebetennelse	2019	90999
+50-66	M	Luftveisinfeksjoner, inkl. orebetennelse	2020	61788
+50-66	M	Lokale smerter og betennelser	2012	151944
+50-66	M	Lokale smerter og betennelser	2013	155112
+50-66	M	Lokale smerter og betennelser	2014	160119
+50-66	M	Lokale smerter og betennelser	2015	163181
+50-66	M	Lokale smerter og betennelser	2016	167944
+50-66	M	Lokale smerter og betennelser	2017	169403
+50-66	M	Lokale smerter og betennelser	2018	171718
+50-66	M	Lokale smerter og betennelser	2019	175275
+50-66	M	Lokale smerter og betennelser	2020	184691
+50-66	M	Ryggproblemer	2012	68904
+50-66	M	Ryggproblemer	2013	69586
+50-66	M	Ryggproblemer	2014	73318
+50-66	M	Ryggproblemer	2015	75748
+50-66	M	Ryggproblemer	2016	76112
+50-66	M	Ryggproblemer	2017	78188
+50-66	M	Ryggproblemer	2018	79081
+50-66	M	Ryggproblemer	2019	81331
+50-66	M	Ryggproblemer	2020	88372
+50-66	M	Generelle smerter og muskelplager	2012	14729
+50-66	M	Generelle smerter og muskelplager	2013	14751
+50-66	M	Generelle smerter og muskelplager	2014	14444
+50-66	M	Generelle smerter og muskelplager	2015	14641
+50-66	M	Generelle smerter og muskelplager	2016	15115
+50-66	M	Generelle smerter og muskelplager	2017	15487
+50-66	M	Generelle smerter og muskelplager	2018	15330
+50-66	M	Generelle smerter og muskelplager	2019	16003
+50-66	M	Generelle smerter og muskelplager	2020	16700
+50-66	M	Ledd- og giktsykdommer	2012	38339
+50-66	M	Ledd- og giktsykdommer	2013	39075
+50-66	M	Ledd- og giktsykdommer	2014	40125
+50-66	M	Ledd- og giktsykdommer	2015	42118
+50-66	M	Ledd- og giktsykdommer	2016	43364
+50-66	M	Ledd- og giktsykdommer	2017	43323
+50-66	M	Ledd- og giktsykdommer	2018	41957
+50-66	M	Ledd- og giktsykdommer	2019	41651
+50-66	M	Ledd- og giktsykdommer	2020	42791
+50-66	M	Psykisk sykdom eller lidelse	2012	131046
+50-66	M	Psykisk sykdom eller lidelse	2013	133362
+50-66	M	Psykisk sykdom eller lidelse	2014	134525
+50-66	M	Psykisk sykdom eller lidelse	2015	138901
+50-66	M	Psykisk sykdom eller lidelse	2016	141396
+50-66	M	Psykisk sykdom eller lidelse	2017	144782
+50-66	M	Psykisk sykdom eller lidelse	2018	146615
+50-66	M	Psykisk sykdom eller lidelse	2019	151687
+50-66	M	Psykisk sykdom eller lidelse	2020	164141
+50-66	M	Atopi, astma, allergi eller eksem	2012	29153
+50-66	M	Atopi, astma, allergi eller eksem	2013	29955
+50-66	M	Atopi, astma, allergi eller eksem	2014	30823
+50-66	M	Atopi, astma, allergi eller eksem	2015	32176
+50-66	M	Atopi, astma, allergi eller eksem	2016	32695
+50-66	M	Atopi, astma, allergi eller eksem	2017	34124
+50-66	M	Atopi, astma, allergi eller eksem	2018	34143
+50-66	M	Atopi, astma, allergi eller eksem	2019	36952
+50-66	M	Atopi, astma, allergi eller eksem	2020	37698
+50-66	M	Hoyt blodtrykk	2012	134098
+50-66	M	Hoyt blodtrykk	2013	132115
+50-66	M	Hoyt blodtrykk	2014	123082
+50-66	M	Hoyt blodtrykk	2015	117043
+50-66	M	Hoyt blodtrykk	2016	115673
+50-66	M	Hoyt blodtrykk	2017	113372
+50-66	M	Hoyt blodtrykk	2018	110123
+50-66	M	Hoyt blodtrykk	2019	107852
+50-66	M	Hoyt blodtrykk	2020	104803
+50-66	M	Hjertesykdom	2012	119628
+50-66	M	Hjertesykdom	2013	109412
+50-66	M	Hjertesykdom	2014	98573
+50-66	M	Hjertesykdom	2015	89116
+50-66	M	Hjertesykdom	2016	83192
+50-66	M	Hjertesykdom	2017	76828
+50-66	M	Hjertesykdom	2018	72937
+50-66	M	Hjertesykdom	2019	69735
+50-66	M	Hjertesykdom	2020	69814
+50-66	M	Diabetes	2012	81572
+50-66	M	Diabetes	2013	79866
+50-66	M	Diabetes	2014	82688
+50-66	M	Diabetes	2015	85572
+50-66	M	Diabetes	2016	87985
+50-66	M	Diabetes	2017	92171
+50-66	M	Diabetes	2018	90446
+50-66	M	Diabetes	2019	92824
+50-66	M	Diabetes	2020	99004
+50-66	M	Kreft	2012	29152
+50-66	M	Kreft	2013	29651
+50-66	M	Kreft	2014	30387
+50-66	M	Kreft	2015	31296
+50-66	M	Kreft	2016	31332
+50-66	M	Kreft	2017	31869
+50-66	M	Kreft	2018	32590
+50-66	M	Kreft	2019	32433
+50-66	M	Kreft	2020	38516
+50-66	M	Underlivsplager hos kvinner	2012	NA
+50-66	M	Underlivsplager hos kvinner	2013	NA
+50-66	M	Underlivsplager hos kvinner	2014	NA
+50-66	M	Underlivsplager hos kvinner	2015	NA
+50-66	M	Underlivsplager hos kvinner	2016	NA
+50-66	M	Underlivsplager hos kvinner	2017	NA
+50-66	M	Underlivsplager hos kvinner	2018	NA
+50-66	M	Underlivsplager hos kvinner	2019	NA
+50-66	M	Underlivsplager hos kvinner	2020	NA
+50-66	M	Funksjonelle mage-tarmplager	2012	40321
+50-66	M	Funksjonelle mage-tarmplager	2013	40005
+50-66	M	Funksjonelle mage-tarmplager	2014	42180
+50-66	M	Funksjonelle mage-tarmplager	2015	41128
+50-66	M	Funksjonelle mage-tarmplager	2016	42558
+50-66	M	Funksjonelle mage-tarmplager	2017	43160
+50-66	M	Funksjonelle mage-tarmplager	2018	42871
+50-66	M	Funksjonelle mage-tarmplager	2019	45448
+50-66	M	Funksjonelle mage-tarmplager	2020	46886
+50-66	M	Hudinfeksjoner	2012	22984
+50-66	M	Hudinfeksjoner	2013	23315
+50-66	M	Hudinfeksjoner	2014	23961
+50-66	M	Hudinfeksjoner	2015	24171
+50-66	M	Hudinfeksjoner	2016	24355
+50-66	M	Hudinfeksjoner	2017	24975
+50-66	M	Hudinfeksjoner	2018	25869
+50-66	M	Hudinfeksjoner	2019	27006
+50-66	M	Hudinfeksjoner	2020	26576
+50-66	M	Ulykker og skader	2012	50972
+50-66	M	Ulykker og skader	2013	52216
+50-66	M	Ulykker og skader	2014	53681
+50-66	M	Ulykker og skader	2015	55444
+50-66	M	Ulykker og skader	2016	57389
+50-66	M	Ulykker og skader	2017	57312
+50-66	M	Ulykker og skader	2018	58994
+50-66	M	Ulykker og skader	2019	58255
+50-66	M	Ulykker og skader	2020	59656
+50-66	M	Medfodt sykdom eller feil	2012	1450
+50-66	M	Medfodt sykdom eller feil	2013	1666
+50-66	M	Medfodt sykdom eller feil	2014	1525
+50-66	M	Medfodt sykdom eller feil	2015	1554
+50-66	M	Medfodt sykdom eller feil	2016	1581
+50-66	M	Medfodt sykdom eller feil	2017	1709
+50-66	M	Medfodt sykdom eller feil	2018	1897
+50-66	M	Medfodt sykdom eller feil	2019	1885
+50-66	M	Medfodt sykdom eller feil	2020	1907
+50-66	M	Svangerskap, fodsel, prevensjon	2012	NA
+50-66	M	Svangerskap, fodsel, prevensjon	2013	NA
+50-66	M	Svangerskap, fodsel, prevensjon	2014	NA
+50-66	M	Svangerskap, fodsel, prevensjon	2015	NA
+50-66	M	Svangerskap, fodsel, prevensjon	2016	NA
+50-66	M	Svangerskap, fodsel, prevensjon	2017	NA
+50-66	M	Svangerskap, fodsel, prevensjon	2018	NA
+50-66	M	Svangerskap, fodsel, prevensjon	2019	NA
+50-66	M	Svangerskap, fodsel, prevensjon	2020	NA
+50-66	M	Frykt for sykdom	2012	7302
+50-66	M	Frykt for sykdom	2013	7259
+50-66	M	Frykt for sykdom	2014	7241
+50-66	M	Frykt for sykdom	2015	6738
+50-66	M	Frykt for sykdom	2016	6467
+50-66	M	Frykt for sykdom	2017	6564
+50-66	M	Frykt for sykdom	2018	6731
+50-66	M	Frykt for sykdom	2019	6808
+50-66	M	Frykt for sykdom	2020	33050
+50-66	M	Administrativ kontakt	2012	31321
+50-66	M	Administrativ kontakt	2013	29740
+50-66	M	Administrativ kontakt	2014	36226
+50-66	M	Administrativ kontakt	2015	39051
+50-66	M	Administrativ kontakt	2016	48192
+50-66	M	Administrativ kontakt	2017	41784
+50-66	M	Administrativ kontakt	2018	45303
+50-66	M	Administrativ kontakt	2019	52662
+50-66	M	Administrativ kontakt	2020	68070
+50-66	M	Forebyggende kontakt	2012	12163
+50-66	M	Forebyggende kontakt	2013	24797
+50-66	M	Forebyggende kontakt	2014	26077
+50-66	M	Forebyggende kontakt	2015	27323
+50-66	M	Forebyggende kontakt	2016	28170
+50-66	M	Forebyggende kontakt	2017	27764
+50-66	M	Forebyggende kontakt	2018	28556
+50-66	M	Forebyggende kontakt	2019	29029
+50-66	M	Forebyggende kontakt	2020	32560
+50-66	M	Andre diagnoser	2012	433622
+50-66	M	Andre diagnoser	2013	422879
+50-66	M	Andre diagnoser	2014	426687
+50-66	M	Andre diagnoser	2015	424580
+50-66	M	Andre diagnoser	2016	433804
+50-66	M	Andre diagnoser	2017	437985
+50-66	M	Andre diagnoser	2018	443212
+50-66	M	Andre diagnoser	2019	450318
+50-66	M	Andre diagnoser	2020	497508
+50-66	F	Alle diagnoser	2012	1851838
+50-66	F	Alle diagnoser	2013	1843263
+50-66	F	Alle diagnoser	2014	1860687
+50-66	F	Alle diagnoser	2015	1882432
+50-66	F	Alle diagnoser	2016	1907273
+50-66	F	Alle diagnoser	2017	1954730
+50-66	F	Alle diagnoser	2018	1976787
+50-66	F	Alle diagnoser	2019	2040789
+50-66	F	Alle diagnoser	2020	2197244
+50-66	F	Luftveisinfeksjoner, inkl. orebetennelse	2012	151965
+50-66	F	Luftveisinfeksjoner, inkl. orebetennelse	2013	141758
+50-66	F	Luftveisinfeksjoner, inkl. orebetennelse	2014	127620
+50-66	F	Luftveisinfeksjoner, inkl. orebetennelse	2015	142357
+50-66	F	Luftveisinfeksjoner, inkl. orebetennelse	2016	136467
+50-66	F	Luftveisinfeksjoner, inkl. orebetennelse	2017	140801
+50-66	F	Luftveisinfeksjoner, inkl. orebetennelse	2018	144380
+50-66	F	Luftveisinfeksjoner, inkl. orebetennelse	2019	142691
+50-66	F	Luftveisinfeksjoner, inkl. orebetennelse	2020	101096
+50-66	F	Lokale smerter og betennelser	2012	199001
+50-66	F	Lokale smerter og betennelser	2013	202474
+50-66	F	Lokale smerter og betennelser	2014	207506
+50-66	F	Lokale smerter og betennelser	2015	211812
+50-66	F	Lokale smerter og betennelser	2016	214975
+50-66	F	Lokale smerter og betennelser	2017	221297
+50-66	F	Lokale smerter og betennelser	2018	219105
+50-66	F	Lokale smerter og betennelser	2019	225723
+50-66	F	Lokale smerter og betennelser	2020	233304
+50-66	F	Ryggproblemer	2012	74576
+50-66	F	Ryggproblemer	2013	75183
+50-66	F	Ryggproblemer	2014	77131
+50-66	F	Ryggproblemer	2015	78012
+50-66	F	Ryggproblemer	2016	79216
+50-66	F	Ryggproblemer	2017	81636
+50-66	F	Ryggproblemer	2018	81050
+50-66	F	Ryggproblemer	2019	85028
+50-66	F	Ryggproblemer	2020	90370
+50-66	F	Generelle smerter og muskelplager	2012	48351
+50-66	F	Generelle smerter og muskelplager	2013	48665
+50-66	F	Generelle smerter og muskelplager	2014	48797
+50-66	F	Generelle smerter og muskelplager	2015	50090
+50-66	F	Generelle smerter og muskelplager	2016	51683
+50-66	F	Generelle smerter og muskelplager	2017	53708
+50-66	F	Generelle smerter og muskelplager	2018	52102
+50-66	F	Generelle smerter og muskelplager	2019	54437
+50-66	F	Generelle smerter og muskelplager	2020	56341
+50-66	F	Ledd- og giktsykdommer	2012	76323
+50-66	F	Ledd- og giktsykdommer	2013	77756
+50-66	F	Ledd- og giktsykdommer	2014	77965
+50-66	F	Ledd- og giktsykdommer	2015	80481
+50-66	F	Ledd- og giktsykdommer	2016	82384
+50-66	F	Ledd- og giktsykdommer	2017	81277
+50-66	F	Ledd- og giktsykdommer	2018	75555
+50-66	F	Ledd- og giktsykdommer	2019	74939
+50-66	F	Ledd- og giktsykdommer	2020	75870
+50-66	F	Psykisk sykdom eller lidelse	2012	202823
+50-66	F	Psykisk sykdom eller lidelse	2013	204849
+50-66	F	Psykisk sykdom eller lidelse	2014	209205
+50-66	F	Psykisk sykdom eller lidelse	2015	212959
+50-66	F	Psykisk sykdom eller lidelse	2016	216835
+50-66	F	Psykisk sykdom eller lidelse	2017	221849
+50-66	F	Psykisk sykdom eller lidelse	2018	228197
+50-66	F	Psykisk sykdom eller lidelse	2019	239380
+50-66	F	Psykisk sykdom eller lidelse	2020	266611
+50-66	F	Atopi, astma, allergi eller eksem	2012	44262
+50-66	F	Atopi, astma, allergi eller eksem	2013	44542
+50-66	F	Atopi, astma, allergi eller eksem	2014	46274
+50-66	F	Atopi, astma, allergi eller eksem	2015	46980
+50-66	F	Atopi, astma, allergi eller eksem	2016	47059
+50-66	F	Atopi, astma, allergi eller eksem	2017	48166
+50-66	F	Atopi, astma, allergi eller eksem	2018	48857
+50-66	F	Atopi, astma, allergi eller eksem	2019	51960
+50-66	F	Atopi, astma, allergi eller eksem	2020	55070
+50-66	F	Hoyt blodtrykk	2012	120180
+50-66	F	Hoyt blodtrykk	2013	115767
+50-66	F	Hoyt blodtrykk	2014	105482
+50-66	F	Hoyt blodtrykk	2015	99005
+50-66	F	Hoyt blodtrykk	2016	95922
+50-66	F	Hoyt blodtrykk	2017	93848
+50-66	F	Hoyt blodtrykk	2018	90815
+50-66	F	Hoyt blodtrykk	2019	89375
+50-66	F	Hoyt blodtrykk	2020	88256
+50-66	F	Hjertesykdom	2012	42438
+50-66	F	Hjertesykdom	2013	39195
+50-66	F	Hjertesykdom	2014	35656
+50-66	F	Hjertesykdom	2015	31623
+50-66	F	Hjertesykdom	2016	29971
+50-66	F	Hjertesykdom	2017	27840
+50-66	F	Hjertesykdom	2018	26622
+50-66	F	Hjertesykdom	2019	26095
+50-66	F	Hjertesykdom	2020	26056
+50-66	F	Diabetes	2012	55084
+50-66	F	Diabetes	2013	53554
+50-66	F	Diabetes	2014	54789
+50-66	F	Diabetes	2015	55449
+50-66	F	Diabetes	2016	55583
+50-66	F	Diabetes	2017	57823
+50-66	F	Diabetes	2018	56971
+50-66	F	Diabetes	2019	59477
+50-66	F	Diabetes	2020	65005
+50-66	F	Kreft	2012	33416
+50-66	F	Kreft	2013	33776
+50-66	F	Kreft	2014	35474
+50-66	F	Kreft	2015	36830
+50-66	F	Kreft	2016	38244
+50-66	F	Kreft	2017	38645
+50-66	F	Kreft	2018	39862
+50-66	F	Kreft	2019	40530
+50-66	F	Kreft	2020	45300
+50-66	F	Underlivsplager hos kvinner	2012	32491
+50-66	F	Underlivsplager hos kvinner	2013	33030
+50-66	F	Underlivsplager hos kvinner	2014	35813
+50-66	F	Underlivsplager hos kvinner	2015	34326
+50-66	F	Underlivsplager hos kvinner	2016	34502
+50-66	F	Underlivsplager hos kvinner	2017	36275
+50-66	F	Underlivsplager hos kvinner	2018	37058
+50-66	F	Underlivsplager hos kvinner	2019	40970
+50-66	F	Underlivsplager hos kvinner	2020	43137
+50-66	F	Funksjonelle mage-tarmplager	2012	64373
+50-66	F	Funksjonelle mage-tarmplager	2013	64418
+50-66	F	Funksjonelle mage-tarmplager	2014	67395
+50-66	F	Funksjonelle mage-tarmplager	2015	67009
+50-66	F	Funksjonelle mage-tarmplager	2016	69041
+50-66	F	Funksjonelle mage-tarmplager	2017	70423
+50-66	F	Funksjonelle mage-tarmplager	2018	72183
+50-66	F	Funksjonelle mage-tarmplager	2019	76574
+50-66	F	Funksjonelle mage-tarmplager	2020	79353
+50-66	F	Hudinfeksjoner	2012	23588
+50-66	F	Hudinfeksjoner	2013	23906
+50-66	F	Hudinfeksjoner	2014	24421
+50-66	F	Hudinfeksjoner	2015	24746
+50-66	F	Hudinfeksjoner	2016	24556
+50-66	F	Hudinfeksjoner	2017	25421
+50-66	F	Hudinfeksjoner	2018	26557
+50-66	F	Hudinfeksjoner	2019	28206
+50-66	F	Hudinfeksjoner	2020	27717
+50-66	F	Ulykker og skader	2012	51570
+50-66	F	Ulykker og skader	2013	53902
+50-66	F	Ulykker og skader	2014	54238
+50-66	F	Ulykker og skader	2015	56846
+50-66	F	Ulykker og skader	2016	58929
+50-66	F	Ulykker og skader	2017	61496
+50-66	F	Ulykker og skader	2018	64716
+50-66	F	Ulykker og skader	2019	64257
+50-66	F	Ulykker og skader	2020	63210
+50-66	F	Medfodt sykdom eller feil	2012	2021
+50-66	F	Medfodt sykdom eller feil	2013	1980
+50-66	F	Medfodt sykdom eller feil	2014	2046
+50-66	F	Medfodt sykdom eller feil	2015	2175
+50-66	F	Medfodt sykdom eller feil	2016	2142
+50-66	F	Medfodt sykdom eller feil	2017	2106
+50-66	F	Medfodt sykdom eller feil	2018	2237
+50-66	F	Medfodt sykdom eller feil	2019	2415
+50-66	F	Medfodt sykdom eller feil	2020	2398
+50-66	F	Svangerskap, fodsel, prevensjon	2012	4994
+50-66	F	Svangerskap, fodsel, prevensjon	2013	3998
+50-66	F	Svangerskap, fodsel, prevensjon	2014	4375
+50-66	F	Svangerskap, fodsel, prevensjon	2015	5141
+50-66	F	Svangerskap, fodsel, prevensjon	2016	5924
+50-66	F	Svangerskap, fodsel, prevensjon	2017	7172
+50-66	F	Svangerskap, fodsel, prevensjon	2018	8333
+50-66	F	Svangerskap, fodsel, prevensjon	2019	9216
+50-66	F	Svangerskap, fodsel, prevensjon	2020	9497
+50-66	F	Frykt for sykdom	2012	9661
+50-66	F	Frykt for sykdom	2013	9649
+50-66	F	Frykt for sykdom	2014	9528
+50-66	F	Frykt for sykdom	2015	8808
+50-66	F	Frykt for sykdom	2016	8812
+50-66	F	Frykt for sykdom	2017	8925
+50-66	F	Frykt for sykdom	2018	8879
+50-66	F	Frykt for sykdom	2019	9175
+50-66	F	Frykt for sykdom	2020	51171
+50-66	F	Administrativ kontakt	2012	22749
+50-66	F	Administrativ kontakt	2013	22564
+50-66	F	Administrativ kontakt	2014	27617
+50-66	F	Administrativ kontakt	2015	29293
+50-66	F	Administrativ kontakt	2016	34224
+50-66	F	Administrativ kontakt	2017	31763
+50-66	F	Administrativ kontakt	2018	38807
+50-66	F	Administrativ kontakt	2019	51832
+50-66	F	Administrativ kontakt	2020	76302
+50-66	F	Forebyggende kontakt	2012	49261
+50-66	F	Forebyggende kontakt	2013	61332
+50-66	F	Forebyggende kontakt	2014	72447
+50-66	F	Forebyggende kontakt	2015	70411
+50-66	F	Forebyggende kontakt	2016	69605
+50-66	F	Forebyggende kontakt	2017	76231
+50-66	F	Forebyggende kontakt	2018	73421
+50-66	F	Forebyggende kontakt	2019	69900
+50-66	F	Forebyggende kontakt	2020	78550
+50-66	F	Andre diagnoser	2012	542711
+50-66	F	Andre diagnoser	2013	530965
+50-66	F	Andre diagnoser	2014	536908
+50-66	F	Andre diagnoser	2015	538079
+50-66	F	Andre diagnoser	2016	551199
+50-66	F	Andre diagnoser	2017	568028
+50-66	F	Andre diagnoser	2018	581080
+50-66	F	Andre diagnoser	2019	598609
+50-66	F	Andre diagnoser	2020	662630
+67-79	M	Alle diagnoser	2012	940795
+67-79	M	Alle diagnoser	2013	974048
+67-79	M	Alle diagnoser	2014	1007259
+67-79	M	Alle diagnoser	2015	1035739
+67-79	M	Alle diagnoser	2016	1057404
+67-79	M	Alle diagnoser	2017	1079791
+67-79	M	Alle diagnoser	2018	1094305
+67-79	M	Alle diagnoser	2019	1106104
+67-79	M	Alle diagnoser	2020	1151832
+67-79	M	Luftveisinfeksjoner, inkl. orebetennelse	2012	41932
+67-79	M	Luftveisinfeksjoner, inkl. orebetennelse	2013	40545
+67-79	M	Luftveisinfeksjoner, inkl. orebetennelse	2014	39461
+67-79	M	Luftveisinfeksjoner, inkl. orebetennelse	2015	44840
+67-79	M	Luftveisinfeksjoner, inkl. orebetennelse	2016	43457
+67-79	M	Luftveisinfeksjoner, inkl. orebetennelse	2017	48143
+67-79	M	Luftveisinfeksjoner, inkl. orebetennelse	2018	47793
+67-79	M	Luftveisinfeksjoner, inkl. orebetennelse	2019	48198
+67-79	M	Luftveisinfeksjoner, inkl. orebetennelse	2020	29743
+67-79	M	Lokale smerter og betennelser	2012	47642
+67-79	M	Lokale smerter og betennelser	2013	51402
+67-79	M	Lokale smerter og betennelser	2014	55557
+67-79	M	Lokale smerter og betennelser	2015	58278
+67-79	M	Lokale smerter og betennelser	2016	60618
+67-79	M	Lokale smerter og betennelser	2017	62617
+67-79	M	Lokale smerter og betennelser	2018	63822
+67-79	M	Lokale smerter og betennelser	2019	66571
+67-79	M	Lokale smerter og betennelser	2020	68630
+67-79	M	Ryggproblemer	2012	16625
+67-79	M	Ryggproblemer	2013	18066
+67-79	M	Ryggproblemer	2014	19710
+67-79	M	Ryggproblemer	2015	21820
+67-79	M	Ryggproblemer	2016	22391
+67-79	M	Ryggproblemer	2017	23804
+67-79	M	Ryggproblemer	2018	23179
+67-79	M	Ryggproblemer	2019	24483
+67-79	M	Ryggproblemer	2020	25820
+67-79	M	Generelle smerter og muskelplager	2012	4546
+67-79	M	Generelle smerter og muskelplager	2013	4706
+67-79	M	Generelle smerter og muskelplager	2014	4880
+67-79	M	Generelle smerter og muskelplager	2015	5122
+67-79	M	Generelle smerter og muskelplager	2016	5363
+67-79	M	Generelle smerter og muskelplager	2017	5667
+67-79	M	Generelle smerter og muskelplager	2018	5379
+67-79	M	Generelle smerter og muskelplager	2019	5610
+67-79	M	Generelle smerter og muskelplager	2020	6005
+67-79	M	Ledd- og giktsykdommer	2012	20133
+67-79	M	Ledd- og giktsykdommer	2013	22192
+67-79	M	Ledd- og giktsykdommer	2014	23070
+67-79	M	Ledd- og giktsykdommer	2015	25147
+67-79	M	Ledd- og giktsykdommer	2016	25687
+67-79	M	Ledd- og giktsykdommer	2017	25916
+67-79	M	Ledd- og giktsykdommer	2018	23551
+67-79	M	Ledd- og giktsykdommer	2019	22944
+67-79	M	Ledd- og giktsykdommer	2020	24046
+67-79	M	Psykisk sykdom eller lidelse	2012	27605
+67-79	M	Psykisk sykdom eller lidelse	2013	29684
+67-79	M	Psykisk sykdom eller lidelse	2014	32453
+67-79	M	Psykisk sykdom eller lidelse	2015	33994
+67-79	M	Psykisk sykdom eller lidelse	2016	36863
+67-79	M	Psykisk sykdom eller lidelse	2017	38269
+67-79	M	Psykisk sykdom eller lidelse	2018	39477
+67-79	M	Psykisk sykdom eller lidelse	2019	41901
+67-79	M	Psykisk sykdom eller lidelse	2020	47915
+67-79	M	Atopi, astma, allergi eller eksem	2012	15408
+67-79	M	Atopi, astma, allergi eller eksem	2013	16726
+67-79	M	Atopi, astma, allergi eller eksem	2014	17290
+67-79	M	Atopi, astma, allergi eller eksem	2015	18608
+67-79	M	Atopi, astma, allergi eller eksem	2016	19983
+67-79	M	Atopi, astma, allergi eller eksem	2017	21575
+67-79	M	Atopi, astma, allergi eller eksem	2018	21285
+67-79	M	Atopi, astma, allergi eller eksem	2019	23105
+67-79	M	Atopi, astma, allergi eller eksem	2020	22875
+67-79	M	Hoyt blodtrykk	2012	89883
+67-79	M	Hoyt blodtrykk	2013	93917
+67-79	M	Hoyt blodtrykk	2014	93506
+67-79	M	Hoyt blodtrykk	2015	92913
+67-79	M	Hoyt blodtrykk	2016	95199
+67-79	M	Hoyt blodtrykk	2017	96357
+67-79	M	Hoyt blodtrykk	2018	98783
+67-79	M	Hoyt blodtrykk	2019	99848
+67-79	M	Hoyt blodtrykk	2020	99385
+67-79	M	Hjertesykdom	2012	184147
+67-79	M	Hjertesykdom	2013	179760
+67-79	M	Hjertesykdom	2014	168815
+67-79	M	Hjertesykdom	2015	160130
+67-79	M	Hjertesykdom	2016	148513
+67-79	M	Hjertesykdom	2017	137020
+67-79	M	Hjertesykdom	2018	126981
+67-79	M	Hjertesykdom	2019	115836
+67-79	M	Hjertesykdom	2020	111278
+67-79	M	Diabetes	2012	56776
+67-79	M	Diabetes	2013	59503
+67-79	M	Diabetes	2014	63907
+67-79	M	Diabetes	2015	68046
+67-79	M	Diabetes	2016	71949
+67-79	M	Diabetes	2017	78065
+67-79	M	Diabetes	2018	79507
+67-79	M	Diabetes	2019	83103
+67-79	M	Diabetes	2020	89249
+67-79	M	Kreft	2012	37258
+67-79	M	Kreft	2013	39747
+67-79	M	Kreft	2014	42149
+67-79	M	Kreft	2015	45482
+67-79	M	Kreft	2016	47333
+67-79	M	Kreft	2017	49150
+67-79	M	Kreft	2018	50709
+67-79	M	Kreft	2019	50144
+67-79	M	Kreft	2020	57296
+67-79	M	Underlivsplager hos kvinner	2012	NA
+67-79	M	Underlivsplager hos kvinner	2013	NA
+67-79	M	Underlivsplager hos kvinner	2014	NA
+67-79	M	Underlivsplager hos kvinner	2015	NA
+67-79	M	Underlivsplager hos kvinner	2016	NA
+67-79	M	Underlivsplager hos kvinner	2017	NA
+67-79	M	Underlivsplager hos kvinner	2018	NA
+67-79	M	Underlivsplager hos kvinner	2019	NA
+67-79	M	Underlivsplager hos kvinner	2020	NA
+67-79	M	Funksjonelle mage-tarmplager	2012	21536
+67-79	M	Funksjonelle mage-tarmplager	2013	22561
+67-79	M	Funksjonelle mage-tarmplager	2014	24112
+67-79	M	Funksjonelle mage-tarmplager	2015	24760
+67-79	M	Funksjonelle mage-tarmplager	2016	26326
+67-79	M	Funksjonelle mage-tarmplager	2017	27205
+67-79	M	Funksjonelle mage-tarmplager	2018	27088
+67-79	M	Funksjonelle mage-tarmplager	2019	28752
+67-79	M	Funksjonelle mage-tarmplager	2020	31421
+67-79	M	Hudinfeksjoner	2012	12911
+67-79	M	Hudinfeksjoner	2013	13691
+67-79	M	Hudinfeksjoner	2014	14432
+67-79	M	Hudinfeksjoner	2015	15113
+67-79	M	Hudinfeksjoner	2016	15841
+67-79	M	Hudinfeksjoner	2017	16876
+67-79	M	Hudinfeksjoner	2018	18197
+67-79	M	Hudinfeksjoner	2019	18319
+67-79	M	Hudinfeksjoner	2020	19015
+67-79	M	Ulykker og skader	2012	20624
+67-79	M	Ulykker og skader	2013	22362
+67-79	M	Ulykker og skader	2014	24350
+67-79	M	Ulykker og skader	2015	24454
+67-79	M	Ulykker og skader	2016	25244
+67-79	M	Ulykker og skader	2017	25984
+67-79	M	Ulykker og skader	2018	28355
+67-79	M	Ulykker og skader	2019	28346
+67-79	M	Ulykker og skader	2020	27793
+67-79	M	Medfodt sykdom eller feil	2012	354
+67-79	M	Medfodt sykdom eller feil	2013	383
+67-79	M	Medfodt sykdom eller feil	2014	428
+67-79	M	Medfodt sykdom eller feil	2015	438
+67-79	M	Medfodt sykdom eller feil	2016	456
+67-79	M	Medfodt sykdom eller feil	2017	529
+67-79	M	Medfodt sykdom eller feil	2018	533
+67-79	M	Medfodt sykdom eller feil	2019	582
+67-79	M	Medfodt sykdom eller feil	2020	538
+67-79	M	Svangerskap, fodsel, prevensjon	2012	NA
+67-79	M	Svangerskap, fodsel, prevensjon	2013	NA
+67-79	M	Svangerskap, fodsel, prevensjon	2014	NA
+67-79	M	Svangerskap, fodsel, prevensjon	2015	NA
+67-79	M	Svangerskap, fodsel, prevensjon	2016	NA
+67-79	M	Svangerskap, fodsel, prevensjon	2017	NA
+67-79	M	Svangerskap, fodsel, prevensjon	2018	NA
+67-79	M	Svangerskap, fodsel, prevensjon	2019	NA
+67-79	M	Svangerskap, fodsel, prevensjon	2020	NA
+67-79	M	Frykt for sykdom	2012	3309
+67-79	M	Frykt for sykdom	2013	3506
+67-79	M	Frykt for sykdom	2014	3655
+67-79	M	Frykt for sykdom	2015	3338
+67-79	M	Frykt for sykdom	2016	3429
+67-79	M	Frykt for sykdom	2017	3427
+67-79	M	Frykt for sykdom	2018	3439
+67-79	M	Frykt for sykdom	2019	3459
+67-79	M	Frykt for sykdom	2020	12535
+67-79	M	Administrativ kontakt	2012	26712
+67-79	M	Administrativ kontakt	2013	24830
+67-79	M	Administrativ kontakt	2014	29465
+67-79	M	Administrativ kontakt	2015	30980
+67-79	M	Administrativ kontakt	2016	33986
+67-79	M	Administrativ kontakt	2017	32038
+67-79	M	Administrativ kontakt	2018	36852
+67-79	M	Administrativ kontakt	2019	38402
+67-79	M	Administrativ kontakt	2020	42483
+67-79	M	Forebyggende kontakt	2012	8718
+67-79	M	Forebyggende kontakt	2013	15435
+67-79	M	Forebyggende kontakt	2014	16040
+67-79	M	Forebyggende kontakt	2015	17804
+67-79	M	Forebyggende kontakt	2016	18942
+67-79	M	Forebyggende kontakt	2017	19436
+67-79	M	Forebyggende kontakt	2018	21500
+67-79	M	Forebyggende kontakt	2019	21701
+67-79	M	Forebyggende kontakt	2020	30565
+67-79	M	Andre diagnoser	2012	302644
+67-79	M	Andre diagnoser	2013	313612
+67-79	M	Andre diagnoser	2014	332452
+67-79	M	Andre diagnoser	2015	342439
+67-79	M	Andre diagnoser	2016	353044
+67-79	M	Andre diagnoser	2017	364348
+67-79	M	Andre diagnoser	2018	373443
+67-79	M	Andre diagnoser	2019	379634
+67-79	M	Andre diagnoser	2020	399897
+67-79	F	Alle diagnoser	2012	1084104
+67-79	F	Alle diagnoser	2013	1118446
+67-79	F	Alle diagnoser	2014	1153368
+67-79	F	Alle diagnoser	2015	1184622
+67-79	F	Alle diagnoser	2016	1210884
+67-79	F	Alle diagnoser	2017	1241920
+67-79	F	Alle diagnoser	2018	1254577
+67-79	F	Alle diagnoser	2019	1272982
+67-79	F	Alle diagnoser	2020	1319419
+67-79	F	Luftveisinfeksjoner, inkl. orebetennelse	2012	59141
+67-79	F	Luftveisinfeksjoner, inkl. orebetennelse	2013	57593
+67-79	F	Luftveisinfeksjoner, inkl. orebetennelse	2014	54631
+67-79	F	Luftveisinfeksjoner, inkl. orebetennelse	2015	61561
+67-79	F	Luftveisinfeksjoner, inkl. orebetennelse	2016	60929
+67-79	F	Luftveisinfeksjoner, inkl. orebetennelse	2017	65867
+67-79	F	Luftveisinfeksjoner, inkl. orebetennelse	2018	65910
+67-79	F	Luftveisinfeksjoner, inkl. orebetennelse	2019	66770
+67-79	F	Luftveisinfeksjoner, inkl. orebetennelse	2020	40183
+67-79	F	Lokale smerter og betennelser	2012	69124
+67-79	F	Lokale smerter og betennelser	2013	73797
+67-79	F	Lokale smerter og betennelser	2014	77265
+67-79	F	Lokale smerter og betennelser	2015	81432
+67-79	F	Lokale smerter og betennelser	2016	84740
+67-79	F	Lokale smerter og betennelser	2017	87003
+67-79	F	Lokale smerter og betennelser	2018	87178
+67-79	F	Lokale smerter og betennelser	2019	90228
+67-79	F	Lokale smerter og betennelser	2020	89228
+67-79	F	Ryggproblemer	2012	26501
+67-79	F	Ryggproblemer	2013	27757
+67-79	F	Ryggproblemer	2014	29573
+67-79	F	Ryggproblemer	2015	32297
+67-79	F	Ryggproblemer	2016	33107
+67-79	F	Ryggproblemer	2017	34963
+67-79	F	Ryggproblemer	2018	34407
+67-79	F	Ryggproblemer	2019	35774
+67-79	F	Ryggproblemer	2020	35990
+67-79	F	Generelle smerter og muskelplager	2012	11955
+67-79	F	Generelle smerter og muskelplager	2013	12297
+67-79	F	Generelle smerter og muskelplager	2014	12206
+67-79	F	Generelle smerter og muskelplager	2015	13057
+67-79	F	Generelle smerter og muskelplager	2016	13110
+67-79	F	Generelle smerter og muskelplager	2017	13916
+67-79	F	Generelle smerter og muskelplager	2018	12875
+67-79	F	Generelle smerter og muskelplager	2019	13210
+67-79	F	Generelle smerter og muskelplager	2020	13962
+67-79	F	Ledd- og giktsykdommer	2012	48957
+67-79	F	Ledd- og giktsykdommer	2013	50649
+67-79	F	Ledd- og giktsykdommer	2014	52815
+67-79	F	Ledd- og giktsykdommer	2015	55356
+67-79	F	Ledd- og giktsykdommer	2016	57105
+67-79	F	Ledd- og giktsykdommer	2017	55049
+67-79	F	Ledd- og giktsykdommer	2018	49068
+67-79	F	Ledd- og giktsykdommer	2019	47545
+67-79	F	Ledd- og giktsykdommer	2020	47426
+67-79	F	Psykisk sykdom eller lidelse	2012	57563
+67-79	F	Psykisk sykdom eller lidelse	2013	61152
+67-79	F	Psykisk sykdom eller lidelse	2014	65070
+67-79	F	Psykisk sykdom eller lidelse	2015	68512
+67-79	F	Psykisk sykdom eller lidelse	2016	71951
+67-79	F	Psykisk sykdom eller lidelse	2017	73564
+67-79	F	Psykisk sykdom eller lidelse	2018	74628
+67-79	F	Psykisk sykdom eller lidelse	2019	76761
+67-79	F	Psykisk sykdom eller lidelse	2020	89239
+67-79	F	Atopi, astma, allergi eller eksem	2012	23165
+67-79	F	Atopi, astma, allergi eller eksem	2013	24171
+67-79	F	Atopi, astma, allergi eller eksem	2014	25385
+67-79	F	Atopi, astma, allergi eller eksem	2015	27589
+67-79	F	Atopi, astma, allergi eller eksem	2016	28440
+67-79	F	Atopi, astma, allergi eller eksem	2017	29781
+67-79	F	Atopi, astma, allergi eller eksem	2018	30492
+67-79	F	Atopi, astma, allergi eller eksem	2019	32732
+67-79	F	Atopi, astma, allergi eller eksem	2020	32437
+67-79	F	Hoyt blodtrykk	2012	119329
+67-79	F	Hoyt blodtrykk	2013	122010
+67-79	F	Hoyt blodtrykk	2014	117684
+67-79	F	Hoyt blodtrykk	2015	114596
+67-79	F	Hoyt blodtrykk	2016	114530
+67-79	F	Hoyt blodtrykk	2017	116137
+67-79	F	Hoyt blodtrykk	2018	118310
+67-79	F	Hoyt blodtrykk	2019	118250
+67-79	F	Hoyt blodtrykk	2020	117521
+67-79	F	Hjertesykdom	2012	105876
+67-79	F	Hjertesykdom	2013	102130
+67-79	F	Hjertesykdom	2014	93924
+67-79	F	Hjertesykdom	2015	86629
+67-79	F	Hjertesykdom	2016	78320
+67-79	F	Hjertesykdom	2017	71957
+67-79	F	Hjertesykdom	2018	65671
+67-79	F	Hjertesykdom	2019	60112
+67-79	F	Hjertesykdom	2020	58247
+67-79	F	Diabetes	2012	47774
+67-79	F	Diabetes	2013	48075
+67-79	F	Diabetes	2014	49984
+67-79	F	Diabetes	2015	52961
+67-79	F	Diabetes	2016	54327
+67-79	F	Diabetes	2017	57238
+67-79	F	Diabetes	2018	57560
+67-79	F	Diabetes	2019	59097
+67-79	F	Diabetes	2020	62840
+67-79	F	Kreft	2012	22992
+67-79	F	Kreft	2013	23935
+67-79	F	Kreft	2014	26275
+67-79	F	Kreft	2015	28610
+67-79	F	Kreft	2016	29794
+67-79	F	Kreft	2017	30685
+67-79	F	Kreft	2018	31591
+67-79	F	Kreft	2019	31762
+67-79	F	Kreft	2020	36234
+67-79	F	Underlivsplager hos kvinner	2012	9984
+67-79	F	Underlivsplager hos kvinner	2013	10680
+67-79	F	Underlivsplager hos kvinner	2014	11693
+67-79	F	Underlivsplager hos kvinner	2015	11803
+67-79	F	Underlivsplager hos kvinner	2016	12115
+67-79	F	Underlivsplager hos kvinner	2017	12947
+67-79	F	Underlivsplager hos kvinner	2018	13278
+67-79	F	Underlivsplager hos kvinner	2019	13749
+67-79	F	Underlivsplager hos kvinner	2020	14454
+67-79	F	Funksjonelle mage-tarmplager	2012	39365
+67-79	F	Funksjonelle mage-tarmplager	2013	41086
+67-79	F	Funksjonelle mage-tarmplager	2014	44224
+67-79	F	Funksjonelle mage-tarmplager	2015	44350
+67-79	F	Funksjonelle mage-tarmplager	2016	47387
+67-79	F	Funksjonelle mage-tarmplager	2017	49426
+67-79	F	Funksjonelle mage-tarmplager	2018	48839
+67-79	F	Funksjonelle mage-tarmplager	2019	51635
+67-79	F	Funksjonelle mage-tarmplager	2020	56742
+67-79	F	Hudinfeksjoner	2012	14112
+67-79	F	Hudinfeksjoner	2013	14962
+67-79	F	Hudinfeksjoner	2014	15619
+67-79	F	Hudinfeksjoner	2015	16611
+67-79	F	Hudinfeksjoner	2016	16943
+67-79	F	Hudinfeksjoner	2017	17815
+67-79	F	Hudinfeksjoner	2018	18934
+67-79	F	Hudinfeksjoner	2019	19624
+67-79	F	Hudinfeksjoner	2020	19722
+67-79	F	Ulykker og skader	2012	24343
+67-79	F	Ulykker og skader	2013	26561
+67-79	F	Ulykker og skader	2014	28825
+67-79	F	Ulykker og skader	2015	29517
+67-79	F	Ulykker og skader	2016	30542
+67-79	F	Ulykker og skader	2017	31213
+67-79	F	Ulykker og skader	2018	33341
+67-79	F	Ulykker og skader	2019	33573
+67-79	F	Ulykker og skader	2020	32499
+67-79	F	Medfodt sykdom eller feil	2012	633
+67-79	F	Medfodt sykdom eller feil	2013	625
+67-79	F	Medfodt sykdom eller feil	2014	725
+67-79	F	Medfodt sykdom eller feil	2015	658
+67-79	F	Medfodt sykdom eller feil	2016	749
+67-79	F	Medfodt sykdom eller feil	2017	743
+67-79	F	Medfodt sykdom eller feil	2018	760
+67-79	F	Medfodt sykdom eller feil	2019	774
+67-79	F	Medfodt sykdom eller feil	2020	791
+67-79	F	Svangerskap, fodsel, prevensjon	2012	NA
+67-79	F	Svangerskap, fodsel, prevensjon	2013	NA
+67-79	F	Svangerskap, fodsel, prevensjon	2014	NA
+67-79	F	Svangerskap, fodsel, prevensjon	2015	NA
+67-79	F	Svangerskap, fodsel, prevensjon	2016	NA
+67-79	F	Svangerskap, fodsel, prevensjon	2017	NA
+67-79	F	Svangerskap, fodsel, prevensjon	2018	NA
+67-79	F	Svangerskap, fodsel, prevensjon	2019	NA
+67-79	F	Svangerskap, fodsel, prevensjon	2020	NA
+67-79	F	Frykt for sykdom	2012	5398
+67-79	F	Frykt for sykdom	2013	5718
+67-79	F	Frykt for sykdom	2014	6034
+67-79	F	Frykt for sykdom	2015	5714
+67-79	F	Frykt for sykdom	2016	5748
+67-79	F	Frykt for sykdom	2017	5945
+67-79	F	Frykt for sykdom	2018	5831
+67-79	F	Frykt for sykdom	2019	5985
+67-79	F	Frykt for sykdom	2020	17990
+67-79	F	Administrativ kontakt	2012	22003
+67-79	F	Administrativ kontakt	2013	20793
+67-79	F	Administrativ kontakt	2014	24661
+67-79	F	Administrativ kontakt	2015	26150
+67-79	F	Administrativ kontakt	2016	27114
+67-79	F	Administrativ kontakt	2017	26531
+67-79	F	Administrativ kontakt	2018	29855
+67-79	F	Administrativ kontakt	2019	31142
+67-79	F	Administrativ kontakt	2020	35620
+67-79	F	Forebyggende kontakt	2012	17608
+67-79	F	Forebyggende kontakt	2013	25716
+67-79	F	Forebyggende kontakt	2014	29502
+67-79	F	Forebyggende kontakt	2015	30279
+67-79	F	Forebyggende kontakt	2016	31572
+67-79	F	Forebyggende kontakt	2017	32669
+67-79	F	Forebyggende kontakt	2018	34155
+67-79	F	Forebyggende kontakt	2019	33108
+67-79	F	Forebyggende kontakt	2020	44117
+67-79	F	Andre diagnoser	2012	355266
+67-79	F	Andre diagnoser	2013	366628
+67-79	F	Andre diagnoser	2014	385061
+67-79	F	Andre diagnoser	2015	394079
+67-79	F	Andre diagnoser	2016	408319
+67-79	F	Andre diagnoser	2017	423727
+67-79	F	Andre diagnoser	2018	435785
+67-79	F	Andre diagnoser	2019	444015
+67-79	F	Andre diagnoser	2020	466477
+80-89	M	Alle diagnoser	2012	417285
+80-89	M	Alle diagnoser	2013	418708
+80-89	M	Alle diagnoser	2014	416264
+80-89	M	Alle diagnoser	2015	411459
+80-89	M	Alle diagnoser	2016	408681
+80-89	M	Alle diagnoser	2017	410530
+80-89	M	Alle diagnoser	2018	412076
+80-89	M	Alle diagnoser	2019	414950
+80-89	M	Alle diagnoser	2020	428621
+80-89	M	Luftveisinfeksjoner, inkl. orebetennelse	2012	14901
+80-89	M	Luftveisinfeksjoner, inkl. orebetennelse	2013	14030
+80-89	M	Luftveisinfeksjoner, inkl. orebetennelse	2014	13129
+80-89	M	Luftveisinfeksjoner, inkl. orebetennelse	2015	14452
+80-89	M	Luftveisinfeksjoner, inkl. orebetennelse	2016	13886
+80-89	M	Luftveisinfeksjoner, inkl. orebetennelse	2017	15273
+80-89	M	Luftveisinfeksjoner, inkl. orebetennelse	2018	15160
+80-89	M	Luftveisinfeksjoner, inkl. orebetennelse	2019	15321
+80-89	M	Luftveisinfeksjoner, inkl. orebetennelse	2020	9276
+80-89	M	Lokale smerter og betennelser	2012	14709
+80-89	M	Lokale smerter og betennelser	2013	14838
+80-89	M	Lokale smerter og betennelser	2014	14992
+80-89	M	Lokale smerter og betennelser	2015	15433
+80-89	M	Lokale smerter og betennelser	2016	15800
+80-89	M	Lokale smerter og betennelser	2017	16781
+80-89	M	Lokale smerter og betennelser	2018	17081
+80-89	M	Lokale smerter og betennelser	2019	17882
+80-89	M	Lokale smerter og betennelser	2020	18670
+80-89	M	Ryggproblemer	2012	5911
+80-89	M	Ryggproblemer	2013	6216
+80-89	M	Ryggproblemer	2014	6159
+80-89	M	Ryggproblemer	2015	6670
+80-89	M	Ryggproblemer	2016	6574
+80-89	M	Ryggproblemer	2017	7271
+80-89	M	Ryggproblemer	2018	7246
+80-89	M	Ryggproblemer	2019	7371
+80-89	M	Ryggproblemer	2020	7842
+80-89	M	Generelle smerter og muskelplager	2012	1527
+80-89	M	Generelle smerter og muskelplager	2013	1466
+80-89	M	Generelle smerter og muskelplager	2014	1374
+80-89	M	Generelle smerter og muskelplager	2015	1401
+80-89	M	Generelle smerter og muskelplager	2016	1426
+80-89	M	Generelle smerter og muskelplager	2017	1558
+80-89	M	Generelle smerter og muskelplager	2018	1452
+80-89	M	Generelle smerter og muskelplager	2019	1464
+80-89	M	Generelle smerter og muskelplager	2020	1669
+80-89	M	Ledd- og giktsykdommer	2012	7447
+80-89	M	Ledd- og giktsykdommer	2013	7447
+80-89	M	Ledd- og giktsykdommer	2014	7838
+80-89	M	Ledd- og giktsykdommer	2015	7462
+80-89	M	Ledd- og giktsykdommer	2016	7628
+80-89	M	Ledd- og giktsykdommer	2017	7564
+80-89	M	Ledd- og giktsykdommer	2018	6741
+80-89	M	Ledd- og giktsykdommer	2019	6856
+80-89	M	Ledd- og giktsykdommer	2020	6965
+80-89	M	Psykisk sykdom eller lidelse	2012	13311
+80-89	M	Psykisk sykdom eller lidelse	2013	13648
+80-89	M	Psykisk sykdom eller lidelse	2014	14247
+80-89	M	Psykisk sykdom eller lidelse	2015	14504
+80-89	M	Psykisk sykdom eller lidelse	2016	14524
+80-89	M	Psykisk sykdom eller lidelse	2017	15459
+80-89	M	Psykisk sykdom eller lidelse	2018	15762
+80-89	M	Psykisk sykdom eller lidelse	2019	16666
+80-89	M	Psykisk sykdom eller lidelse	2020	18701
+80-89	M	Atopi, astma, allergi eller eksem	2012	6577
+80-89	M	Atopi, astma, allergi eller eksem	2013	6493
+80-89	M	Atopi, astma, allergi eller eksem	2014	6676
+80-89	M	Atopi, astma, allergi eller eksem	2015	6931
+80-89	M	Atopi, astma, allergi eller eksem	2016	6970
+80-89	M	Atopi, astma, allergi eller eksem	2017	7525
+80-89	M	Atopi, astma, allergi eller eksem	2018	7405
+80-89	M	Atopi, astma, allergi eller eksem	2019	8078
+80-89	M	Atopi, astma, allergi eller eksem	2020	8092
+80-89	M	Hoyt blodtrykk	2012	26506
+80-89	M	Hoyt blodtrykk	2013	25976
+80-89	M	Hoyt blodtrykk	2014	24532
+80-89	M	Hoyt blodtrykk	2015	24111
+80-89	M	Hoyt blodtrykk	2016	24076
+80-89	M	Hoyt blodtrykk	2017	24349
+80-89	M	Hoyt blodtrykk	2018	25231
+80-89	M	Hoyt blodtrykk	2019	25965
+80-89	M	Hoyt blodtrykk	2020	27414
+80-89	M	Hjertesykdom	2012	112738
+80-89	M	Hjertesykdom	2013	110246
+80-89	M	Hjertesykdom	2014	102491
+80-89	M	Hjertesykdom	2015	96629
+80-89	M	Hjertesykdom	2016	89149
+80-89	M	Hjertesykdom	2017	82816
+80-89	M	Hjertesykdom	2018	76565
+80-89	M	Hjertesykdom	2019	69597
+80-89	M	Hjertesykdom	2020	64510
+80-89	M	Diabetes	2012	15977
+80-89	M	Diabetes	2013	16283
+80-89	M	Diabetes	2014	16712
+80-89	M	Diabetes	2015	17115
+80-89	M	Diabetes	2016	17857
+80-89	M	Diabetes	2017	18262
+80-89	M	Diabetes	2018	18786
+80-89	M	Diabetes	2019	19987
+80-89	M	Diabetes	2020	21998
+80-89	M	Kreft	2012	21205
+80-89	M	Kreft	2013	21724
+80-89	M	Kreft	2014	22417
+80-89	M	Kreft	2015	22445
+80-89	M	Kreft	2016	22710
+80-89	M	Kreft	2017	22997
+80-89	M	Kreft	2018	23959
+80-89	M	Kreft	2019	24228
+80-89	M	Kreft	2020	26198
+80-89	M	Underlivsplager hos kvinner	2012	NA
+80-89	M	Underlivsplager hos kvinner	2013	NA
+80-89	M	Underlivsplager hos kvinner	2014	NA
+80-89	M	Underlivsplager hos kvinner	2015	NA
+80-89	M	Underlivsplager hos kvinner	2016	NA
+80-89	M	Underlivsplager hos kvinner	2017	NA
+80-89	M	Underlivsplager hos kvinner	2018	NA
+80-89	M	Underlivsplager hos kvinner	2019	NA
+80-89	M	Underlivsplager hos kvinner	2020	NA
+80-89	M	Funksjonelle mage-tarmplager	2012	8874
+80-89	M	Funksjonelle mage-tarmplager	2013	8780
+80-89	M	Funksjonelle mage-tarmplager	2014	9097
+80-89	M	Funksjonelle mage-tarmplager	2015	8909
+80-89	M	Funksjonelle mage-tarmplager	2016	9081
+80-89	M	Funksjonelle mage-tarmplager	2017	9262
+80-89	M	Funksjonelle mage-tarmplager	2018	9169
+80-89	M	Funksjonelle mage-tarmplager	2019	9716
+80-89	M	Funksjonelle mage-tarmplager	2020	10492
+80-89	M	Hudinfeksjoner	2012	5146
+80-89	M	Hudinfeksjoner	2013	5165
+80-89	M	Hudinfeksjoner	2014	5422
+80-89	M	Hudinfeksjoner	2015	5080
+80-89	M	Hudinfeksjoner	2016	5225
+80-89	M	Hudinfeksjoner	2017	5659
+80-89	M	Hudinfeksjoner	2018	5997
+80-89	M	Hudinfeksjoner	2019	6212
+80-89	M	Hudinfeksjoner	2020	6176
+80-89	M	Ulykker og skader	2012	8731
+80-89	M	Ulykker og skader	2013	9048
+80-89	M	Ulykker og skader	2014	9663
+80-89	M	Ulykker og skader	2015	9388
+80-89	M	Ulykker og skader	2016	9510
+80-89	M	Ulykker og skader	2017	9674
+80-89	M	Ulykker og skader	2018	10489
+80-89	M	Ulykker og skader	2019	10809
+80-89	M	Ulykker og skader	2020	11007
+80-89	M	Medfodt sykdom eller feil	2012	67
+80-89	M	Medfodt sykdom eller feil	2013	96
+80-89	M	Medfodt sykdom eller feil	2014	56
+80-89	M	Medfodt sykdom eller feil	2015	77
+80-89	M	Medfodt sykdom eller feil	2016	86
+80-89	M	Medfodt sykdom eller feil	2017	68
+80-89	M	Medfodt sykdom eller feil	2018	88
+80-89	M	Medfodt sykdom eller feil	2019	91
+80-89	M	Medfodt sykdom eller feil	2020	144
+80-89	M	Svangerskap, fodsel, prevensjon	2012	NA
+80-89	M	Svangerskap, fodsel, prevensjon	2013	NA
+80-89	M	Svangerskap, fodsel, prevensjon	2014	NA
+80-89	M	Svangerskap, fodsel, prevensjon	2015	NA
+80-89	M	Svangerskap, fodsel, prevensjon	2016	NA
+80-89	M	Svangerskap, fodsel, prevensjon	2017	NA
+80-89	M	Svangerskap, fodsel, prevensjon	2018	NA
+80-89	M	Svangerskap, fodsel, prevensjon	2019	NA
+80-89	M	Svangerskap, fodsel, prevensjon	2020	NA
+80-89	M	Frykt for sykdom	2012	1024
+80-89	M	Frykt for sykdom	2013	968
+80-89	M	Frykt for sykdom	2014	936
+80-89	M	Frykt for sykdom	2015	814
+80-89	M	Frykt for sykdom	2016	894
+80-89	M	Frykt for sykdom	2017	793
+80-89	M	Frykt for sykdom	2018	865
+80-89	M	Frykt for sykdom	2019	838
+80-89	M	Frykt for sykdom	2020	3231
+80-89	M	Administrativ kontakt	2012	12160
+80-89	M	Administrativ kontakt	2013	13769
+80-89	M	Administrativ kontakt	2014	14676
+80-89	M	Administrativ kontakt	2015	15232
+80-89	M	Administrativ kontakt	2016	16152
+80-89	M	Administrativ kontakt	2017	14761
+80-89	M	Administrativ kontakt	2018	17125
+80-89	M	Administrativ kontakt	2019	17195
+80-89	M	Administrativ kontakt	2020	19533
+80-89	M	Forebyggende kontakt	2012	3155
+80-89	M	Forebyggende kontakt	2013	5724
+80-89	M	Forebyggende kontakt	2014	6005
+80-89	M	Forebyggende kontakt	2015	6350
+80-89	M	Forebyggende kontakt	2016	6542
+80-89	M	Forebyggende kontakt	2017	6932
+80-89	M	Forebyggende kontakt	2018	7193
+80-89	M	Forebyggende kontakt	2019	7138
+80-89	M	Forebyggende kontakt	2020	10104
+80-89	M	Andre diagnoser	2012	136765
+80-89	M	Andre diagnoser	2013	136388
+80-89	M	Andre diagnoser	2014	139439
+80-89	M	Andre diagnoser	2015	137969
+80-89	M	Andre diagnoser	2016	139937
+80-89	M	Andre diagnoser	2017	142634
+80-89	M	Andre diagnoser	2018	144652
+80-89	M	Andre diagnoser	2019	148230
+80-89	M	Andre diagnoser	2020	155123
+80-89	F	Alle diagnoser	2012	593446
+80-89	F	Alle diagnoser	2013	584295
+80-89	F	Alle diagnoser	2014	577463
+80-89	F	Alle diagnoser	2015	569009
+80-89	F	Alle diagnoser	2016	561371
+80-89	F	Alle diagnoser	2017	560401
+80-89	F	Alle diagnoser	2018	559171
+80-89	F	Alle diagnoser	2019	563783
+80-89	F	Alle diagnoser	2020	573434
+80-89	F	Luftveisinfeksjoner, inkl. orebetennelse	2012	22359
+80-89	F	Luftveisinfeksjoner, inkl. orebetennelse	2013	20845
+80-89	F	Luftveisinfeksjoner, inkl. orebetennelse	2014	18884
+80-89	F	Luftveisinfeksjoner, inkl. orebetennelse	2015	20913
+80-89	F	Luftveisinfeksjoner, inkl. orebetennelse	2016	19904
+80-89	F	Luftveisinfeksjoner, inkl. orebetennelse	2017	21574
+80-89	F	Luftveisinfeksjoner, inkl. orebetennelse	2018	21610
+80-89	F	Luftveisinfeksjoner, inkl. orebetennelse	2019	21888
+80-89	F	Luftveisinfeksjoner, inkl. orebetennelse	2020	13003
+80-89	F	Lokale smerter og betennelser	2012	29078
+80-89	F	Lokale smerter og betennelser	2013	28712
+80-89	F	Lokale smerter og betennelser	2014	29386
+80-89	F	Lokale smerter og betennelser	2015	29954
+80-89	F	Lokale smerter og betennelser	2016	29948
+80-89	F	Lokale smerter og betennelser	2017	30990
+80-89	F	Lokale smerter og betennelser	2018	30667
+80-89	F	Lokale smerter og betennelser	2019	32469
+80-89	F	Lokale smerter og betennelser	2020	32070
+80-89	F	Ryggproblemer	2012	13357
+80-89	F	Ryggproblemer	2013	13299
+80-89	F	Ryggproblemer	2014	13766
+80-89	F	Ryggproblemer	2015	14247
+80-89	F	Ryggproblemer	2016	14259
+80-89	F	Ryggproblemer	2017	15265
+80-89	F	Ryggproblemer	2018	15451
+80-89	F	Ryggproblemer	2019	15843
+80-89	F	Ryggproblemer	2020	16617
+80-89	F	Generelle smerter og muskelplager	2012	4660
+80-89	F	Generelle smerter og muskelplager	2013	4426
+80-89	F	Generelle smerter og muskelplager	2014	4420
+80-89	F	Generelle smerter og muskelplager	2015	4270
+80-89	F	Generelle smerter og muskelplager	2016	4476
+80-89	F	Generelle smerter og muskelplager	2017	4414
+80-89	F	Generelle smerter og muskelplager	2018	4113
+80-89	F	Generelle smerter og muskelplager	2019	4511
+80-89	F	Generelle smerter og muskelplager	2020	4645
+80-89	F	Ledd- og giktsykdommer	2012	22004
+80-89	F	Ledd- og giktsykdommer	2013	21921
+80-89	F	Ledd- og giktsykdommer	2014	22035
+80-89	F	Ledd- og giktsykdommer	2015	22580
+80-89	F	Ledd- og giktsykdommer	2016	22290
+80-89	F	Ledd- og giktsykdommer	2017	22159
+80-89	F	Ledd- og giktsykdommer	2018	19104
+80-89	F	Ledd- og giktsykdommer	2019	18626
+80-89	F	Ledd- og giktsykdommer	2020	18298
+80-89	F	Psykisk sykdom eller lidelse	2012	31038
+80-89	F	Psykisk sykdom eller lidelse	2013	31643
+80-89	F	Psykisk sykdom eller lidelse	2014	33134
+80-89	F	Psykisk sykdom eller lidelse	2015	33136
+80-89	F	Psykisk sykdom eller lidelse	2016	33751
+80-89	F	Psykisk sykdom eller lidelse	2017	34058
+80-89	F	Psykisk sykdom eller lidelse	2018	34957
+80-89	F	Psykisk sykdom eller lidelse	2019	36252
+80-89	F	Psykisk sykdom eller lidelse	2020	40501
+80-89	F	Atopi, astma, allergi eller eksem	2012	10142
+80-89	F	Atopi, astma, allergi eller eksem	2013	10338
+80-89	F	Atopi, astma, allergi eller eksem	2014	10215
+80-89	F	Atopi, astma, allergi eller eksem	2015	10415
+80-89	F	Atopi, astma, allergi eller eksem	2016	10645
+80-89	F	Atopi, astma, allergi eller eksem	2017	11044
+80-89	F	Atopi, astma, allergi eller eksem	2018	11323
+80-89	F	Atopi, astma, allergi eller eksem	2019	12138
+80-89	F	Atopi, astma, allergi eller eksem	2020	11706
+80-89	F	Hoyt blodtrykk	2012	58997
+80-89	F	Hoyt blodtrykk	2013	56678
+80-89	F	Hoyt blodtrykk	2014	53645
+80-89	F	Hoyt blodtrykk	2015	50922
+80-89	F	Hoyt blodtrykk	2016	49609
+80-89	F	Hoyt blodtrykk	2017	50538
+80-89	F	Hoyt blodtrykk	2018	50724
+80-89	F	Hoyt blodtrykk	2019	51889
+80-89	F	Hoyt blodtrykk	2020	51941
+80-89	F	Hjertesykdom	2012	115497
+80-89	F	Hjertesykdom	2013	108747
+80-89	F	Hjertesykdom	2014	98903
+80-89	F	Hjertesykdom	2015	91670
+80-89	F	Hjertesykdom	2016	81969
+80-89	F	Hjertesykdom	2017	72660
+80-89	F	Hjertesykdom	2018	64930
+80-89	F	Hjertesykdom	2019	57197
+80-89	F	Hjertesykdom	2020	51853
+80-89	F	Diabetes	2012	21346
+80-89	F	Diabetes	2013	20755
+80-89	F	Diabetes	2014	20411
+80-89	F	Diabetes	2015	20687
+80-89	F	Diabetes	2016	20681
+80-89	F	Diabetes	2017	21331
+80-89	F	Diabetes	2018	21221
+80-89	F	Diabetes	2019	21224
+80-89	F	Diabetes	2020	21987
+80-89	F	Kreft	2012	10529
+80-89	F	Kreft	2013	10732
+80-89	F	Kreft	2014	11065
+80-89	F	Kreft	2015	11349
+80-89	F	Kreft	2016	11851
+80-89	F	Kreft	2017	12284
+80-89	F	Kreft	2018	12630
+80-89	F	Kreft	2019	12777
+80-89	F	Kreft	2020	14484
+80-89	F	Underlivsplager hos kvinner	2012	3760
+80-89	F	Underlivsplager hos kvinner	2013	3699
+80-89	F	Underlivsplager hos kvinner	2014	3705
+80-89	F	Underlivsplager hos kvinner	2015	3816
+80-89	F	Underlivsplager hos kvinner	2016	3740
+80-89	F	Underlivsplager hos kvinner	2017	3956
+80-89	F	Underlivsplager hos kvinner	2018	3889
+80-89	F	Underlivsplager hos kvinner	2019	4184
+80-89	F	Underlivsplager hos kvinner	2020	4429
+80-89	F	Funksjonelle mage-tarmplager	2012	16498
+80-89	F	Funksjonelle mage-tarmplager	2013	16977
+80-89	F	Funksjonelle mage-tarmplager	2014	17204
+80-89	F	Funksjonelle mage-tarmplager	2015	16621
+80-89	F	Funksjonelle mage-tarmplager	2016	17226
+80-89	F	Funksjonelle mage-tarmplager	2017	17792
+80-89	F	Funksjonelle mage-tarmplager	2018	18236
+80-89	F	Funksjonelle mage-tarmplager	2019	18857
+80-89	F	Funksjonelle mage-tarmplager	2020	20269
+80-89	F	Hudinfeksjoner	2012	6879
+80-89	F	Hudinfeksjoner	2013	7092
+80-89	F	Hudinfeksjoner	2014	7032
+80-89	F	Hudinfeksjoner	2015	6881
+80-89	F	Hudinfeksjoner	2016	7270
+80-89	F	Hudinfeksjoner	2017	6960
+80-89	F	Hudinfeksjoner	2018	7885
+80-89	F	Hudinfeksjoner	2019	7928
+80-89	F	Hudinfeksjoner	2020	7845
+80-89	F	Ulykker og skader	2012	15133
+80-89	F	Ulykker og skader	2013	15001
+80-89	F	Ulykker og skader	2014	16244
+80-89	F	Ulykker og skader	2015	15467
+80-89	F	Ulykker og skader	2016	15620
+80-89	F	Ulykker og skader	2017	15611
+80-89	F	Ulykker og skader	2018	16300
+80-89	F	Ulykker og skader	2019	16599
+80-89	F	Ulykker og skader	2020	16281
+80-89	F	Medfodt sykdom eller feil	2012	152
+80-89	F	Medfodt sykdom eller feil	2013	156
+80-89	F	Medfodt sykdom eller feil	2014	175
+80-89	F	Medfodt sykdom eller feil	2015	142
+80-89	F	Medfodt sykdom eller feil	2016	142
+80-89	F	Medfodt sykdom eller feil	2017	150
+80-89	F	Medfodt sykdom eller feil	2018	207
+80-89	F	Medfodt sykdom eller feil	2019	229
+80-89	F	Medfodt sykdom eller feil	2020	257
+80-89	F	Svangerskap, fodsel, prevensjon	2012	NA
+80-89	F	Svangerskap, fodsel, prevensjon	2013	NA
+80-89	F	Svangerskap, fodsel, prevensjon	2014	NA
+80-89	F	Svangerskap, fodsel, prevensjon	2015	NA
+80-89	F	Svangerskap, fodsel, prevensjon	2016	NA
+80-89	F	Svangerskap, fodsel, prevensjon	2017	NA
+80-89	F	Svangerskap, fodsel, prevensjon	2018	NA
+80-89	F	Svangerskap, fodsel, prevensjon	2019	NA
+80-89	F	Svangerskap, fodsel, prevensjon	2020	NA
+80-89	F	Frykt for sykdom	2012	1896
+80-89	F	Frykt for sykdom	2013	1945
+80-89	F	Frykt for sykdom	2014	1881
+80-89	F	Frykt for sykdom	2015	1679
+80-89	F	Frykt for sykdom	2016	1709
+80-89	F	Frykt for sykdom	2017	1690
+80-89	F	Frykt for sykdom	2018	1752
+80-89	F	Frykt for sykdom	2019	1745
+80-89	F	Frykt for sykdom	2020	5319
+80-89	F	Administrativ kontakt	2012	10428
+80-89	F	Administrativ kontakt	2013	12359
+80-89	F	Administrativ kontakt	2014	13936
+80-89	F	Administrativ kontakt	2015	15317
+80-89	F	Administrativ kontakt	2016	15858
+80-89	F	Administrativ kontakt	2017	14529
+80-89	F	Administrativ kontakt	2018	16026
+80-89	F	Administrativ kontakt	2019	16791
+80-89	F	Administrativ kontakt	2020	18832
+80-89	F	Forebyggende kontakt	2012	5070
+80-89	F	Forebyggende kontakt	2013	8201
+80-89	F	Forebyggende kontakt	2014	8534
+80-89	F	Forebyggende kontakt	2015	9156
+80-89	F	Forebyggende kontakt	2016	9228
+80-89	F	Forebyggende kontakt	2017	9174
+80-89	F	Forebyggende kontakt	2018	9620
+80-89	F	Forebyggende kontakt	2019	9771
+80-89	F	Forebyggende kontakt	2020	13453
+80-89	F	Andre diagnoser	2012	193211
+80-89	F	Andre diagnoser	2013	189837
+80-89	F	Andre diagnoser	2014	191849
+80-89	F	Andre diagnoser	2015	188583
+80-89	F	Andre diagnoser	2016	189497
+80-89	F	Andre diagnoser	2017	192260
+80-89	F	Andre diagnoser	2018	195931
+80-89	F	Andre diagnoser	2019	199646
+80-89	F	Andre diagnoser	2020	206200
+90 or more	M	Alle diagnoser	2012	54538
+90 or more	M	Alle diagnoser	2013	56545
+90 or more	M	Alle diagnoser	2014	60426
+90 or more	M	Alle diagnoser	2015	65036
+90 or more	M	Alle diagnoser	2016	67274
+90 or more	M	Alle diagnoser	2017	68230
+90 or more	M	Alle diagnoser	2018	68634
+90 or more	M	Alle diagnoser	2019	69653
+90 or more	M	Alle diagnoser	2020	72197
+90 or more	M	Luftveisinfeksjoner, inkl. orebetennelse	2012	2039
+90 or more	M	Luftveisinfeksjoner, inkl. orebetennelse	2013	2010
+90 or more	M	Luftveisinfeksjoner, inkl. orebetennelse	2014	1911
+90 or more	M	Luftveisinfeksjoner, inkl. orebetennelse	2015	2391
+90 or more	M	Luftveisinfeksjoner, inkl. orebetennelse	2016	2362
+90 or more	M	Luftveisinfeksjoner, inkl. orebetennelse	2017	2414
+90 or more	M	Luftveisinfeksjoner, inkl. orebetennelse	2018	2383
+90 or more	M	Luftveisinfeksjoner, inkl. orebetennelse	2019	2526
+90 or more	M	Luftveisinfeksjoner, inkl. orebetennelse	2020	1519
+90 or more	M	Lokale smerter og betennelser	2012	1614
+90 or more	M	Lokale smerter og betennelser	2013	1590
+90 or more	M	Lokale smerter og betennelser	2014	1853
+90 or more	M	Lokale smerter og betennelser	2015	1995
+90 or more	M	Lokale smerter og betennelser	2016	2294
+90 or more	M	Lokale smerter og betennelser	2017	2124
+90 or more	M	Lokale smerter og betennelser	2018	2329
+90 or more	M	Lokale smerter og betennelser	2019	2319
+90 or more	M	Lokale smerter og betennelser	2020	2436
+90 or more	M	Ryggproblemer	2012	699
+90 or more	M	Ryggproblemer	2013	789
+90 or more	M	Ryggproblemer	2014	788
+90 or more	M	Ryggproblemer	2015	839
+90 or more	M	Ryggproblemer	2016	923
+90 or more	M	Ryggproblemer	2017	1016
+90 or more	M	Ryggproblemer	2018	1031
+90 or more	M	Ryggproblemer	2019	1045
+90 or more	M	Ryggproblemer	2020	1062
+90 or more	M	Generelle smerter og muskelplager	2012	152
+90 or more	M	Generelle smerter og muskelplager	2013	158
+90 or more	M	Generelle smerter og muskelplager	2014	136
+90 or more	M	Generelle smerter og muskelplager	2015	215
+90 or more	M	Generelle smerter og muskelplager	2016	190
+90 or more	M	Generelle smerter og muskelplager	2017	207
+90 or more	M	Generelle smerter og muskelplager	2018	184
+90 or more	M	Generelle smerter og muskelplager	2019	195
+90 or more	M	Generelle smerter og muskelplager	2020	193
+90 or more	M	Ledd- og giktsykdommer	2012	674
+90 or more	M	Ledd- og giktsykdommer	2013	665
+90 or more	M	Ledd- og giktsykdommer	2014	767
+90 or more	M	Ledd- og giktsykdommer	2015	862
+90 or more	M	Ledd- og giktsykdommer	2016	974
+90 or more	M	Ledd- og giktsykdommer	2017	878
+90 or more	M	Ledd- og giktsykdommer	2018	761
+90 or more	M	Ledd- og giktsykdommer	2019	885
+90 or more	M	Ledd- og giktsykdommer	2020	824
+90 or more	M	Psykisk sykdom eller lidelse	2012	1984
+90 or more	M	Psykisk sykdom eller lidelse	2013	1774
+90 or more	M	Psykisk sykdom eller lidelse	2014	1910
+90 or more	M	Psykisk sykdom eller lidelse	2015	2140
+90 or more	M	Psykisk sykdom eller lidelse	2016	2409
+90 or more	M	Psykisk sykdom eller lidelse	2017	2664
+90 or more	M	Psykisk sykdom eller lidelse	2018	2685
+90 or more	M	Psykisk sykdom eller lidelse	2019	2656
+90 or more	M	Psykisk sykdom eller lidelse	2020	3313
+90 or more	M	Atopi, astma, allergi eller eksem	2012	893
+90 or more	M	Atopi, astma, allergi eller eksem	2013	956
+90 or more	M	Atopi, astma, allergi eller eksem	2014	967
+90 or more	M	Atopi, astma, allergi eller eksem	2015	1060
+90 or more	M	Atopi, astma, allergi eller eksem	2016	1235
+90 or more	M	Atopi, astma, allergi eller eksem	2017	1232
+90 or more	M	Atopi, astma, allergi eller eksem	2018	1235
+90 or more	M	Atopi, astma, allergi eller eksem	2019	1440
+90 or more	M	Atopi, astma, allergi eller eksem	2020	1443
+90 or more	M	Hoyt blodtrykk	2012	2728
+90 or more	M	Hoyt blodtrykk	2013	2783
+90 or more	M	Hoyt blodtrykk	2014	3009
+90 or more	M	Hoyt blodtrykk	2015	3058
+90 or more	M	Hoyt blodtrykk	2016	3030
+90 or more	M	Hoyt blodtrykk	2017	3188
+90 or more	M	Hoyt blodtrykk	2018	3237
+90 or more	M	Hoyt blodtrykk	2019	3056
+90 or more	M	Hoyt blodtrykk	2020	3516
+90 or more	M	Hjertesykdom	2012	15259
+90 or more	M	Hjertesykdom	2013	15963
+90 or more	M	Hjertesykdom	2014	16278
+90 or more	M	Hjertesykdom	2015	16755
+90 or more	M	Hjertesykdom	2016	16346
+90 or more	M	Hjertesykdom	2017	15874
+90 or more	M	Hjertesykdom	2018	14890
+90 or more	M	Hjertesykdom	2019	14282
+90 or more	M	Hjertesykdom	2020	13440
+90 or more	M	Diabetes	2012	1472
+90 or more	M	Diabetes	2013	1509
+90 or more	M	Diabetes	2014	1583
+90 or more	M	Diabetes	2015	1738
+90 or more	M	Diabetes	2016	1737
+90 or more	M	Diabetes	2017	1806
+90 or more	M	Diabetes	2018	1893
+90 or more	M	Diabetes	2019	1976
+90 or more	M	Diabetes	2020	2170
+90 or more	M	Kreft	2012	2731
+90 or more	M	Kreft	2013	2840
+90 or more	M	Kreft	2014	3143
+90 or more	M	Kreft	2015	3622
+90 or more	M	Kreft	2016	3665
+90 or more	M	Kreft	2017	4068
+90 or more	M	Kreft	2018	4088
+90 or more	M	Kreft	2019	4106
+90 or more	M	Kreft	2020	4768
+90 or more	M	Underlivsplager hos kvinner	2012	NA
+90 or more	M	Underlivsplager hos kvinner	2013	NA
+90 or more	M	Underlivsplager hos kvinner	2014	NA
+90 or more	M	Underlivsplager hos kvinner	2015	NA
+90 or more	M	Underlivsplager hos kvinner	2016	NA
+90 or more	M	Underlivsplager hos kvinner	2017	NA
+90 or more	M	Underlivsplager hos kvinner	2018	NA
+90 or more	M	Underlivsplager hos kvinner	2019	NA
+90 or more	M	Underlivsplager hos kvinner	2020	NA
+90 or more	M	Funksjonelle mage-tarmplager	2012	1191
+90 or more	M	Funksjonelle mage-tarmplager	2013	1198
+90 or more	M	Funksjonelle mage-tarmplager	2014	1327
+90 or more	M	Funksjonelle mage-tarmplager	2015	1420
+90 or more	M	Funksjonelle mage-tarmplager	2016	1505
+90 or more	M	Funksjonelle mage-tarmplager	2017	1599
+90 or more	M	Funksjonelle mage-tarmplager	2018	1587
+90 or more	M	Funksjonelle mage-tarmplager	2019	1626
+90 or more	M	Funksjonelle mage-tarmplager	2020	1687
+90 or more	M	Hudinfeksjoner	2012	698
+90 or more	M	Hudinfeksjoner	2013	654
+90 or more	M	Hudinfeksjoner	2014	787
+90 or more	M	Hudinfeksjoner	2015	866
+90 or more	M	Hudinfeksjoner	2016	952
+90 or more	M	Hudinfeksjoner	2017	1004
+90 or more	M	Hudinfeksjoner	2018	1064
+90 or more	M	Hudinfeksjoner	2019	1094
+90 or more	M	Hudinfeksjoner	2020	1105
+90 or more	M	Ulykker og skader	2012	1498
+90 or more	M	Ulykker og skader	2013	1642
+90 or more	M	Ulykker og skader	2014	1767
+90 or more	M	Ulykker og skader	2015	1750
+90 or more	M	Ulykker og skader	2016	1914
+90 or more	M	Ulykker og skader	2017	1967
+90 or more	M	Ulykker og skader	2018	2134
+90 or more	M	Ulykker og skader	2019	2264
+90 or more	M	Ulykker og skader	2020	2176
+90 or more	M	Medfodt sykdom eller feil	2012	1
+90 or more	M	Medfodt sykdom eller feil	2013	8
+90 or more	M	Medfodt sykdom eller feil	2014	6
+90 or more	M	Medfodt sykdom eller feil	2015	9
+90 or more	M	Medfodt sykdom eller feil	2016	9
+90 or more	M	Medfodt sykdom eller feil	2017	2
+90 or more	M	Medfodt sykdom eller feil	2018	7
+90 or more	M	Medfodt sykdom eller feil	2019	3
+90 or more	M	Medfodt sykdom eller feil	2020	10
+90 or more	M	Svangerskap, fodsel, prevensjon	2012	NA
+90 or more	M	Svangerskap, fodsel, prevensjon	2013	NA
+90 or more	M	Svangerskap, fodsel, prevensjon	2014	NA
+90 or more	M	Svangerskap, fodsel, prevensjon	2015	NA
+90 or more	M	Svangerskap, fodsel, prevensjon	2016	NA
+90 or more	M	Svangerskap, fodsel, prevensjon	2017	NA
+90 or more	M	Svangerskap, fodsel, prevensjon	2018	NA
+90 or more	M	Svangerskap, fodsel, prevensjon	2019	NA
+90 or more	M	Svangerskap, fodsel, prevensjon	2020	NA
+90 or more	M	Frykt for sykdom	2012	98
+90 or more	M	Frykt for sykdom	2013	92
+90 or more	M	Frykt for sykdom	2014	118
+90 or more	M	Frykt for sykdom	2015	128
+90 or more	M	Frykt for sykdom	2016	109
+90 or more	M	Frykt for sykdom	2017	136
+90 or more	M	Frykt for sykdom	2018	94
+90 or more	M	Frykt for sykdom	2019	90
+90 or more	M	Frykt for sykdom	2020	497
+90 or more	M	Administrativ kontakt	2012	1195
+90 or more	M	Administrativ kontakt	2013	1511
+90 or more	M	Administrativ kontakt	2014	1825
+90 or more	M	Administrativ kontakt	2015	2208
+90 or more	M	Administrativ kontakt	2016	2331
+90 or more	M	Administrativ kontakt	2017	2152
+90 or more	M	Administrativ kontakt	2018	2309
+90 or more	M	Administrativ kontakt	2019	2395
+90 or more	M	Administrativ kontakt	2020	2623
+90 or more	M	Forebyggende kontakt	2012	416
+90 or more	M	Forebyggende kontakt	2013	702
+90 or more	M	Forebyggende kontakt	2014	778
+90 or more	M	Forebyggende kontakt	2015	1036
+90 or more	M	Forebyggende kontakt	2016	1114
+90 or more	M	Forebyggende kontakt	2017	1077
+90 or more	M	Forebyggende kontakt	2018	1151
+90 or more	M	Forebyggende kontakt	2019	1140
+90 or more	M	Forebyggende kontakt	2020	1508
+90 or more	M	Andre diagnoser	2012	19112
+90 or more	M	Andre diagnoser	2013	19658
+90 or more	M	Andre diagnoser	2014	21429
+90 or more	M	Andre diagnoser	2015	22896
+90 or more	M	Andre diagnoser	2016	24090
+90 or more	M	Andre diagnoser	2017	24722
+90 or more	M	Andre diagnoser	2018	25432
+90 or more	M	Andre diagnoser	2019	26430
+90 or more	M	Andre diagnoser	2020	27702
+90 or more	F	Alle diagnoser	2012	109129
+90 or more	F	Alle diagnoser	2013	112234
+90 or more	F	Alle diagnoser	2014	116259
+90 or more	F	Alle diagnoser	2015	119320
+90 or more	F	Alle diagnoser	2016	121359
+90 or more	F	Alle diagnoser	2017	121629
+90 or more	F	Alle diagnoser	2018	121157
+90 or more	F	Alle diagnoser	2019	119897
+90 or more	F	Alle diagnoser	2020	122134
+90 or more	F	Luftveisinfeksjoner, inkl. orebetennelse	2012	3693
+90 or more	F	Luftveisinfeksjoner, inkl. orebetennelse	2013	3627
+90 or more	F	Luftveisinfeksjoner, inkl. orebetennelse	2014	3397
+90 or more	F	Luftveisinfeksjoner, inkl. orebetennelse	2015	4080
+90 or more	F	Luftveisinfeksjoner, inkl. orebetennelse	2016	3731
+90 or more	F	Luftveisinfeksjoner, inkl. orebetennelse	2017	4157
+90 or more	F	Luftveisinfeksjoner, inkl. orebetennelse	2018	4105
+90 or more	F	Luftveisinfeksjoner, inkl. orebetennelse	2019	4095
+90 or more	F	Luftveisinfeksjoner, inkl. orebetennelse	2020	2453
+90 or more	F	Lokale smerter og betennelser	2012	4778
+90 or more	F	Lokale smerter og betennelser	2013	5006
+90 or more	F	Lokale smerter og betennelser	2014	5036
+90 or more	F	Lokale smerter og betennelser	2015	5326
+90 or more	F	Lokale smerter og betennelser	2016	5508
+90 or more	F	Lokale smerter og betennelser	2017	5683
+90 or more	F	Lokale smerter og betennelser	2018	5559
+90 or more	F	Lokale smerter og betennelser	2019	5822
+90 or more	F	Lokale smerter og betennelser	2020	6009
+90 or more	F	Ryggproblemer	2012	1962
+90 or more	F	Ryggproblemer	2013	1974
+90 or more	F	Ryggproblemer	2014	2095
+90 or more	F	Ryggproblemer	2015	2340
+90 or more	F	Ryggproblemer	2016	2555
+90 or more	F	Ryggproblemer	2017	2739
+90 or more	F	Ryggproblemer	2018	2565
+90 or more	F	Ryggproblemer	2019	2752
+90 or more	F	Ryggproblemer	2020	2953
+90 or more	F	Generelle smerter og muskelplager	2012	621
+90 or more	F	Generelle smerter og muskelplager	2013	557
+90 or more	F	Generelle smerter og muskelplager	2014	589
+90 or more	F	Generelle smerter og muskelplager	2015	641
+90 or more	F	Generelle smerter og muskelplager	2016	676
+90 or more	F	Generelle smerter og muskelplager	2017	696
+90 or more	F	Generelle smerter og muskelplager	2018	640
+90 or more	F	Generelle smerter og muskelplager	2019	754
+90 or more	F	Generelle smerter og muskelplager	2020	847
+90 or more	F	Ledd- og giktsykdommer	2012	2865
+90 or more	F	Ledd- og giktsykdommer	2013	2883
+90 or more	F	Ledd- og giktsykdommer	2014	2929
+90 or more	F	Ledd- og giktsykdommer	2015	3143
+90 or more	F	Ledd- og giktsykdommer	2016	3238
+90 or more	F	Ledd- og giktsykdommer	2017	3342
+90 or more	F	Ledd- og giktsykdommer	2018	3078
+90 or more	F	Ledd- og giktsykdommer	2019	2733
+90 or more	F	Ledd- og giktsykdommer	2020	2755
+90 or more	F	Psykisk sykdom eller lidelse	2012	5625
+90 or more	F	Psykisk sykdom eller lidelse	2013	5648
+90 or more	F	Psykisk sykdom eller lidelse	2014	6173
+90 or more	F	Psykisk sykdom eller lidelse	2015	6192
+90 or more	F	Psykisk sykdom eller lidelse	2016	6775
+90 or more	F	Psykisk sykdom eller lidelse	2017	6728
+90 or more	F	Psykisk sykdom eller lidelse	2018	6910
+90 or more	F	Psykisk sykdom eller lidelse	2019	7023
+90 or more	F	Psykisk sykdom eller lidelse	2020	7887
+90 or more	F	Atopi, astma, allergi eller eksem	2012	1761
+90 or more	F	Atopi, astma, allergi eller eksem	2013	1831
+90 or more	F	Atopi, astma, allergi eller eksem	2014	1965
+90 or more	F	Atopi, astma, allergi eller eksem	2015	2045
+90 or more	F	Atopi, astma, allergi eller eksem	2016	2203
+90 or more	F	Atopi, astma, allergi eller eksem	2017	2345
+90 or more	F	Atopi, astma, allergi eller eksem	2018	2416
+90 or more	F	Atopi, astma, allergi eller eksem	2019	2463
+90 or more	F	Atopi, astma, allergi eller eksem	2020	2361
+90 or more	F	Hoyt blodtrykk	2012	10177
+90 or more	F	Hoyt blodtrykk	2013	10360
+90 or more	F	Hoyt blodtrykk	2014	10218
+90 or more	F	Hoyt blodtrykk	2015	10141
+90 or more	F	Hoyt blodtrykk	2016	10144
+90 or more	F	Hoyt blodtrykk	2017	9874
+90 or more	F	Hoyt blodtrykk	2018	10072
+90 or more	F	Hoyt blodtrykk	2019	10062
+90 or more	F	Hoyt blodtrykk	2020	9723
+90 or more	F	Hjertesykdom	2012	25296
+90 or more	F	Hjertesykdom	2013	25713
+90 or more	F	Hjertesykdom	2014	25459
+90 or more	F	Hjertesykdom	2015	25241
+90 or more	F	Hjertesykdom	2016	24340
+90 or more	F	Hjertesykdom	2017	23065
+90 or more	F	Hjertesykdom	2018	21431
+90 or more	F	Hjertesykdom	2019	19714
+90 or more	F	Hjertesykdom	2020	18069
+90 or more	F	Diabetes	2012	2821
+90 or more	F	Diabetes	2013	2730
+90 or more	F	Diabetes	2014	2651
+90 or more	F	Diabetes	2015	2692
+90 or more	F	Diabetes	2016	2905
+90 or more	F	Diabetes	2017	3012
+90 or more	F	Diabetes	2018	3080
+90 or more	F	Diabetes	2019	3154
+90 or more	F	Diabetes	2020	3355
+90 or more	F	Kreft	2012	1854
+90 or more	F	Kreft	2013	1959
+90 or more	F	Kreft	2014	2094
+90 or more	F	Kreft	2015	2349
+90 or more	F	Kreft	2016	2353
+90 or more	F	Kreft	2017	2367
+90 or more	F	Kreft	2018	2481
+90 or more	F	Kreft	2019	2441
+90 or more	F	Kreft	2020	2692
+90 or more	F	Underlivsplager hos kvinner	2012	590
+90 or more	F	Underlivsplager hos kvinner	2013	602
+90 or more	F	Underlivsplager hos kvinner	2014	622
+90 or more	F	Underlivsplager hos kvinner	2015	628
+90 or more	F	Underlivsplager hos kvinner	2016	569
+90 or more	F	Underlivsplager hos kvinner	2017	757
+90 or more	F	Underlivsplager hos kvinner	2018	737
+90 or more	F	Underlivsplager hos kvinner	2019	732
+90 or more	F	Underlivsplager hos kvinner	2020	724
+90 or more	F	Funksjonelle mage-tarmplager	2012	2541
+90 or more	F	Funksjonelle mage-tarmplager	2013	2580
+90 or more	F	Funksjonelle mage-tarmplager	2014	2828
+90 or more	F	Funksjonelle mage-tarmplager	2015	2857
+90 or more	F	Funksjonelle mage-tarmplager	2016	2954
+90 or more	F	Funksjonelle mage-tarmplager	2017	3137
+90 or more	F	Funksjonelle mage-tarmplager	2018	3153
+90 or more	F	Funksjonelle mage-tarmplager	2019	3126
+90 or more	F	Funksjonelle mage-tarmplager	2020	3648
+90 or more	F	Hudinfeksjoner	2012	1601
+90 or more	F	Hudinfeksjoner	2013	1607
+90 or more	F	Hudinfeksjoner	2014	1580
+90 or more	F	Hudinfeksjoner	2015	1598
+90 or more	F	Hudinfeksjoner	2016	1767
+90 or more	F	Hudinfeksjoner	2017	1691
+90 or more	F	Hudinfeksjoner	2018	1701
+90 or more	F	Hudinfeksjoner	2019	1790
+90 or more	F	Hudinfeksjoner	2020	1844
+90 or more	F	Ulykker og skader	2012	3609
+90 or more	F	Ulykker og skader	2013	3653
+90 or more	F	Ulykker og skader	2014	3937
+90 or more	F	Ulykker og skader	2015	3834
+90 or more	F	Ulykker og skader	2016	4098
+90 or more	F	Ulykker og skader	2017	4094
+90 or more	F	Ulykker og skader	2018	4431
+90 or more	F	Ulykker og skader	2019	4479
+90 or more	F	Ulykker og skader	2020	4369
+90 or more	F	Medfodt sykdom eller feil	2012	8
+90 or more	F	Medfodt sykdom eller feil	2013	9
+90 or more	F	Medfodt sykdom eller feil	2014	15
+90 or more	F	Medfodt sykdom eller feil	2015	22
+90 or more	F	Medfodt sykdom eller feil	2016	11
+90 or more	F	Medfodt sykdom eller feil	2017	12
+90 or more	F	Medfodt sykdom eller feil	2018	11
+90 or more	F	Medfodt sykdom eller feil	2019	17
+90 or more	F	Medfodt sykdom eller feil	2020	15
+90 or more	F	Svangerskap, fodsel, prevensjon	2012	NA
+90 or more	F	Svangerskap, fodsel, prevensjon	2013	NA
+90 or more	F	Svangerskap, fodsel, prevensjon	2014	NA
+90 or more	F	Svangerskap, fodsel, prevensjon	2015	NA
+90 or more	F	Svangerskap, fodsel, prevensjon	2016	NA
+90 or more	F	Svangerskap, fodsel, prevensjon	2017	NA
+90 or more	F	Svangerskap, fodsel, prevensjon	2018	NA
+90 or more	F	Svangerskap, fodsel, prevensjon	2019	NA
+90 or more	F	Svangerskap, fodsel, prevensjon	2020	NA
+90 or more	F	Frykt for sykdom	2012	266
+90 or more	F	Frykt for sykdom	2013	316
+90 or more	F	Frykt for sykdom	2014	317
+90 or more	F	Frykt for sykdom	2015	279
+90 or more	F	Frykt for sykdom	2016	269
+90 or more	F	Frykt for sykdom	2017	258
+90 or more	F	Frykt for sykdom	2018	229
+90 or more	F	Frykt for sykdom	2019	256
+90 or more	F	Frykt for sykdom	2020	1053
+90 or more	F	Administrativ kontakt	2012	1553
+90 or more	F	Administrativ kontakt	2013	2096
+90 or more	F	Administrativ kontakt	2014	2650
+90 or more	F	Administrativ kontakt	2015	2921
+90 or more	F	Administrativ kontakt	2016	3036
+90 or more	F	Administrativ kontakt	2017	2762
+90 or more	F	Administrativ kontakt	2018	2894
+90 or more	F	Administrativ kontakt	2019	3013
+90 or more	F	Administrativ kontakt	2020	3274
+90 or more	F	Forebyggende kontakt	2012	826
+90 or more	F	Forebyggende kontakt	2013	1507
+90 or more	F	Forebyggende kontakt	2014	1681
+90 or more	F	Forebyggende kontakt	2015	1825
+90 or more	F	Forebyggende kontakt	2016	2065
+90 or more	F	Forebyggende kontakt	2017	2060
+90 or more	F	Forebyggende kontakt	2018	1975
+90 or more	F	Forebyggende kontakt	2019	1982
+90 or more	F	Forebyggende kontakt	2020	2800
+90 or more	F	Andre diagnoser	2012	36483
+90 or more	F	Andre diagnoser	2013	37446
+90 or more	F	Andre diagnoser	2014	39887
+90 or more	F	Andre diagnoser	2015	40984
+90 or more	F	Andre diagnoser	2016	41862
+90 or more	F	Andre diagnoser	2017	42497
+90 or more	F	Andre diagnoser	2018	43185
+90 or more	F	Andre diagnoser	2019	42843
+90 or more	F	Andre diagnoser	2020	44668

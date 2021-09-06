@@ -6,48 +6,53 @@ output:
     theme: united
     highlight: pygments
 runtime: shiny_prerendered
-description: "Learnr tutorial to start off with ggplot2. Created for a short workshop for EPINOR PhD students at Univ.of Bergen."
+description: "Learnr tutorial to start off with ggplot2. Created for a course for PhD students at Medical Faculty, Univ.of Bergen."
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
 library(learnr)
 library(tidyverse)
 library(patchwork)
 
 knitr::opts_chunk$set(echo = TRUE)
 
-hospital_inpatients <- read_csv("data/PasientSomatSykeh2.csv")
-hospital_inpatients_grouped <- hospital_inpatients %>%
-  group_by(aar, gruppe)
+consultations_gp <- read_delim(
+  "data/Consultations_cleaned2021-09-03.txt",
+  delim = "\t",
+  show_col_types = FALSE
+)
+consultations_gp_grouped <- consultations_gp %>%
+  group_by(year, age)
 
 # calculate sum of patients per year and group
-hospital_inpatients_summary <- hospital_inpatients_grouped %>%
-  summarise(sum = sum(antall.pasienter))
+consultations_gp_summary <- consultations_gp_grouped %>%
+  filter(diagnosis != "Alle diagnoser") %>%
+  summarise(sum = sum(nConsultations, na.rm = TRUE))
 
-my_plot1 <- ggplot(hospital_inpatients_summary,
-        aes(x = as.factor(aar), y = sum)) +
-	geom_col(aes(fill = gruppe), position = position_dodge())
+my_plot1 <- ggplot(consultations_gp_summary,
+        aes(x = as.factor(year), y = sum)) +
+	geom_col(aes(fill = age), position = position_dodge())
 
-hospital_inpatients_median <- hospital_inpatients_grouped %>%
-  summarise(median = median(antall.pasienter),
-            stderr = sd(antall.pasienter))
+consultations_gp_median <- consultations_gp_grouped %>%
+  summarise(median = median(nConsultations, na.rm = TRUE),
+            stderr = sd(nConsultations, na.rm = TRUE))
 
-my_plot2 <- ggplot(hospital_inpatients_median,
-                   aes(as.factor(aar), median)) +
-  geom_col(aes(fill = gruppe), position = position_dodge())
+my_plot2 <- ggplot(consultations_gp_median,
+                   aes(as.factor(year), median)) +
+  geom_col(aes(fill = age), position = position_dodge())
 
-final.plot <- ggplot(hospital_inpatients_grouped,
-                      aes(x = as.factor(aar), y = antall.pasienter)) +
-	geom_col(aes(fill = gruppe), position = position_dodge()) +
-	facet_grid(rows = vars(kjonn), cols = vars(alder))
+final.plot <- ggplot(consultations_gp_grouped,
+                      aes(x = as.factor(year), y = nConsultations)) +
+	geom_col(aes(fill = age), position = position_dodge()) +
+	facet_grid(cols = vars(gender), rows = vars(diagnosis), scales = "free_y")
 
 my_plot1_nicer <- my_plot1 +
   scale_fill_brewer(type = "div", palette = "PRGn",
-                    name = "Type of stay") +
+                    name = "Age group") +
   xlab("Year") +
-  ylab("Total number of patients") +
-  labs(title = "Number of patients in hospitals per year",
-       subtitle = "groupped by type of stay",
+  ylab("Total number of consultations") +
+  labs(title = "Number of consultations at general practicioners (GPs)",
+       subtitle = "groupped by age",
        caption = "data source: aggregated data from SSB")
 ```
 
@@ -97,27 +102,42 @@ Each layer is added to the previous one with a `+` sign. The result can be saved
 Let's read in some data.
 
 ```{r}
-hospital_inpatients <- read_csv("data/PasientSomatSykeh2.csv")
-hospital_inpatients
+consultations_gp <- read_delim(
+  "data/Consultations_cleaned2021-09-03.txt",
+  delim = "\t"
+)
+consultations_gp
 ```
 
-This is publicly available data from SSB (Norwegian Statistics Bureau) on number of in-patients in hospitals in Hordaland between 2012 and 2018.
+This is publicly available data from SSB (Norwegian Statistics Bureau) on number of consultations at general practitioners (GP) between 2012 and 2018.
 
-Let's plot some numbers: total number of patients per year and per group ("gruppe").
+Let's plot some numbers: total number of patients per year and per group ("diagnosis").
 
 ---
 
 #### Grouping the data
 
 ```{r}
-hospital_inpatients_grouped <- hospital_inpatients %>%
-  group_by(aar, gruppe)
+consultations_gp_grouped <- consultations_gp %>%
+  group_by(year, age)
 
 # calculate sum of patients per year and group
-hospital_inpatients_summary <- hospital_inpatients_grouped %>%
-  summarise(sum = sum(antall.pasienter))
-hospital_inpatients_summary
+consultations_gp_summary <- consultations_gp_grouped %>%
+  filter(diagnosis != "Alle diagnoser") %>%
+  summarise(sum = sum(nConsultations))
+consultations_gp_summary
 ```
+
+We see that the data has now only `NA` values - this is because, by default,
+the `sum` function does not discard `NA` values. Thus, we need to specify this:
+
+```{r}
+consultations_gp_summary <- consultations_gp_grouped %>%
+  filter(diagnosis != "Alle diagnoser") %>%
+  summarise(sum = sum(nConsultations, na.rm = TRUE)) # don't count NAs
+consultations_gp_summary
+```
+
 
 ---
 
@@ -125,17 +145,17 @@ hospital_inpatients_summary
 Here, we're using simplest type of plot: points.
 
 ```{r}
-ggplot(hospital_inpatients_summary,  # define data
-       aes(x = as.factor(aar), y = sum)) +  # define which columns are x and y
+ggplot(consultations_gp_summary,  # define data
+       aes(x = as.factor(year), y = sum)) +  # define which columns are x and y
   geom_point() # define way to visualize the data
 ```
 
-> NOTE: we used `as.factor` when defining column `aar` as `x` because we want
-the x-axis to be categorical and sice in the `aar` columns are only numbers,
+> NOTE: we used `as.factor` when defining column `year` as `x` because we want
+the x-axis to be categorical and sice in the `year` columns are only numbers,
 by default it would be viewed as a continuous variable.
 
-This does not look great - we have four points per year since there are four
-categories ("gruppe"), but we don't know which point is which.
+This does not look great - we have several points per year since there are many
+categories ("age groups"), but we don't know which point is which.
 
 ---
 
@@ -146,10 +166,10 @@ the variables in the dataset*. Therefore, we need to specify aesthetics
 for the `geom_point`.
 
 ```{r}
-plot_sum_patients <- ggplot(hospital_inpatients_summary,
-       aes(x = as.factor(aar), y = sum)) +
-  geom_point(aes(col = gruppe))
-plot_sum_patients
+plot_sum_consult <- ggplot(consultations_gp_summary,
+       aes(x = as.factor(year), y = sum)) +
+  geom_point(aes(col = age))
+plot_sum_consult
 ```
 
 ...and we get a legend for free!
@@ -166,9 +186,9 @@ Plot the same but now using bar chart instead of points (`geom_col`)
 ```
 
 ```{r geom-col-solution}
-ggplot(hospital_inpatients_summary,
-       aes(x = as.factor(aar), y = sum)) +
-  geom_col(aes(col = gruppe))
+ggplot(consultations_gp_summary,
+       aes(x = as.factor(year), y = sum)) +
+  geom_col(aes(col = age))
 ```
 
 **What happened to the color?**
@@ -181,9 +201,9 @@ aesthetics, not the `col` (color) argument. Try this below!
 ```
 
 ```{r geom-col-fill-solution}
-ggplot(hospital_inpatients_summary,
-       aes(x = as.factor(aar), y = sum)) +
-  geom_col(aes(fill = gruppe))
+ggplot(consultations_gp_summary,
+       aes(x = as.factor(year), y = sum)) +
+  geom_col(aes(fill = age))
 ```
 
 ### Exercise 2
@@ -191,10 +211,10 @@ ggplot(hospital_inpatients_summary,
 Now plot the same using lines:
 
 ```{r geom-lines, exercise=TRUE, exercise.lines = 5}
-plot_sum_patients_lines <- ggplot(hospital_inpatients_summary,
-       aes(x = as.factor(aar), y = sum)) +
-  ___(aes(group = gruppe))
-plot_sum_patients_lines
+plot_sum_consult_lines <- ggplot(consultations_gp_summary,
+       aes(x = as.factor(year), y = sum)) +
+  ___(aes(group = age))
+plot_sum_consult_lines
 ```
 
 **What does the `group` argument of the `aes` function do?** *(check by 
@@ -204,15 +224,15 @@ experimenting in the box above or copying from `Hint` code)*
 # `group` argument helps draw lines connecting the same categories of points
 # run the code below (without the `group` argument) to see how strange the
 # result would be
-ggplot(hospital_inpatients_summary,
-       aes(x = as.factor(aar), y = sum)) +
-  geom_line(aes(col = gruppe))
+ggplot(consultations_gp_summary,
+       aes(x = as.factor(year), y = sum)) +
+  geom_line(aes(col = age))
 ```
 
 ```{r geom-lines-solution}
-ggplot(hospital_inpatients_summary,
-       aes(x = as.factor(aar), y = sum)) +
-  geom_line(aes(group = gruppe))
+ggplot(consultations_gp_summary,
+       aes(x = as.factor(year), y = sum)) +
+  geom_line(aes(group = age))
 ```
 
 
@@ -223,50 +243,71 @@ ggplot(hospital_inpatients_summary,
 ### Faceting
 
 We've plotted the number of admissions per year in total and per group.
-Sometimes these numbers vary depending on other variables, here age (`alder`) or
+Sometimes these numbers vary depending on other variables, here age (`age`) or
 sex (`gender`). With ggplot2, it's easy to split the plot in different
 sub-plots, called _facets_.
 
 ```{r, fig.cap="**Figure above:** No splitting"}
 # plotting totals, grouped, non-stacked
-ggplot(hospital_inpatients_summary,
-        aes(x = as.factor(aar), y = sum)) +
-	geom_col(aes(fill = gruppe), position = position_dodge())
+ggplot(consultations_gp_summary,
+        aes(x = as.factor(year), y = sum)) +
+	geom_col(aes(fill = age), position = position_dodge())
 ```
 
 
-```{r, fig.cap="**Figure above:** Splitting once", out.width = "100%", fig.height = 5, fig.width = 8}
+```{r, fig.cap="**Figure above:** Splitting once", out.width = "100%", fig.height = 6, fig.width = 8}
 # splitting this - checking difference with regard to gender
-ggplot(hospital_inpatients_grouped,
-        aes(x = as.factor(aar), y = antall.pasienter)) +
-	geom_col(aes(fill = gruppe), position = position_dodge()) +
-	facet_wrap(facets = vars(kjonn))
+ggplot(consultations_gp_grouped,
+        aes(x = as.factor(year), y = nConsultations)) +
+	geom_col(aes(fill = age), position = position_dodge()) +
+	facet_wrap(facets = vars(gender))
 ```
 
 
-```{r, fig.cap="**Figure above:** Splitting twice", out.width = "100%", fig.height = 5, fig.width = 8}
+```{r, fig.cap="**Figure above:** Splitting twice", out.width = "100%", fig.height = 12, fig.width = 8}
 # splitting again - with regard to age
-final.plot <- ggplot(hospital_inpatients_grouped,
-                      aes(x = as.factor(aar), y = antall.pasienter)) +
-	geom_col(aes(fill = gruppe), position = position_dodge()) +
-	facet_grid(rows = vars(kjonn), cols = vars(alder))
+final.plot <- ggplot(consultations_gp_grouped,
+                      aes(x = as.factor(year), y = nConsultations)) +
+	geom_col(aes(fill = age), position = position_dodge()) +
+	facet_grid(cols = vars(gender), rows = vars(diagnosis))
 final.plot
 ```
 
+Suddenly, we can't see some of the bars because the heights are so different.
+When that happens when we split with `facets`, you can specify which axis can
+change independently from group to group by setting the argument `scales`.
+
+```{r, fig.cap="**Figure above:** Splitting twice, free y scale", out.width = "100%", fig.height = 12, fig.width = 8}
+final.plot <- ggplot(consultations_gp_grouped,
+                      aes(x = as.factor(year), y = nConsultations)) +
+	geom_col(aes(fill = age), position = position_dodge()) +
+	facet_grid(
+	  cols = vars(gender),
+	  rows = vars(diagnosis),
+	  scales = "free_y"
+  )
+final.plot
+```
+
+
 ### Exercise 1
 
-Plot the data using `gruppe` and `kjonn` as facets.
+Plot the data using `age` and `diagnosis` as facets.
 
-```{r plot_facets, exercise=TRUE, exercise.eval=TRUE, exercise.lines = 5, out.width = "100%", fig.height = 5, fig.width = 8}
+```{r plot_facets, exercise=TRUE, exercise.eval=TRUE, exercise.lines = 5, out.width = "100%", fig.height = 12, fig.width = 8}
 
 
 ```
 
-```{r plot_facets-solution, out.width = "100%", fig.height = 5, fig.width = 8}
-ggplot(hospital_inpatients_grouped,
-                      aes(x = as.factor(aar), y = antall.pasienter)) +
-	geom_col(aes(fill = gruppe), position = position_dodge()) +
-	facet_grid(rows = vars(kjonn), cols = vars(gruppe))
+```{r plot_facets-solution, out.width = "100%", fig.height = 12, fig.width = 8}
+ggplot(consultations_gp_grouped,
+                      aes(x = as.factor(year), y = nConsultations)) +
+	geom_col(aes(fill = gender), position = position_dodge()) +
+	facet_grid(
+	  rows = vars(diagnosis),
+	  cols = vars(age),
+	  scales = "free_y"
+	 )
 ```
 
 ---
@@ -279,12 +320,12 @@ Of course, we can plot several various types of graphs on one plot.
 by saving it to an object and adding onto the object.
 
 ```{r}
-my_plot1 <- ggplot(hospital_inpatients_summary,
-        aes(x = as.factor(aar), y = sum)) +
-	geom_col(aes(fill = gruppe), position = position_dodge())
+my_plot1 <- ggplot(consultations_gp_summary,
+        aes(x = as.factor(year), y = sum)) +
+	geom_col(aes(fill = age), position = position_dodge())
 
 my_plot1 +
-  geom_line(aes(group = gruppe))
+  geom_line(aes(group = age))
 ```
 
 Something is not right - the lines are drawn between the points that are in the
@@ -295,7 +336,7 @@ So we need to do the same with lines.
 
 ```{r}
 my_plot1 +
-  geom_line(aes(group = gruppe, col = gruppe),
+  geom_line(aes(group = age, col = age),
             position = position_dodge(width = 0.9))
 ```
 
@@ -305,11 +346,14 @@ we can plot errorbars! (`geom_errorbar`)
 For that, we need to first construct a dataset that contains e.g., median and
 standard error of the inpatients per year.
 
+> *Remember to set the functions to ignore the NAs!*
+
 ```{r}
-hospital_inpatients_median <- hospital_inpatients_grouped %>%
-  summarise(median = median(antall.pasienter),
-            stderr = sd(antall.pasienter))
-hospital_inpatients_median
+consultations_gp_median <- consultations_gp_grouped %>%
+  filter(diagnosis != "Alle diagnoser") %>%
+  summarise(median = median(nConsultations, na.rm = TRUE),
+            stderr = sd(nConsultations, na.rm = TRUE))
+consultations_gp_median
 ```
 
 <br>
@@ -317,9 +361,9 @@ hospital_inpatients_median
 Let's plot the median as bars:
 
 ```{r}
-my_plot2 <- ggplot(hospital_inpatients_median,
-                   aes(as.factor(aar), median)) +
-  geom_col(aes(fill = gruppe), position = position_dodge())
+my_plot2 <- ggplot(consultations_gp_median,
+                   aes(as.factor(year), median)) +
+  geom_col(aes(fill = age), position = position_dodge())
 my_plot2
 ```
 
@@ -344,7 +388,7 @@ my_plot2 +
     aes(
       ymin = (median - stderr),
       ymax = (median + stderr),
-      group = gruppe
+      group = age
      ),
     position = position_dodge(width = 0.9)
  )
@@ -362,13 +406,13 @@ combining plots - [`patchwork`](https://patchwork.data-imaginist.com/index.html)
 Until now, we have several plots: `final.plot`, `my_plot1`, `my_plot2`. Let's
 try putting those together:
 
-```{r, out.width = "120%", fig.height = 4, fig.width = 8}
+```{r, out.width = "100%", fig.height = 6, fig.width = 8}
 # next to each other
-plot_sum_patients + my_plot1
+plot_sum_consult + my_plot1
 ```
 
 
-```{r, out.width = "120%", fig.height = 4, fig.width = 8}
+```{r, out.width = "100%", fig.height = 14, fig.width = 8}
 # on top of each other
 final.plot / my_plot1
 ```
@@ -377,7 +421,7 @@ As easy as that!
 
 Legends are the same, so let's gather those.
 
-```{r, out.width = "120%", fig.height = 4, fig.width = 8}
+```{r, out.width = "100%", fig.height = 14, fig.width = 8}
 final.plot / my_plot1 + 
   plot_layout(guides = 'collect')
 ```
@@ -450,7 +494,7 @@ and one for the lines. Choose the set of colors from ColorBrewer webpage.
 
 ```{r adjust_palettes, exercise=TRUE, exercise.lines = 7}
 my_plot1 +
-  geom_line(aes(group = gruppe, col = gruppe),
+  geom_line(aes(group = age, col = age),
             position = position_dodge(width = 0.9)) +
   scale_____brewer(type = "div", palette = ___) +
   scale_____brewer(type = "div", palette = ___)
@@ -458,7 +502,7 @@ my_plot1 +
 
 ```{r adjust_palettes-solution}
 my_plot1 +
-  geom_line(aes(group = gruppe, col = gruppe),
+  geom_line(aes(group = age, col = age),
             position = position_dodge(width = 0.9)) +
   scale_fill_brewer(type = "div", palette = "BrBG") +
   scale_color_brewer(type = "div", palette = "PuOr")
@@ -472,9 +516,9 @@ Let's add some explanations to the plot: axes titles, main titles, legend title.
 my_plot1 +
   scale_fill_brewer(type = "div", palette = "PRGn") +
   xlab("Year") + # changing the x label
-  ylab("Total number of patients") +
-  labs(title = "Number of patients in hospitals per year",
-       subtitle = "groupped by type of stay",
+  ylab("Total number of consultations") +
+  labs(title = "Number of consultations at general practicioners (GPs)",
+       subtitle = "groupped by age",
        caption = "data source: aggregated data from SSB")
 ```
 
@@ -483,11 +527,11 @@ The legend text is modified within the `scale` function.
 ```{r}
 my_plot1_nicer <- my_plot1 +
   scale_fill_brewer(type = "div", palette = "PRGn",
-                    name = "Type of stay") +
+                    name = "Age group") + # name of the legend
   xlab("Year") +
-  ylab("Total number of patients") +
-  labs(title = "Number of patients in hospitals per year",
-       subtitle = "groupped by type of stay",
+  ylab("Total number of  consultations") +
+  labs(title = "Number of consultations at general practicioners (GPs)",
+       subtitle = "groupped by age",
        caption = "data source: aggregated data from SSB")
 my_plot1_nicer
 ```
@@ -510,6 +554,7 @@ Check what happens when you add `theme_minimal()` to our `my_plot1_nicer`.
 ```{r check_theme_min-solution}
 my_plot1_nicer + theme_minimal()
 ```
+
 ---
 
 To control these visual aspects better, you can check [the documentation](https://ggplot2.tidyverse.org/reference/theme.html). Below, there
