@@ -104,7 +104,7 @@ Let's read in some data.
 
 ```{r}
 consultations_gp <- read_delim(
-  "data/consultations_cleaned_2023-08-23.txt",
+  here("data", "consultations_cleaned_2023-08-23.txt"),
   delim = "\t"
 )
 consultations_gp
