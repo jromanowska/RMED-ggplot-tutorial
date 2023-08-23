@@ -102,7 +102,7 @@ Each layer is added to the previous one with a `+` sign. The result can be saved
 
 Let's read in some data.
 
-```{r}
+```{r, eval=FALSE}
 consultations_gp <- read_delim(
   here("data", "consultations_cleaned_2023-08-23.txt"),
   delim = "\t"
