@@ -13,11 +13,12 @@ description: "Learnr tutorial to start off with ggplot2. Created for a course fo
 library(learnr)
 library(tidyverse)
 library(patchwork)
+library(here)
 
 knitr::opts_chunk$set(echo = TRUE)
 
 consultations_gp <- read_delim(
-  "data/Consultations_cleaned2021-09-03.txt",
+  here("inst", "tutorials", "Lesson1", "data", "consultations_cleaned_2023-08-23.txt"),
   delim = "\t",
   show_col_types = FALSE
 )
@@ -103,13 +104,13 @@ Let's read in some data.
 
 ```{r}
 consultations_gp <- read_delim(
-  "data/Consultations_cleaned2021-09-03.txt",
+  "data/consultations_cleaned_2023-08-23.txt",
   delim = "\t"
 )
 consultations_gp
 ```
 
-This is publicly available data from SSB (Norwegian Statistics Bureau) on number of consultations at general practitioners (GP) between 2012 and 2018.
+This is publicly available data from SSB (Norwegian Statistics Bureau) on number of consultations at general practitioners (GP) between 2012 and 2021.
 
 Let's plot some numbers: total number of patients per year and per group ("diagnosis").
 
