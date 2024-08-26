@@ -18,7 +18,7 @@ library(here)
 knitr::opts_chunk$set(echo = TRUE)
 
 consultations_gp <- read_delim(
-  here("tutorials", "Lesson1", "data", "consultations_cleaned_2023-08-23.txt"),
+  here("tutorials", "Lesson1", "data", "consultations_cleaned_2024-08-13.txt"),
   delim = "\t",
   show_col_types = FALSE
 )
@@ -36,13 +36,14 @@ my_plot1 <- ggplot(consultations_gp_summary,
 
 consultations_gp_median <- consultations_gp_grouped %>%
   summarise(median = median(nConsultations, na.rm = TRUE),
-            stderr = sd(nConsultations, na.rm = TRUE))
+            stderr = sd(nConsultations, na.rm = TRUE),
+            .groups = "drop")
 
 my_plot2 <- ggplot(consultations_gp_median,
                    aes(as.factor(year), median)) +
   geom_col(aes(fill = age), position = position_dodge())
 
-final.plot <- ggplot(consultations_gp_grouped,
+final_plot <- ggplot(consultations_gp_grouped,
                       aes(x = as.factor(year), y = nConsultations)) +
 	geom_col(aes(fill = age), position = position_dodge()) +
 	facet_grid(cols = vars(gender), rows = vars(diagnosis), scales = "free_y")
@@ -104,7 +105,7 @@ Let's read in some data.
 
 ```{r, eval=FALSE}
 consultations_gp <- read_delim(
-  here("data", "consultations_cleaned_2023-08-23.txt"),
+  here("data", "consultations_cleaned_2024-08-13.txt"),
   delim = "\t"
 )
 consultations_gp
@@ -267,11 +268,11 @@ ggplot(consultations_gp_grouped,
 
 ```{r, fig.cap="**Figure above:** Splitting twice", out.width = "100%", fig.height = 12, fig.width = 8}
 # splitting again - with regard to age
-final.plot <- ggplot(consultations_gp_grouped,
+final_plot <- ggplot(consultations_gp_grouped,
                       aes(x = as.factor(year), y = nConsultations)) +
 	geom_col(aes(fill = age), position = position_dodge()) +
 	facet_grid(cols = vars(gender), rows = vars(diagnosis))
-final.plot
+final_plot
 ```
 
 Suddenly, we can't see some of the bars because the heights are so different.
@@ -279,7 +280,7 @@ When that happens when we split with `facets`, you can specify which axis can
 change independently from group to group by setting the argument `scales`.
 
 ```{r, fig.cap="**Figure above:** Splitting twice, free y scale", out.width = "100%", fig.height = 12, fig.width = 8}
-final.plot <- ggplot(consultations_gp_grouped,
+final_plot <- ggplot(consultations_gp_grouped,
                       aes(x = as.factor(year), y = nConsultations)) +
 	geom_col(aes(fill = age), position = position_dodge()) +
 	facet_grid(
@@ -287,7 +288,7 @@ final.plot <- ggplot(consultations_gp_grouped,
 	  rows = vars(diagnosis),
 	  scales = "free_y"
   )
-final.plot
+final_plot
 ```
 
 
@@ -404,7 +405,7 @@ one figure. This can't be done with `ggplot2` itself, but there are many
 additional packages that extend `ggplot2`. One of them is very useful for
 combining plots - [`patchwork`](https://patchwork.data-imaginist.com/index.html).
 
-Until now, we have several plots: `final.plot`, `my_plot1`, `my_plot2`. Let's
+Until now, we have several plots: `final_plot`, `my_plot1`, `my_plot2`. Let's
 try putting those together:
 
 ```{r, out.width = "100%", fig.height = 6, fig.width = 8}
@@ -415,7 +416,7 @@ plot_sum_consult + my_plot1
 
 ```{r, out.width = "100%", fig.height = 14, fig.width = 8}
 # on top of each other
-final.plot / my_plot1
+final_plot / my_plot1
 ```
 
 As easy as that!
@@ -423,7 +424,7 @@ As easy as that!
 Legends are the same, so let's gather those.
 
 ```{r, out.width = "100%", fig.height = 14, fig.width = 8}
-final.plot / my_plot1 + 
+final_plot / my_plot1 + 
   plot_layout(guides = 'collect')
 ```
 
