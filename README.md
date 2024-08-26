@@ -1,5 +1,7 @@
 # Visualization basics with `ggplot2` - tutorial
 
+[![DOI](https://zenodo.org/badge/403534934.svg)](https://zenodo.org/doi/10.5281/zenodo.10532204)
+
 Learnr tutorial to start off with ggplot2. Created for a course
 for PhD students at Medical Faculty, Univ.of Bergen.
 
