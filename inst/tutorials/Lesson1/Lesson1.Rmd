@@ -18,7 +18,7 @@ library(here)
 knitr::opts_chunk$set(echo = TRUE)
 
 consultations_gp <- read_delim(
-  here("tutorials", "Lesson1", "data", "consultations_cleaned_2024-08-13.txt"),
+  here("inst", "tutorials", "Lesson1", "data", "consultations_cleaned_2025-08-08.txt"),
   delim = "\t",
   show_col_types = FALSE
 )
@@ -59,11 +59,22 @@ my_plot1_nicer <- my_plot1 +
 ```
 
 
-## Setup
+## Introduction and setup
 
-Load the necessary libraries
+This tutorial can be followed in two ways:
+
+- write and run the code in the boxes provided here,
+- create your own project, write a script and execute.
+
+If you choose the first option, you don't need to load the data nor libraries,
+if you want the other option, download the data from
+[the source](https://github.com/jromanowska/RMED-ggplot-tutorial/tree/main/inst/tutorials/Lesson1/data),
+install and load the libraries.
+
+We will be using {here}, {tidyverse}, and {patchwork}.
 
 ```{r}
+library(here)
 library(tidyverse)
 library(patchwork)
 ```
@@ -77,22 +88,22 @@ A plot in `ggplot2` consists of several layers:
     - one row per datapoint
     - all grouping must be included in the data
 
-2. aesthetics (`aes`) ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#section-aesthetics))
+2. aesthetics (`aes`) ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#aesthetics))
     - how to map the data to the graph?
     - which column is *x*, *y*, ...
     - which column provides grouping (based on the grouping, one can either connect points into lines, split a graph into several facets, or color differently each group)
 
-3. `geom`s ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#section-geoms))
+3. `geom`s ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#geoms))
     - how to visualize the data?
     - points (`geom_point`), lines (`geom_line`), bars (`geom_bar`), etc.
     - `geom`s are connected to `stat`s that conduct any necessary pre-processing of data (e.g., `geom_histogram` would first calculate the number of observations in each bin through `stat_bin`)
 
-4. `scale`s ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#section-scales))
+4. `scale`s ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#scales))
     - any type of data representation on the plot
     - coordinates: `scale_x_continuous`, `scale_x_discrete`, `scale_x_date`, etc.
     - colors: `scale_color_manual`, `scale_colour_brewer`, `scale_fill_continuous`, etc.
 
-5. `theme` ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#section-themes))
+5. `theme` ([original documentation](https://ggplot2.tidyverse.org/reference/index.html#themes))
     - visual aspects
     - size and types of fonts
     - positioning of axes, legends, etc.
@@ -105,13 +116,18 @@ Let's read in some data.
 
 ```{r, eval=FALSE}
 consultations_gp <- read_delim(
-  here("data", "consultations_cleaned_2024-08-13.txt"),
+  here("data", "consultations_cleaned_2025-08-08.txt"),
   delim = "\t"
 )
 consultations_gp
 ```
 
-This is publicly available data from SSB (Norwegian Statistics Bureau) on number of consultations at general practitioners (GP) between 2012 and 2021.
+```{r, echo=FALSE}
+consultations_gp
+```
+
+
+This is publicly available data from SSB (Norwegian Statistics Bureau) on number of consultations at general practitioners (GP) between 2012 and 2024.
 
 Let's plot some numbers: total number of patients per year and per group ("diagnosis").
 
